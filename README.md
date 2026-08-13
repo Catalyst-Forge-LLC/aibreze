@@ -132,7 +132,7 @@ Keep it short. Point at this package, then only:
 
 ## Site
 
-The public site lives in [`site/`](site/) (FilePress, [`getfilepress`](https://www.npmjs.com/package/getfilepress)). Until the domain is registered, the homepage is [Catalyst-Forge-LLC/aibreze](https://github.com/Catalyst-Forge-LLC/aibreze). It will ship at aibreze.com when Namecheap is back.
+The public site lives in [`site/`](site/) (FilePress, [`getfilepress`](https://www.npmjs.com/package/getfilepress)). [aibreze.com](https://aibreze.com). Source: [Catalyst-Forge-LLC/aibreze](https://github.com/Catalyst-Forge-LLC/aibreze).
 
 ```bash
 pnpm site:dev
