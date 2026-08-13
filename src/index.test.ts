@@ -26,7 +26,7 @@ test("all rule files exist on disk", () => {
 
 test("core names the brand and the escalation ban", () => {
 	const core = readRule("core");
-	assert.match(core, /AI Febreze/);
+	assert.match(core, /aiBreze/);
 	assert.match(core, /not just X, it's Y/i);
 });
 

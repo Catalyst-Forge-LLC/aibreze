@@ -1,9 +1,9 @@
 ---
-description: AI Febreze. House voice and anti-performative prose for all drafting.
+description: aiBreze. House voice and anti-performative prose for all drafting.
 alwaysApply: true
 ---
 
-# AI Febreze
+# aiBreze
 
 Full rules: the `aibreze` package, [`core.md`](./core.md). Smell audit:
 [`audit.md`](./audit.md). Claims review: [`claims.md`](./claims.md).

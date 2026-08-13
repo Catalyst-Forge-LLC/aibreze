@@ -48,7 +48,7 @@ export const catalog: ReadonlyArray<{
 	{
 		id: "claims",
 		title: "Claims + voice",
-		use: "Skeptical peer review. Substance first, Febreze after. Use when truth or scope is in question.",
+		use: "Skeptical peer review. Substance first, aiBreze after. Use when truth or scope is in question.",
 	},
 	{
 		id: "essays",

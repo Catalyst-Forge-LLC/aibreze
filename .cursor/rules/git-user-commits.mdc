@@ -9,3 +9,5 @@ alwaysApply: true
   (Co-authored-by: Cursor <cursoragent@cursor.com>).
 - **Push after committing.** `origin` is a local mirror on an attached
   drive (`D:/git-mirrors/aibreze.git`).
+- **Never publish to npm.** Do not run `npm publish`, `pnpm publish`,
+  or `yarn npm publish`. The user publishes.

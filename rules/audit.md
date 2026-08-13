@@ -94,7 +94,7 @@ Flag every instance of these words and phrases (and close variants):
 - **Em dashes.** Especially multiple per paragraph, and especially the
   clause-then-punchline construction (an em dash between them). (Some human writers use them
   heavily, but combined with other tells they are a strong signal.) Hard
-  ban in AI Febreze publishable prose.
+  ban in aiBreze publishable prose.
 - **Emoji as content furniture.** Checkmarks, rockets, and lightbulbs
   doing the work that words or design should do, especially in lists and
   result badges.
