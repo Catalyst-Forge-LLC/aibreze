@@ -10,7 +10,7 @@ You probably stopped noticing it.
 
 Spray the prose, not the author. It does not detect who wrote the sentence. It does not care. Bad prose is bad prose.
 
-[Install](/install) · [npm](https://www.npmjs.com/package/aibreze) · [Why the name](/about)
+[Install](/install) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
 
 ## Earn the word.
 

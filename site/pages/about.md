@@ -21,6 +21,7 @@ The package is developer-first and lives on npm. This site is room for the idea 
 | Product | aiBreze |
 | npm | `aibreze` |
 | Site | aibreze.com |
+| GitHub | [Catalyst-Forge-LLC/aibreze](https://github.com/Catalyst-Forge-LLC/aibreze) |
 
 Maintained by [Catalyst Forge LLC](https://www.catalystforge.com). MIT licensed.
 

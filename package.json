@@ -17,6 +17,13 @@
 		"voice"
 	],
 	"homepage": "https://aibreze.com",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Catalyst-Forge-LLC/aibreze.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Catalyst-Forge-LLC/aibreze/issues"
+	},
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",

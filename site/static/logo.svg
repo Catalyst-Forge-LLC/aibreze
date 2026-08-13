@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" fill="none" role="img" aria-label="aiBreze">
+	<title>aiBreze</title>
+	<!-- Borderless mark: atomizer spraying a page. No badge/plate. -->
+	<!-- Page -->
+	<path fill="#f4efe6" stroke="#2c241c" stroke-width="1.5"
+		d="M32.5 33.5h18.2l5.3 5.3V66H32.5z"/>
+	<path fill="#d9d0c0" d="M50.7 33.5v5.3h5.3z"/>
+	<path stroke="#2c241c" stroke-width="1.55" stroke-linecap="round"
+		d="M36.2 43.5h12.2"/>
+	<path stroke="#2c241c" stroke-width="1.55" stroke-linecap="round" opacity="0.55"
+		d="M36.2 48.8h7.6"/>
+	<circle cx="46.2" cy="48.8" r="1" fill="#6b8f74"/>
+	<circle cx="50" cy="48.4" r="0.75" fill="#6b8f74" opacity="0.75"/>
+	<path stroke="#2c241c" stroke-width="1.55" stroke-linecap="round"
+		d="M36.2 54.1h10.4"/>
+	<path stroke="#2c241c" stroke-width="1.55" stroke-linecap="round" opacity="0.4"
+		d="M36.2 59.4h6"/>
+	<circle cx="44.4" cy="59.4" r="0.85" fill="#6b8f74" opacity="0.8"/>
+	<circle cx="48.2" cy="59" r="0.65" fill="#6b8f74" opacity="0.55"/>
+
+	<!-- Bottle body -->
+	<rect x="8.5" y="30" width="20" height="36" rx="5" fill="#2c241c"/>
+	<rect x="12" y="38.5" width="13" height="16" rx="1.8" fill="#e8dfd0"/>
+	<path stroke="#2c241c" stroke-width="1.15" stroke-linecap="round" opacity="0.4"
+		d="M14.6 44h8M14.6 48h5.6"/>
+
+	<!-- Shoulder + neck -->
+	<path fill="#2c241c" d="M13 30h11v-5.2c0-1.7-1.4-2.8-3.1-2.8h-4.8C14.4 22 13 23.1 13 24.8z"/>
+	<rect x="16.4" y="16.5" width="6.2" height="7.2" rx="1.2" fill="#2c241c"/>
+
+	<!-- Actuator + nozzle -->
+	<rect x="14.6" y="10.2" width="11.2" height="8.2" rx="2.2" fill="#2c241c"/>
+	<rect x="24.8" y="12.4" width="6.2" height="3.8" rx="1.2" fill="#6b8f74"/>
+
+	<!-- Mist -->
+	<circle cx="35.2" cy="11.2" r="1.35" fill="#6b8f74"/>
+	<circle cx="39.6" cy="8.6" r="1.15" fill="#6b8f74" opacity="0.9"/>
+	<circle cx="44.4" cy="10.4" r="1.5" fill="#6b8f74" opacity="0.75"/>
+	<circle cx="48.8" cy="7.4" r="1.05" fill="#6b8f74" opacity="0.7"/>
+	<circle cx="53.2" cy="11" r="1.25" fill="#6b8f74" opacity="0.55"/>
+	<circle cx="40.8" cy="14.8" r="1.1" fill="#6b8f74" opacity="0.8"/>
+	<circle cx="46.6" cy="15.6" r="0.95" fill="#6b8f74" opacity="0.6"/>
+	<circle cx="51.4" cy="16.8" r="0.8" fill="#6b8f74" opacity="0.45"/>
+	<circle cx="36.8" cy="17.6" r="0.85" fill="#6b8f74" opacity="0.7"/>
+	<circle cx="43.2" cy="19.2" r="0.7" fill="#6b8f74" opacity="0.5"/>
+</svg>

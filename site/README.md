@@ -37,3 +37,9 @@ Dependency is the public npm package:
 ```json
 "getfilepress": "^0.1.2"
 ```
+
+## Launch checklist
+
+- [ ] Make the GitHub repo public (nav GitHub link 404s for everyone else until then)
+- [ ] `pnpm deploy` (or git-connected Pages) and confirm `https://aibreze.com`
+- [ ] Confirm `og:image` / Twitter card in a debugger
