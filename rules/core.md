@@ -1,18 +1,9 @@
 # aiBreze: core
 
-Sprays the performative / faux-profound register off prose so what remains
-is direct, human, and useful.
+Installable writing rules for agents. Sprays the performative,
+faux-profound register off prose so what remains is direct and useful.
 
 Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
-
-People who live with a smell stop noticing it. Generated prose does the
-same trick: the tics fade into the furniture until someone from outside
-the room names them. Charles Duhigg tells the household version in
-*The Power of Habit* (2012): an odor-eliminating spray that did not sell
-until the company realized habituation was the real problem, then
-repositioned the bottle as the reward at the end of a cleaning habit.
-This package is that move for writing. Make the smell visible, then take
-it off. The original tale is Duhigg's. Read him.
 
 This file is the shared core. Genre files add surface-specific rules.
 They are additive: point here, then write only what that surface adds.
@@ -20,9 +11,21 @@ Do not copy the hard bans, cadence budgets, or register into each genre
 file. Projects add a short overlay for dialect carve-outs and pronoun
 policy. Do not copy this file into each repo and then diverge.
 
+Judge the sentence, not the byline. Human prose in this register gets
+sprayed too. Distinctive dialect and verbatim testimony still stand.
+
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
 `cursor.mdc` (agent pocket card).
+
+The name is a household joke. People who live with a smell stop noticing
+it. Generated prose does the same trick: the tics fade into the furniture
+until someone from outside the room names them. Charles Duhigg tells the
+household version in *The Power of Habit* (2012): an odor-eliminating
+spray that did not sell until the company realized habituation was the
+real problem, then repositioned the bottle as the reward at the end of a
+cleaning habit. This package is that move for writing. Make the smell
+visible, then take it off. The original tale is Duhigg's. Read him.
 
 ---
 
@@ -49,6 +52,10 @@ or to "I" on a two-person product page, without an overlay that says so.
 (term of art, named product, framework metaphor, standing vocabulary), it
 is **allowed**. Ban it only when it is empty intensifier or agent theatrics
 with no structural job.
+
+The problem is **unearned language**, not the dictionary. Earn the word.
+"Transformative" is fine if something transformed and you can say from
+what into what.
 
 Ask before flagging or "correcting":
 

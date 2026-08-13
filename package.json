@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": false,
 	"type": "module",
-	"description": "aiBreze: markdown rules that spray performative / faux-profound register off prose. Core bans, smell audit, claims review, and genre overlays.",
+	"description": "Installable writing rule set for AI agents. Sprays the performative, faux-profound register off prose. Core bans, smell audit, claims review, genre overlays.",
 	"license": "MIT",
 	"author": "Catalyst Forge LLC",
 	"keywords": [

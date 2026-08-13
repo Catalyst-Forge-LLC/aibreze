@@ -1,9 +1,12 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { test } from "node:test";
 import {
 	assertRulesPresent,
 	catalog,
 	files,
+	packageRoot,
 	readRule,
 	ruleIds,
 } from "./index.js";
@@ -24,10 +27,12 @@ test("all rule files exist on disk", () => {
 	assert.deepEqual(assertRulesPresent(), []);
 });
 
-test("core names the brand and the escalation ban", () => {
+test("core names the brand, the escalation ban, and the heuristic", () => {
 	const core = readRule("core");
 	assert.match(core, /aiBreze/);
 	assert.match(core, /not just X, it's Y/i);
+	assert.match(core, /unearned language/i);
+	assert.match(core, /Judge the sentence, not the byline/);
 });
 
 test("audit prompt has a paste slot", () => {
@@ -73,4 +78,12 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /When to open a genre file/);
 	assert.match(card, /landing\.md/);
 	assert.match(card, /essays\.md/);
+});
+
+test("readme states what the package is", () => {
+	const readme = readFileSync(join(packageRoot, "README.md"), "utf8");
+	assert.match(readme, /installable writing rule set/i);
+	assert.match(readme, /does not care who wrote the sentence/i);
+	assert.match(readme, /## Why "aiBreze"\?/);
+	assert.match(readme, /## Before \/ after/);
 });

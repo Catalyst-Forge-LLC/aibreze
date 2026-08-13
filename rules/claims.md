@@ -9,7 +9,8 @@ announcement, or internal doc. It answers two questions at once:
    substance)
 
 Use this when the piece needs a skeptical peer, not just a polish pass.
-For smell-only audits, use [`audit.md`](./audit.md).
+Substance first so you do not cologne a lie. For smell-only audits, use
+[`audit.md`](./audit.md).
 
 **This prompt is additive.** Paste into a model, in order:
 
