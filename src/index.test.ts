@@ -33,6 +33,8 @@ test("core names the brand, the escalation ban, and the heuristic", () => {
 	assert.match(core, /not just X, it's Y/i);
 	assert.match(core, /unearned language/i);
 	assert.match(core, /Judge the sentence, not the byline/);
+	assert.match(core, /Earn the word/);
+	assert.match(core, /Spray the prose, not the author/);
 });
 
 test("audit prompt has a paste slot", () => {
@@ -84,6 +86,6 @@ test("readme states what the package is", () => {
 	const readme = readFileSync(join(packageRoot, "README.md"), "utf8");
 	assert.match(readme, /installable writing rule set/i);
 	assert.match(readme, /does not care who wrote the sentence/i);
-	assert.match(readme, /## Why "aiBreze"\?/);
-	assert.match(readme, /## Before \/ after/);
+	assert.match(readme, /Spray the prose, not the author/);
+	assert.match(readme, /Earn the word/);
 });

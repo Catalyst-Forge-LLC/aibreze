@@ -8,6 +8,8 @@ Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
 Direct > clever. Clear > profound. Useful > insightful-sounding. No em
 dashes in publishable prose.
 
+Spray the prose, not the author. Earn the word.
+
 It does not care who wrote the sentence. Human prose in that register
 gets sprayed too. It is not a detector and not a humanizer. It does not
 make AI writing "human." It makes writing better.

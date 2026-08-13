@@ -5,9 +5,8 @@ const npm = 'https://www.npmjs.com/package/aibreze';
 export default defineFilepressConfig({
 	title: 'aiBreze',
 	description:
-		'Installable writing rule set for AI agents. Strips the performative, faux-profound register from prose.',
-	tagline: 'A spray, not a breeze.',
-	lede: 'Installable writing rules for agents. Judges the sentence, not the byline.',
+		'Your prose has a smell. You probably stopped noticing it. Spray the prose, not the author.',
+	tagline: 'Earn the word.',
 	url: 'https://aibreze.com',
 	author: 'Catalyst Forge LLC',
 	logo: '/favicon.svg',

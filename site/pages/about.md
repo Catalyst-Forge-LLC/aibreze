@@ -1,6 +1,6 @@
 ---
 title: About
-description: Why the name, and why it judges the sentence rather than the byline.
+description: Why aiBreze, and why it sprays the prose rather than the author.
 order: 2
 ---
 
@@ -8,7 +8,11 @@ Written **aiBreze**. npm **`aibreze`**. Domain **aibreze.com**. A spray, not a b
 
 People who live with a smell stop noticing it. Generated prose does the same trick. Charles Duhigg tells the household version in *The Power of Habit* (2012): an odor-eliminating spray that flopped until the company realized habituation was the problem, then sold the bottle as the reward at the end of a cleaning habit. This package is that move for writing. Make the smell visible, then take it off. The original tale is Duhigg's. Read him.
 
-The register is also leaking the other way: humans now write like the models. aiBreze does not care who wrote the sentence. It is a writing standard, not an AI-cleanup gimmick, not a detector, not a humanizer.
+The register is also leaking the other way: humans now write like the models. Spray the prose, not the author. It does not care who wrote the sentence. Bad prose is bad prose.
+
+Earn the word. That is the applicability heuristic in one line: unearned language, not a cargo-cult list of "words ChatGPT uses."
+
+The package is developer-first and lives on npm. This site is room for the idea to be larger than the tarball.
 
 ## Names
 

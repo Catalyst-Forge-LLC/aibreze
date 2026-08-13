@@ -14,6 +14,11 @@ policy. Do not copy this file into each repo and then diverge.
 Judge the sentence, not the byline. Human prose in this register gets
 sprayed too. Distinctive dialect and verbatim testimony still stand.
 
+Protected maxims (do not rewrite into a cleverer synonym):
+
+- Earn the word.
+- Spray the prose, not the author.
+
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
 `cursor.mdc` (agent pocket card).
@@ -53,9 +58,9 @@ or to "I" on a two-person product page, without an overlay that says so.
 is **allowed**. Ban it only when it is empty intensifier or agent theatrics
 with no structural job.
 
-The problem is **unearned language**, not the dictionary. Earn the word.
-"Transformative" is fine if something transformed and you can say from
-what into what.
+The problem is **unearned language**, not the dictionary. **Earn the
+word.** "Transformative" is fine if something transformed and you can say
+from what into what.
 
 Ask before flagging or "correcting":
 
@@ -255,6 +260,7 @@ Keep a short file in the consuming project. It should contain:
 - Pronoun policy per surface (essay I, landing we, outreach I, …)
 - Terms that pass the applicability heuristic here, with one-line why
 - Protected maxims / testimony the agent must not "de-smell"
+  (this package: Earn the word. Spray the prose, not the author.)
 - Genre extras that are house law (e.g. every essay ends in a deed)
 
 Do not restate the hard bans. Point at this package. Genre files in
