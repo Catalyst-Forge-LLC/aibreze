@@ -2,8 +2,8 @@
 
 An installable writing rule set for AI agents.
 
-Editorial rules for prose that says something instead of sounding like
-it does. AI-assisted or not.
+Editorial rules for prose that actually says something instead of just
+sounding like it. AI-assisted or not.
 Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
 
 Direct > clever. Clear > profound. Useful > insightful-sounding. No em

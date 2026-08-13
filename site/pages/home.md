@@ -6,7 +6,7 @@ order: 0
 
 You probably stopped noticing it.
 
-**aiBreze.** Editorial rules for prose that says something instead of sounding like it does. AI-assisted or not.
+**aiBreze.** Editorial rules for prose that actually says something instead of just sounding like it. AI-assisted or not.
 
 Spray the prose, not the author. It does not detect who wrote the sentence. It does not care. Bad prose is bad prose.
 
