@@ -44,9 +44,10 @@
 		"test": "tsc && node --test dist/index.test.js",
 		"prepare": "tsc",
 		"prepublishOnly": "pnpm test",
+		"ship": "pnpm --dir site run ship",
 		"site:dev": "pnpm --dir site dev",
 		"site:build": "pnpm --dir site run build",
-		"site:deploy": "pnpm --dir site run deploy"
+		"site:deploy": "pnpm --dir site run ship"
 	},
 	"engines": {
 		"node": ">=20"

@@ -10,7 +10,7 @@ pnpm dev          # local preview
 pnpm build        # → build/
 ```
 
-From the package root: `pnpm site:dev`, `pnpm site:build`, `pnpm site:deploy`.
+From the package root: `pnpm site:dev`, `pnpm site:build`, `pnpm ship`.
 
 ## Deploy (Cloudflare Pages)
 
@@ -18,7 +18,7 @@ From the package root: `pnpm site:dev`, `pnpm site:build`, `pnpm site:deploy`.
 disagree.
 
 ```bash
-pnpm deploy
+pnpm ship
 # = pnpm build && wrangler pages deploy build --project-name=aibreze
 ```
 
@@ -41,5 +41,5 @@ Dependency is the public npm package:
 ## Launch checklist
 
 - [ ] Make the GitHub repo public (nav GitHub link 404s for everyone else until then)
-- [ ] `pnpm deploy` (or git-connected Pages) and confirm `https://aibreze.com`
+- [ ] `pnpm ship` (or git-connected Pages) and confirm `https://aibreze.com`
 - [ ] Confirm `og:image` / Twitter card in a debugger
