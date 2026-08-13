@@ -3,27 +3,23 @@
 Apply [`core.md`](./core.md) first. This file is the genre overlay for
 landing pages, marketing sites, and other "we sell something" surfaces.
 
-Voice standard, the tells that hit pages hardest, rhetorical budgets,
-substance gaps, and a rewrite gate. Project overlays add the pronoun
-call and any brand-metaphor budget.
+Page extras, the pronoun call, rhetorical budgets, substance gaps, and a
+rewrite gate. Project overlays add the pronoun decision and any
+brand-metaphor budget.
 
 ---
 
-## Voice standard
+## Voice extras (on top of core)
 
-Every line of copy must pass these:
+Core already has the register: contractions, mixed sentence length, no
+em dashes, concrete over abstract. On a page, also:
 
-1. **Confident but conversational.** A sharp friend who knows their
-   stuff. Not a salesperson, not a professor.
-2. **Short declarative sentences mixed with longer explanatory ones.**
-   Punchy hook, then substance.
-3. **Contractions and casual phrasing.**
-4. **Never use em dashes.** Commas, periods, or parentheses.
-5. **Practical over aspirational.** Hours saved and bottlenecks fixed,
+1. **Not a salesperson, not a professor.** Punchy hook, then substance.
+2. **Practical over aspirational.** Hours saved and bottlenecks fixed,
    not "transforming the future of work."
-6. **Anti-BS positioning.** Define yourself by what you're not as much
-   as what you are, but **shown, not chanted.** A page of "No X. No Y.
-   No Z." is a triad, not a position.
+3. **Anti-BS positioning, shown not chanted.** Define yourself by what
+   you're not as much as what you are. A page of "No X. No Y. No Z." is
+   a triad, not a position.
 
 ---
 
@@ -50,28 +46,34 @@ Everything else in this file works under either choice.
 
 ### Mechanical
 
-- Em dashes, including in `<title>` and meta description. Zero
-  tolerance.
-- Emoji as content (result badges, pain-list icons). Replace with
-  type or cut.
+- Em dashes in `<title>` and meta description. Core already bans them in
+  body copy; pages hide them in chrome. Zero tolerance including
+  metadata.
+- Emoji as content (result badges, pain-list icons). Replace with type
+  or cut.
 - Title Case On Every Card. Sentence case reads more human.
 
 ### Rhetorical (strongest AI signals on a page)
 
-- **"Not X, but Y" antithesis.** Budget: **max 2 per page.** Keep only
-  the strongest.
+- **"Not X, but Y" antithesis.** Core already budgets teaching
+  antithesis. On a page the cap is hard: **max 2.** Keep only the
+  strongest.
 - **Triadic negation chants.** "No pitch. No pressure. Honest answers."
-  Budget: **1** on the whole page, and only if it is the most concrete
-  one.
+  Core bans these except protected maxims. Landing may keep **1** if it
+  is the most concrete one on the page.
 - **Symmetrical parallel constructions.** "We speak both languages:
   yours and the machine's."
 - **The hedge-flourish.** "We'll also tell you when it isn't (yet)."
 
-### Vocabulary (flag and replace)
+### Vocabulary (page hunts beyond core)
 
-Noise-cutting variants, unlock, unleash, leverage-as-verb, game-changer,
-empower(ment), friction as hype, "real" as an intensifier used more than
-twice. When everything is real, nothing is.
+Core already bans unlock, unleash, leverage-as-verb, game-changer,
+empower, journey. Extra on pages:
+
+- Noise-cutting variants
+- Friction as hype
+- "Real" as an intensifier used more than twice. When everything is
+  real, nothing is.
 
 ### Metaphor overextension
 
@@ -99,14 +101,14 @@ page.** The rest go to plain language.
 
 A revised page passes when:
 
-1. Zero em dashes anywhere, including `<title>` and meta description.
+1. Zero em dashes in `<title>` and meta description (body already
+   covered by core).
 2. Pronoun decision made and applied consistently; builder claims
    aligned to it.
 3. Max 2 "not X, but Y" constructions, max 1 triadic negation chant, max
    2 brand-metaphor references.
-4. Zero instances of: noise-cutting variants, "unlock," empty
-   "leverage" (verb), "empower(ment)," "game-changer," and other
-   overlay-banned empties.
+4. Zero noise-cutting variants, friction-as-hype, and other
+   overlay-banned empties (core empties still apply).
 5. "Real" used at most twice on the page.
 6. Every pain-list item is a reader-side pain with no vendor mention.
 7. At least one concrete proof point, or all "proven results" claims
@@ -115,17 +117,16 @@ A revised page passes when:
 9. Read-aloud test: every section can be spoken to a smart friend
    without either of you cringing. Any sentence you'd never say out
    loud gets rewritten.
-10. Contractions present, punchy-then-substantive rhythm present,
-    nothing aspirational-abstract ("imagine," "transform," "future of
-    work").
+10. Punchy-then-substantive rhythm present. Nothing aspirational-abstract
+    ("imagine," "transform," "future of work").
 
 ---
 
 ## Suggested process
 
 1. Decide I vs we (and write it in the overlay).
-2. Mechanical pass first (em dashes, emoji, banned vocabulary). Cheap
-   wins.
+2. Mechanical pass first (metadata em dashes, emoji, page-vocab hunts).
+   Cheap wins.
 3. Rebuild the pain list and the how-it-works steps (biggest substance
    gaps).
 4. Rewrite hero sub and section titles against the rhetorical budgets.

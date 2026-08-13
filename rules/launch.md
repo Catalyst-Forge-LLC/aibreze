@@ -27,14 +27,13 @@ the origin story and the catalog.
 
 ## Tells to avoid (launch-post specific)
 
-Beyond the checklist in `audit.md`:
+Beyond `core.md` and `audit.md`:
 
 - **"I'm excited to announce" / "Today, we're launching."**
 - **The feature dump.** Three capabilities a reader can picture, not a
   catalog. Everything else lives on the product page, behind one link.
 - **Fake humility.** "It's still early days and we have so much to
   learn" is a tic, not modesty.
-- **"Journey."** Banned outright.
 - **Manufactured urgency.** No countdowns, no launch-week pricing
   theater.
 - **Stacked CTAs.** One primary outbound link in the body. Site chrome
@@ -62,14 +61,12 @@ and do not pretend a company wrote the scars.
 
 ## Channel extras
 
-- **Read-aloud** on everything.
 - **Personal surfaces:** first person "I."
 - **Product / company surfaces:** "we" if the overlay says so.
 - **Hacker News:** artifact first, story second. Disclose commercial
   status up front. Engage in comments; never post-and-ghost. No upvote
   asks (see [`outreach.md`](./outreach.md)).
-- **LinkedIn / Facebook:** still no em dashes, no journey, no feature
-  dumps, no manufactured urgency.
+- **LinkedIn / Facebook:** no feature dumps, no manufactured urgency.
 
 Run `audit.md` on every piece of publishable copy before it goes out.
 Run `claims.md` if the post asserts facts, numbers, or "the industry
@@ -79,12 +76,11 @@ does X."
 
 ## Acceptance criteria (starting set)
 
-1. Zero em dashes.
-2. Opens on the build decision (or an equally specific moment), not an
+1. Opens on the build decision (or an equally specific moment), not an
    announcement.
-3. Three product capabilities maximum in the body.
-4. Honest status in the close; no "just the beginning."
-5. At most two outbound links in the body.
-6. No feature table, no working-name history, unless the overlay
+2. Three product capabilities maximum in the body.
+3. Honest status in the close; no "just the beginning."
+4. At most two outbound links in the body.
+5. No feature table, no working-name history, unless the overlay
    permits it for a builder audience.
-7. Read-aloud test: every sentence is one you would say to a peer.
+6. Read-aloud test: every sentence is one you would say to a peer.

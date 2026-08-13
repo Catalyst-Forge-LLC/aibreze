@@ -15,8 +15,10 @@ This package is that move for writing. Make the smell visible, then take
 it off. The original tale is Duhigg's. Read him.
 
 This file is the shared core. Genre files add surface-specific rules.
-Projects add a short overlay for dialect carve-outs and pronoun policy.
-Do not copy this file into each repo and then diverge.
+They are additive: point here, then write only what that surface adds.
+Do not copy the hard bans, cadence budgets, or register into each genre
+file. Projects add a short overlay for dialect carve-outs and pronoun
+policy. Do not copy this file into each repo and then diverge.
 
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
@@ -221,8 +223,10 @@ Good: "Brain: the model plus the loop."
 
 ## How to audit
 
-1. Run `audit.md` (smell-only) or `claims.md` (substance, then smell).
-2. Apply this core, then the **project overlay**, before rewriting.
+1. Run `audit.md` with this file in context (smell-only), or `claims.md`
+   (substance, then smell). Audit and claims are additive; they do not
+   restate these bans.
+2. Apply the **project overlay** before rewriting.
 3. Protect distinctive human lines and verbatim testimony.
 4. Prioritize the five highest-impact fixes; do not flatten dialect.
 
@@ -237,4 +241,5 @@ Keep a short file in the consuming project. It should contain:
 - Protected maxims / testimony the agent must not "de-smell"
 - Genre extras that are house law (e.g. every essay ends in a deed)
 
-Do not restate the hard bans. Point at this package.
+Do not restate the hard bans. Point at this package. Genre files in
+this package follow the same rule.

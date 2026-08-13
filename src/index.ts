@@ -43,7 +43,7 @@ export const catalog: ReadonlyArray<{
 	{
 		id: "audit",
 		title: "Smell audit",
-		use: "Paste-in prompt for AI-smell scoring, tell flags, and a top-five fix list.",
+		use: "Paste-in smell audit. Additive to core: extras, vocab hunt list, score and top-five.",
 	},
 	{
 		id: "claims",

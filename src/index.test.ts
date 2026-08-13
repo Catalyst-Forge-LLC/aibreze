@@ -37,3 +37,27 @@ test("audit prompt has a paste slot", () => {
 test("claims prompt has a paste slot", () => {
 	assert.match(readRule("claims"), /DOCUMENT TO REVIEW/);
 });
+
+test("genre files point at core instead of restating it", () => {
+	for (const id of ["essays", "landing", "outreach", "launch"] as const) {
+		const text = readRule(id);
+		assert.match(text, /core\.md/, `${id} should point at core.md`);
+		assert.doesNotMatch(
+			text,
+			/It's not just X/i,
+			`${id} restates the escalation ban`,
+		);
+		assert.doesNotMatch(
+			text,
+			/The honest evaluation/i,
+			`${id} restates honest-framing`,
+		);
+	}
+});
+
+test("audit prompt is additive to core", () => {
+	const audit = readRule("audit");
+	assert.match(audit, /core\.md/);
+	assert.match(audit, /This prompt is additive/);
+	assert.doesNotMatch(audit, /Cadence tells \(budget, not ban\)/);
+});

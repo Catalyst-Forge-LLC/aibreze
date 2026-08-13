@@ -9,8 +9,8 @@ essays, talks, and other long argumentative prose.
 
 Pick a house voice and use it on every page of the publication, including
 reference hubs and framework documents. Formality is the easiest place
-for AI smell to hide: the tells in `core.md` all read as more natural in
-a formal register.
+for AI smell to hide: core's tells all read as more natural in a formal
+register.
 
 A reference document does not get a different voice because it is a
 reference. The reader should meet one person.
@@ -18,14 +18,7 @@ reference. The reader should meet one person.
 What is not acceptable is drift, where the register depends on which day
 a piece was written.
 
-Typical house voice for this genre:
-
-- First person when the author is in the piece
-- Contractions
-- Short declaratives mixed with longer sentences
-- Practical over aspirational
-- No em dashes
-
+Typical for this genre: first person when the author is in the piece.
 Keep a few full forms on purpose for emphasis. That is a choice, not a
 leak.
 
@@ -54,13 +47,6 @@ before you ask the reader to carry the model away.
 
 ---
 
-## Setup sentences
-
-Cut any sentence whose only job is to announce the next sentence. Go to
-the claim.
-
----
-
 ## Optional: close with a deed
 
 Some publications require that every essay end in an available action,
@@ -78,14 +64,8 @@ This package does not require a deed unless the project overlay says so.
 
 ## Audit extras for this genre
 
-On top of `audit.md`:
+On top of `core.md` and `audit.md`:
 
-- Escalation formula, insight-labeling without evidence, setup
-  sentences, em dashes, triad packing
-- Universality claims without evidence
 - Missing author / missing concrete instance
 - Title or lede that claims more than the body proves (run `claims.md`
   when this is in doubt)
-
-Protect distinctive human lines. Do not flatten dialect into bland
-workshop prose.

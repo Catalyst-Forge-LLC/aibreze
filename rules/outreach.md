@@ -8,15 +8,11 @@ to **I**.
 
 ---
 
-## Tone
+## Tone extras
 
-Confident but conversational. Direct without being aggressive. A sharp
-friend who happens to know their stuff, not a salesperson, not a
-professor.
-
-Contractions. Casual phrasing that you would actually send. Never em
-dashes. Practical over aspirational: time saved and problems solved, not
-"transforming the future of work."
+Direct without being aggressive. Phrasing you would actually send, not
+copy you would publish. Time saved and problems solved, not "transforming
+the future of work."
 
 ---
 
@@ -48,7 +44,6 @@ That is what keeps the favor-budget refilling.
 
 - "Hope this finds you well."
 - "I'm excited to announce."
-- "Journey."
 - Feature dumps. One sentence on what it is, then the ask.
 - Upvote asks on Hacker News, ever. HN detects rings. If you mention a
   Show HN to a friend, no link and no ask. A substantive comment from
@@ -71,9 +66,6 @@ Rewrite per person. Seeds are not scripts.
 
 ## Prompt phrasing (for an agent drafting a note)
 
-Write in a confident, conversational tone. First-person "I" voice.
-Direct and practical, no corporate jargon, no hype. Short punchy
-sentences mixed with longer ones. Uses contractions and casual phrasing.
-Never uses em dashes. Focuses on real outcomes (time saved, problems
-solved) over abstract vision. Sounds like a smart friend giving honest
-advice. One ask. Lead with the relationship.
+Core register still applies. First-person "I." One ask. Lead with the
+relationship. Sounds like a note you would send, not a landing page in
+an email client.

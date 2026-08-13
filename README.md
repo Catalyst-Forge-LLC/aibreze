@@ -32,9 +32,9 @@ pnpm add -D aibreze
 | `rules/launch.md` | Shipping posts. Open on the decision, not the announcement. |
 | `rules/cursor.mdc` | Always-on agent digest. Copy into `.cursor/rules/`. |
 
-Genre files assume `core.md`. Projects keep a **short overlay** for
-pronoun policy, dialect carve-outs, and house extras. Do not fork
-`core.md`.
+Genre files assume `core.md` and are additive: surface law only, no
+copied bans. Projects keep a **short overlay** for pronoun policy,
+dialect carve-outs, and house extras. Do not fork `core.md`.
 
 ## Use from Node
 
@@ -55,8 +55,8 @@ an agent or a prompt assembler can read the files from `node_modules`.
    `.cursor/rules/aibreze.mdc`
 3. Point "Full rules" at `node_modules/aibreze/rules/core.md`
 4. Keep a project overlay (carve-outs, I vs we, protected lines)
-5. For a publish pass: paste `rules/audit.md` or `rules/claims.md`, then
-   apply core + overlay
+5. For a publish pass: paste `rules/core.md` plus the overlay, then
+   `rules/audit.md` or `rules/claims.md` (both are additive)
 
 ## Overlay shape
 

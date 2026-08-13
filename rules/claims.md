@@ -10,11 +10,14 @@ announcement, or internal doc. It answers two questions at once:
 
 Use this when the piece needs a skeptical peer, not just a polish pass.
 For smell-only audits, use [`audit.md`](./audit.md).
-For house bans and carve-outs, apply [`core.md`](./core.md) plus the
-project overlay.
 
-Paste everything below the divider into a model, then paste the document
-where indicated.
+**This prompt is additive.** Paste into a model, in order:
+
+1. [`core.md`](./core.md) (required) and the project's overlay
+2. Everything below the divider in this file
+3. The document to review
+
+Pass E names core's bans. It does not restate them.
 
 ---
 

@@ -10,6 +10,10 @@ Full rules: the `aibreze` package, [`core.md`](./core.md). Smell audit:
 Copy this file into a project's `.cursor/rules/` and point "Full rules"
 at `node_modules/aibreze/rules/core.md` plus that project's overlay.
 
+This file is a digest so the agent has the bans without opening core. It
+is not a second source of truth. If they conflict, `core.md` wins. Do
+not add genre law here.
+
 ## Target
 
 Sharp, slightly tired colleague. Direct > clever. Clear > profound.
