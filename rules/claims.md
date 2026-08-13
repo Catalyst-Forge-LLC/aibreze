@@ -119,10 +119,10 @@ Only after Passes A-D:
 1. Score AI smell 1-10 with one-paragraph justification (same scale as
    `audit.md`).
 2. Flag hard bans from `core.md`: escalation formula, honest-framing,
-   validation+profundity, narrative theater, em dashes, setup-only
+   validation+profundity, narrative theater, setup-only
    sentences, synonym antithesis, helper theater.
 3. Flag cadence budgets: signpost openers, mic-drop closers, intensifier
-   filler, parallel-zinger density, bold-lead lists.
+   filler, em-dash furniture, parallel-zinger density, bold-lead lists.
 4. Apply **corpus-applicability**: do not "correct" overlay terms when
    they are structural.
 5. Quote lines to **protect** (distinctive human voice).

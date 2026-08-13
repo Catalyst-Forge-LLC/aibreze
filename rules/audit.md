@@ -53,7 +53,7 @@ pass that skips the house bans.
 Hunt every hard ban and cadence tell in `core.md`: escalation formula,
 honest framing, validation+profundity, mechanism inflation, narrative
 theater, genuinely-stacks, dramatic apology, suspense, setup sentences,
-em dashes, triad packing including prefix-repetition, empty marketing
+em-dash furniture, triad packing including prefix-repetition, empty marketing
 vocab, helper theater, signpost openers, mic-drop closers, intensifier
 filler, parallel-zinger density, bold-lead lists. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
@@ -123,10 +123,6 @@ product names, and words that would get less precise if swapped for
 
 ### Structural extras
 
-- **Em dashes.** Core already bans them in publishable prose. Still flag
-  density and the clause-then-punchline construction as a smell signal
-  (some human writers use them heavily; combined with other tells they
-  are a strong signal).
 - **Emoji as content furniture.** Checkmarks, rockets, and lightbulbs
   doing the work that words or design should do, especially in lists and
   result badges.

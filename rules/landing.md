@@ -11,8 +11,8 @@ brand-metaphor budget.
 
 ## Voice extras (on top of core)
 
-Core already has the register: contractions, mixed sentence length, no
-em dashes, concrete over abstract. On a page, also:
+Core already has the register: contractions, mixed sentence length,
+concrete over abstract. On a page, also:
 
 1. **Not a salesperson, not a professor.** Punchy hook, then substance.
 2. **Practical over aspirational.** Hours saved and bottlenecks fixed,
@@ -45,9 +45,8 @@ Everything else in this file works under either choice.
 
 ### Mechanical
 
-- Em dashes in `<title>` and meta description. Core already bans them in
-  body copy; pages hide them in chrome. Zero tolerance including
-  metadata.
+- Unearned em dashes in `<title>` and meta description. Chrome is a bad
+  place for the drama; a comma or colon almost always does it.
 - Emoji as content (result badges, pain-list icons). Replace with type
   or cut.
 - Title Case On Every Card. Sentence case reads more human.
@@ -107,8 +106,8 @@ page.** The rest go to plain language.
 
 A revised page passes when:
 
-1. Zero em dashes in `<title>` and meta description (body already
-   covered by core).
+1. Unearned em dashes in `<title>` and meta description; prefer a comma
+   or colon unless the dash earns the drama.
 2. Pronoun decision made and applied consistently; builder claims
    aligned to it.
 3. Max 2 "not X, but Y" constructions, max 1 triadic negation chant, max

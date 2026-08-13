@@ -6,8 +6,8 @@ Editorial rules for prose that actually says something instead of just
 sounding like it. AI-assisted or not.
 Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
 
-Direct > clever. Clear > profound. Useful > insightful-sounding. No em
-dashes in publishable prose.
+Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes
+earn their place; most don't.
 
 Spray the prose, not the author. Earn the word.
 

@@ -37,6 +37,16 @@ test("core names the brand, the escalation ban, and the heuristic", () => {
 	assert.match(core, /Spray the prose, not the author/);
 });
 
+test("em dashes earn their place; they are not a hard ban", () => {
+	const core = readRule("core");
+	assert.doesNotMatch(core, /No em dashes in publishable prose/);
+	assert.match(core, /Em dashes earn their place/);
+	assert.match(core, /comma, period, or colon/i);
+	assert.match(core, /Do not treat the mark as an AI tell to erase/);
+	assert.doesNotMatch(readRule("cursor"), /No em dashes in publishable prose/);
+	assert.doesNotMatch(readRule("audit"), /Core already bans them/);
+});
+
 test("audit prompt has a paste slot", () => {
 	assert.match(readRule("audit"), /COPY TO AUDIT/);
 });

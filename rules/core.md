@@ -42,8 +42,9 @@ across with minimal ceremony.
 Direct > clever. Clear > profound. Useful > insightful-sounding.
 
 Contractions. Short sentences mixed with longer ones. Point first, support
-second. Concrete over abstract. No em dashes in publishable prose (commas,
-periods, or parentheses).
+second. Concrete over abstract. Em dashes earn their place, like everything
+else, and most don't. A comma, period, or colon usually does the job with
+less drama.
 
 Pronouns are a project decision (I / we / you). Pick one per surface and
 hold it. Do not let an agent default to corporate "we" on a personal essay,
@@ -154,7 +155,6 @@ Do not withhold the answer while building drama. Answer first.
 
 ### Also still banned
 
-- Em dashes in publishable prose
 - Alliterative triads and stacked-negation chants, except protected
   maxims the overlay names, or **one concrete chant a genre file
   explicitly allows** (landing). **Prefix-repetition triads count**
@@ -184,6 +184,9 @@ not single instances.
 - **Intensifier repetition.** "actually," "whole," "real," "very"
   recurring as filler. Keep only where the word marks a true contrast;
   cut the padding uses.
+- **Em-dash furniture.** Clause-then-punchline, a dash in every heading,
+  or stacks. One earned dash is not a finding. Density plus other tells
+  is. Do not treat the mark as an AI tell to erase.
 - **Parallel-zinger density.** Chiasmus and mirror sentences ("X is a
   performance. Y is a practice.") are spice. Track the count per piece;
   protect native pairs, trim assistant-added ones first.
@@ -197,7 +200,7 @@ not single instances.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, em dashes, triad packing |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, em-dash furniture, triad packing |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.

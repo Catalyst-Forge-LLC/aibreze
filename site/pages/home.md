@@ -22,7 +22,7 @@ A composable editorial system: core law, genre extras, a project overlay, then a
 
 The problem is unearned language, not the dictionary. "Transformative" is fine if something transformed and you can say from what into what. "Inflection point" is fine if there was one. Overlay the terms that pass *here*. The heuristic is the rule; the list is not exhaustive.
 
-Direct > clever. Clear > profound. Useful > insightful-sounding. No em dashes in publishable prose.
+Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn their place; most don't.
 
 ## Before / after
 
