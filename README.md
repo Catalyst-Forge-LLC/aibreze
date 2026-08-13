@@ -70,6 +70,15 @@ Keep it short. Point at this package, then only:
 - Genre extras that are house law (every essay ends in a deed, brand
   metaphor budget, …)
 
+## Site
+
+The public site lives in [`site/`](site/) (FilePress, [`getfilepress`](https://www.npmjs.com/package/getfilepress)). It will ship at [aibreze.com](https://aibreze.com).
+
+```bash
+pnpm site:dev
+pnpm site:build
+```
+
 ## Publishing to npm
 
 The maintainer publishes. Agents must not run `npm publish`,

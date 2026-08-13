@@ -16,7 +16,7 @@
 		"copyediting",
 		"voice"
 	],
-	"homepage": "https://www.npmjs.com/package/aibreze",
+	"homepage": "https://aibreze.com",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
@@ -36,7 +36,10 @@
 		"build": "tsc",
 		"test": "tsc && node --test dist/index.test.js",
 		"prepare": "tsc",
-		"prepublishOnly": "pnpm test"
+		"prepublishOnly": "pnpm test",
+		"site:dev": "pnpm --dir site dev",
+		"site:build": "pnpm --dir site run build",
+		"site:deploy": "pnpm --dir site run deploy"
 	},
 	"engines": {
 		"node": ">=20"
