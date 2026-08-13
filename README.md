@@ -10,10 +10,6 @@ dashes in publishable prose.
 
 Spray the prose, not the author. Earn the word.
 
-It does not care who wrote the sentence. Human prose in that register
-gets sprayed too. It is not a detector and not a humanizer. It does not
-make AI writing "human." It makes writing better.
-
 ## Before / after
 
 **Before.** At its core, building software isn't just about writing
@@ -26,13 +22,19 @@ software does that reliably.
 
 ## What it is
 
-Markdown files you install and point an agent at. Not a CLI (yet), not
-an editor, not a list of "words ChatGPT uses."
+A composable editorial system for agent-generated prose (and for human
+prose in the same register). Markdown you install and point an agent at.
+Not a CLI (yet), not an editor, not a list of "words ChatGPT uses."
 
 ```text
 core.md          shared law (register, bans, cadence, heuristic)
 genre files      surface extras only (essay, landing, outreach, launch)
 project overlay  pronouns, carve-outs, protected lines
+                 ↓
+drafting
+                 ↓
+audit.md         smell
+claims.md        substance first, then voice
 ```
 
 Genre files assume `core.md` and are additive: surface law only, no
@@ -78,6 +80,19 @@ Make the smell visible, then take it off. Read Duhigg for the original.
 
 The register is also leaking the other way: humans now write like the
 models. aiBreze is a writing standard, not an AI-cleanup gimmick.
+
+## Not a humanizer
+
+aiBreze does not determine whether a human or a model wrote something,
+and it does not try to fool AI detectors. It applies the same standard
+either way. If the prose smells, spray it.
+
+Adjacent tools tend to be humanizers ("make this sound human"), banned-word
+anti-slop lists, or general style linters (Vale, write-good). This package
+is the layered law: genre surfaces, an applicability heuristic (earn the
+word), claims before cologne, overlays instead of forks, and both
+prevention at draft time and audit after. Authorship is irrelevant. Prose
+quality is the subject.
 
 ## Use from Node
 

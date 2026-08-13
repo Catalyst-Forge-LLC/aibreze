@@ -10,6 +10,12 @@ You probably stopped noticing it.
 
 Spray the prose, not the author. It does not detect who wrote the sentence. It does not care. Bad prose is bad prose.
 
+## Not a humanizer
+
+aiBreze does not determine whether a human or a model wrote something, and it does not try to fool AI detectors. It applies the same standard either way. If the prose smells, spray it.
+
+A composable editorial system: core law, genre extras, a project overlay, then a smell audit and a claims pass.
+
 [Install](/install) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
 
 ## Earn the word.

@@ -85,7 +85,8 @@ test("pocket card points at genre files", () => {
 test("readme states what the package is", () => {
 	const readme = readFileSync(join(packageRoot, "README.md"), "utf8");
 	assert.match(readme, /installable writing rule set/i);
-	assert.match(readme, /does not care who wrote the sentence/i);
+	assert.match(readme, /## Not a humanizer/);
+	assert.match(readme, /does not try to fool AI detectors/);
 	assert.match(readme, /Spray the prose, not the author/);
 	assert.match(readme, /Earn the word/);
 });
