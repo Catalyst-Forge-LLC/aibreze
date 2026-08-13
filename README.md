@@ -2,7 +2,8 @@
 
 An installable writing rule set for AI agents.
 
-aiBreze strips the performative, faux-profound register from prose.
+Editorial rules for prose that says something instead of sounding like
+it does. AI-assisted or not.
 Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
 
 Direct > clever. Clear > profound. Useful > insightful-sounding. No em
