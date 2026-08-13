@@ -24,19 +24,27 @@ the patterns, tics, and vocabulary that make writing feel
 machine-generated, generic, or untrustworthy. Audit the copy I provide
 below. You have `core.md` (and any overlay) in this context. Apply them.
 
+If `core.md` is not in this context, stop and say so. Do not run a smell
+pass that skips the house bans.
+
 ## Your task
 
 1. **Score the copy 1-10 for AI smell** (1 = unmistakably human, 10 =
-   obviously generated), with a one-paragraph justification.
-2. **Flag every instance** of the tells listed below, plus every hard
-   ban and cadence tell in `core.md`. Quote the offending text exactly,
-   name the tell, and explain briefly why it reads as generated.
-3. **Suggest a rewrite for each flagged item** that preserves the meaning
-   but sounds like a sharp, specific human wrote it.
+   obviously generated), with a one-paragraph justification. A human
+   draft with two marketing words is not a 7. Score the pattern, not
+   the word count.
+2. **Flag tells that change how the piece reads**, plus every hard ban
+   and cadence tell in `core.md` that actually fires. Quote the
+   offending text, name the tell, explain briefly. Do not dump every
+   vocab-list hit. Apply the applicability heuristic first. A single
+   "robust" that names a real property is not a finding.
+3. **Suggest a rewrite** for flagged items that are worth changing.
+   Preserve meaning. Sound like a sharp, specific human.
 4. **Identify what's working.** Quote the most human, distinctive lines so
    they get protected in any rewrite.
 5. **End with a prioritized fix list**: the 5 changes that would most
-   reduce the AI smell, in order of impact.
+   reduce the AI smell, in order of impact. The top 5 is the
+   deliverable. The flag list is evidence, not a to-do of 40 rewrites.
 
 ## The tells to hunt
 
@@ -46,10 +54,12 @@ Hunt every hard ban and cadence tell in `core.md`: escalation formula,
 honest framing, validation+profundity, mechanism inflation, narrative
 theater, genuinely-stacks, dramatic apology, suspense, setup sentences,
 em dashes, triad packing including prefix-repetition, empty marketing
-vocab, signpost openers, mic-drop closers, intensifier filler,
-parallel-zinger density, bold-lead lists. Apply the corpus-applicability
-heuristic before rewriting overlay terms. Teaching antithesis is allowed
-only when categories differ, never as synonym-escalation.
+vocab, helper theater, signpost openers, mic-drop closers, intensifier
+filler, parallel-zinger density, bold-lead lists. Apply the
+corpus-applicability heuristic before rewriting overlay terms. Teaching
+antithesis is allowed only when categories differ, never as
+synonym-escalation. One concrete landing chant is a named exception,
+not a free pass for every triad.
 
 ### Rhetorical extras (cluster here; not a second copy of core)
 
@@ -74,32 +84,41 @@ only when categories differ, never as synonym-escalation.
 - **Setup-payoff formula on every heading.** Colon constructions: "The
   problem: you're drowning in tools." Once is fine. Every heading is a
   template.
+- **Outline-first filler.** An H2 with a sentence of nothing under it,
+  then the next H2. The outline shipped; the prose did not.
+- **Engagement bait.** "Agree?", "a thread 🧵", "I'm humbled to
+  announce."
 
 ### Vocabulary tells
 
-Core names the empties. This is the hunt list with variants. Flag every
-instance of these words and phrases (and close variants):
+Suspects, not automatic flags. Apply the corpus-applicability heuristic
+first. Flag empty marketing use and close variants. Leave terms of art,
+product names, and words that would get less precise if swapped for
+"important."
 
-- delve, dive deep, deep dive, unpack, explore (as a transitive verb on
-  ideas)
-- unlock, unleash, harness, empower, supercharge, elevate, turbocharge
+- delve, dive deep, deep dive, unpack, explore (as a section-verb with
+  no object worth exploring)
+- unlock, unleash, harness, empower, supercharge, turbocharge
 - leverage (as empty marketing verb: "leverage your workflow"), utilize
   (instead of use). Domain projects may carve out doctrinal "leverage"
   (force / fulcrum sense) in an overlay.
 - seamless, seamlessly, effortless, frictionless, streamline
 - game-changer, game-changing, revolutionary, cutting-edge, next-level
 - cut through the noise, separate signal from noise, rise above the noise
-- landscape (as in "the AI landscape"), ecosystem, space (as in "in this
-  space")
-- journey (as in "your AI journey"), transformation, transformative
-- robust, comprehensive, holistic, tailored, bespoke
+- landscape (as in "the AI landscape"), ecosystem-as-hype, "in this
+  space" as market-speak (not state space / design space as terms of art)
+- journey (as in "your AI journey"), transformation-as-hype (not
+  org-change when that is the subject)
+- robust, comprehensive, holistic, tailored, bespoke: filler adjectives
+  only, not a named requirement ("robust to partition")
 - "In today's fast-paced world" and any "In today's X" opener
 - "Whether you're a X or a Y" audience straddles
 - "at the end of the day," "when it comes to," "it's worth noting"
-- crucial, vital, essential (when stacked or used more than once)
+- crucial, vital, essential when stacked or used as filler more than
+  once
 - "real" as an intensifier used more than twice (real results, real
   value, real impact)
-- boost, elevate, take it to the next level
+- boost, take it to the next level, elevate-as-hype
 - "the power of" anything
 
 ### Structural extras
@@ -121,8 +140,17 @@ instance of these words and phrases (and close variants):
   weight.
 - **The wrap-up paragraph that restates everything.** "In short, …"
   conclusions that add nothing.
+- **Markdown tables as a substitute for prose.** A table that should
+  have been three sentences.
 
-### Substance tells (the deepest smell)
+### Substance tells
+
+Use [`claims.md`](./claims.md) when truth or scope is the question. Here,
+flag only the generated-consensus shape.
+
+Do not demand a fight from a changelog, API doc, or reference page. Do
+not demand a dinner-table voice from UI chrome, labels, or error
+strings.
 
 - **Claims with no evidence.** "Proven results," "trusted by teams
   everywhere," with zero numbers, names, or examples anywhere.
@@ -135,25 +163,33 @@ instance of these words and phrases (and close variants):
 - **Vague benefits stated as outcomes.** "Save time and money" without
   saying whose time, on what, or how.
 - **Metaphor overextension.** A brand metaphor (forge, bridge, compass,
-  engine) ridden through every heading. Budget: two references per
-  piece.
+  engine) ridden through every heading. On a **page**, budget two
+  references. A long essay whose subject *is* the metaphor may use more;
+  riding it through every heading is still the smell.
 - **Interchangeability test.** Could a competitor swap in their logo and
-  ship this copy unchanged? If yes, it says nothing.
-- **No opinion anywhere.** Human experts disagree with something. Copy
-  that never takes a side, never says "most advice about X is wrong,"
-  never risks alienating anyone, reads as generated consensus.
+  ship this copy unchanged? If yes, it says nothing. Pages and posts,
+  not reference.
+- **No opinion anywhere.** On essays and thought-leadership, copy that
+  never takes a side reads as generated consensus. Not for reference
+  docs or release notes.
 - **Perfect politeness.** No edge, no specificity of voice, nothing that
-  sounds like one particular person on one particular day.
+  sounds like one particular person on one particular day. Same scope:
+  essays and pages that should have a person. Not man pages.
 
 ### The final test
 
-Read the copy aloud. Flag any sentence that a smart person would never
+For prose aimed at a human reader (pages, essays, notes, posts): read
+the copy aloud. Flag any sentence that a smart person would never
 actually say to a friend across a table. That's the sentence to rewrite.
+
+Do not apply the dinner-table test to reference docs, changelogs, or UI
+chrome.
 
 ## Output format
 
 1. **Score and verdict** (one paragraph)
-2. **Flagged items** (quote, tell name, why, suggested rewrite)
+2. **Flagged items** (quote, tell name, why, suggested rewrite). Evidence,
+   not a 40-item homework list.
 3. **What's working** (quotes to protect)
 4. **Top 5 fixes by impact**
 

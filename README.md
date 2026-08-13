@@ -26,10 +26,10 @@ pnpm add -D aibreze
 | `rules/core.md` | Always. Register, applicability heuristic, teaching antithesis, hard bans, cadence, chat vs publish. |
 | `rules/audit.md` | Paste-in smell audit (score, flags, protect list, top 5). |
 | `rules/claims.md` | Skeptical peer review. Substance first, voice after. |
-| `rules/essays.md` | Longform: one register, author in the piece, concrete instance. |
+| `rules/essays.md` | Longform: one register, author in the essay, concrete instance. Not for reference docs. |
 | `rules/landing.md` | Page copy: pronouns, rhetorical budgets, substance, read-aloud. |
 | `rules/outreach.md` | Email / DM / text. Relationship first, one ask. |
-| `rules/launch.md` | Shipping posts. Open on the decision, not the announcement. |
+| `rules/launch.md` | Shipping posts. Open on a specific moment or the artifact, not the announcement formula. |
 | `rules/cursor.mdc` | Always-on agent digest. Copy into `.cursor/rules/`. |
 
 Genre files assume `core.md` and are additive: surface law only, no
@@ -55,8 +55,10 @@ an agent or a prompt assembler can read the files from `node_modules`.
    `.cursor/rules/aibreze.mdc`
 3. Point "Full rules" at `node_modules/aibreze/rules/core.md`
 4. Keep a project overlay (carve-outs, I vs we, protected lines)
-5. For a publish pass: paste `rules/core.md` plus the overlay, then
-   `rules/audit.md` or `rules/claims.md` (both are additive)
+5. When drafting a page, essay, note, or ship post, open that genre file
+6. For a publish pass: paste `rules/core.md` plus the overlay, then
+   `rules/audit.md` or `rules/claims.md` (both are additive; do not paste
+   the prompt alone)
 
 ## Overlay shape
 

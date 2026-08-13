@@ -25,11 +25,11 @@ em dashes, concrete over abstract. On a page, also:
 
 ## Pronouns: decide, then hold
 
-"I" vs "we" is not a taste preference. It is a claim about who the
-reader is talking to.
+Neither I nor we is the package default. Write the choice in the overlay
+before rewriting.
 
-- **I** is differentiating. AI copy defaults to "we." It matches "you
-  talk to the builder."
+- **I** matches "you talk to the builder." AI copy defaults to "we"; I
+  is a tell that a person is speaking.
 - **We** is honest when there are collaborators, or when the brand is
   the speaker. Then soften singular-builder claims so the page does not
   contradict itself.
@@ -37,7 +37,6 @@ reader is talking to.
 Personal outreach (email, text) can still use "I" when the site uses
 "we." See [`outreach.md`](./outreach.md).
 
-This decision must be made before rewriting. Write it in the overlay.
 Everything else in this file works under either choice.
 
 ---
@@ -59,8 +58,8 @@ Everything else in this file works under either choice.
   antithesis. On a page the cap is hard: **max 2.** Keep only the
   strongest.
 - **Triadic negation chants.** "No pitch. No pressure. Honest answers."
-  Core bans these except protected maxims. Landing may keep **1** if it
-  is the most concrete one on the page.
+  This file's named exception: landing may keep **1** if it is the most
+  concrete one on the page.
 - **Symmetrical parallel constructions.** "We speak both languages:
   yours and the machine's."
 - **The hedge-flourish.** "We'll also tell you when it isn't (yet)."
@@ -87,13 +86,20 @@ page.** The rest go to plain language.
   names, or outcomes. Add one concrete proof point or stop claiming
   proof.
 - **Pain lists that pitch.** Every item must be a pain, stated from the
-  reader's side, with no vendor name in it.
+  reader's side. Do not name *your* product in the pain list. Naming a
+  tool the reader already uses is allowed.
 - **Vague promises with fake specificity.** "A clear plan by Friday,"
   "fluent by next week." Commit to a real offer or drop the fake dates.
 - **Eyebrow word salad.** Keyword strings are not sentences a person
   would say.
 - **Interchangeability.** Could a competitor swap the logo and ship
   this? If yes, it says nothing.
+- **Hero names the category.** If you could swap the product name for a
+  competitor's and the hero still works, it is a category ad.
+- **FAQ that is the pitch in question form.**
+- **"We get it" empathy openers** that perform solidarity and then sell.
+- **Testimonials in the brand's own voice.** A quote should not sound
+  like the rest of the page.
 
 ---
 
@@ -110,7 +116,8 @@ A revised page passes when:
 4. Zero noise-cutting variants, friction-as-hype, and other
    overlay-banned empties (core empties still apply).
 5. "Real" used at most twice on the page.
-6. Every pain-list item is a reader-side pain with no vendor mention.
+6. Every pain-list item is a reader-side pain with no *your*-product
+   mention.
 7. At least one concrete proof point, or all "proven results" claims
    removed.
 8. No emoji doing content work.

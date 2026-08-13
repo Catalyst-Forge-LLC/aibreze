@@ -52,8 +52,8 @@ with no structural job.
 
 Ask before flagging or "correcting":
 
-1. Does this term name a real part of the work, a product, or a filing
-   used on purpose?
+1. Does this term name a real part of the work, a product, or a named
+   artifact used on purpose?
 2. Would replacing it with a bland synonym ("important," "central,"
    "key") make the prose *less* precise?
 3. Is the agent stacking it for drama rather than pointing at structure?
@@ -129,7 +129,7 @@ Ban:
 ### 6. "Genuinely X, and that matters"
 
 Do not stack "genuinely" + intensity + "and that matters."  
-Use "genuinely" sparingly or not at all.
+A single plain use can stay. Flag stacks and repetition.
 
 ### 7. Dramatic ownership of error
 
@@ -143,10 +143,12 @@ Do not withhold the answer while building drama. Answer first.
 ### Also still banned
 
 - Em dashes in publishable prose
-- Alliterative triads and stacked-negation chants (except protected
-  maxims the overlay names). **Prefix-repetition triads count**
+- Alliterative triads and stacked-negation chants, except protected
+  maxims the overlay names, or **one concrete chant a genre file
+  explicitly allows** (landing). **Prefix-repetition triads count**
   ("unfindable, unindexed, unreadable"): same chant, different clothes.
-- Universality claims ("this applies to every domain") without evidence
+- Universality claims ("this applies to every domain") without evidence.
+  That is a claims problem; do not only cologne it.
 - Setup sentences whose only job is to announce the next sentence
 - Shared vocab empties: delve, unpack, unlock, unleash, harness (as
   marketing), empower, seamless, journey-as-metaphor, ecosystem-as-hype,
@@ -161,8 +163,9 @@ These are template smells that appear only in aggregate. Flag density,
 not single instances.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
-  after section. A talk earns a few; when every section opens with the
-  same move, it is a template. Vary or cut the weakest.
+  after section. A talk earns more than a blog post; when every section
+  of prose opens with the same move, it is a template. Vary or cut the
+  weakest.
 - **Mic-drop closers.** Short zinger fragments ending a section ("That
   was the job."). Effective in small doses; not every section may end
   on one.
@@ -181,8 +184,14 @@ not single instances.
 
 | Mode | Extra watch |
 | --- | --- |
-| **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack |
+| **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
 | **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, em dashes, triad packing |
+
+The table is extra watch, not a partition. Chat theater infects drafts.
+Publish tells show up in chat.
+
+Helper theater (any model): "Great question!", "I'd be happy to", empty
+"Absolutely!", "It's important to note." Just do the work.
 
 Socratic beats and real questions aimed at a reader are method, not
 "transition question" smell. "So what does this mean for you?" as a
@@ -242,4 +251,6 @@ Keep a short file in the consuming project. It should contain:
 - Genre extras that are house law (e.g. every essay ends in a deed)
 
 Do not restate the hard bans. Point at this package. Genre files in
-this package follow the same rule.
+this package follow the same rule. They may grant a named exception
+(one concrete landing chant; talks may signpost). They may not silently
+rewrite a ban.

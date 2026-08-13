@@ -60,4 +60,17 @@ test("audit prompt is additive to core", () => {
 	assert.match(audit, /core\.md/);
 	assert.match(audit, /This prompt is additive/);
 	assert.doesNotMatch(audit, /Cadence tells \(budget, not ban\)/);
+	assert.match(audit, /If `core\.md` is not in this context/);
+	assert.match(audit, /Suspects, not automatic flags/);
+});
+
+test("essays do not require anecdote in reference docs", () => {
+	assert.match(readRule("essays"), /not the file for reference docs/i);
+});
+
+test("pocket card points at genre files", () => {
+	const card = readRule("cursor");
+	assert.match(card, /When to open a genre file/);
+	assert.match(card, /landing\.md/);
+	assert.match(card, /essays\.md/);
 });

@@ -53,7 +53,7 @@ export const catalog: ReadonlyArray<{
 	{
 		id: "essays",
 		title: "Essays / longform",
-		use: "One register, author in the piece, concrete instance. Optional same-piece deed.",
+		use: "Essays and talks: one register, author in the essay, concrete instance. Not for reference docs.",
 	},
 	{
 		id: "landing",
@@ -68,7 +68,7 @@ export const catalog: ReadonlyArray<{
 	{
 		id: "launch",
 		title: "Launch / announcement",
-		use: "Shipping posts. Open on the decision, not the announcement. No feature dump.",
+		use: "Shipping posts. Open on a specific moment or the artifact, not the announcement formula.",
 	},
 	{
 		id: "cursor",

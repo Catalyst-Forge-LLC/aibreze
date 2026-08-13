@@ -14,7 +14,7 @@ and add a short overlay.
 
 This file is a digest so the agent has the bans without opening core. It
 is not a second source of truth. If they conflict, `core.md` wins. Do
-not add genre law here.
+not copy genre law into this file.
 
 ## Target
 
@@ -28,19 +28,25 @@ Useful > insightful-sounding. No em dashes in publishable prose.
   Just say it.
 - Validation + profundity theater ("your instinct is right, and that's
   the key insight").
+- Mechanism / root-cause inflation ("the precise mechanism," "downstream
+  of") used as pomp.
 - Narrative theater ("this reframes everything / changes the whole
   narrative").
-- "Genuinely X, and that matters" stacks; use "genuinely" rarely or never.
+- "Genuinely X, and that matters" stacks; a single plain "genuinely" can
+  stay.
 - Dramatic apology theater; suspense before the answer.
+- Helper theater: "Great question!", "I'd be happy to", empty
+  "Absolutely!", "It's important to note."
 - Setup sentences that only announce the next sentence.
-- Alliterative / prefix-repetition triads (except protected maxims).
+- Alliterative / prefix-repetition triads (except protected maxims, or
+  one concrete chant a genre file allows).
 - Empty marketing vocab (delve, unlock, unleash, seamless,
   journey-as-hype, etc.).
 
 ## Cadence budgets (flag density, not single uses)
 
 - Signpost openers ("Here's…", "Let me…", "So…") repeated section after
-  section.
+  section. Talks earn more than blog posts.
 - Mic-drop closer fragments ending every section.
 - Intensifier filler: "actually / whole / real / very" where no contrast
   is marked.
@@ -52,3 +58,15 @@ Useful > insightful-sounding. No em dashes in publishable prose.
 If a term has real application, leave it. Ban empty intensifier and
 marketing use of the same words. Teaching antithesis OK when categories
 differ; never the escalation formula. Do not de-smell verbatim testimony.
+
+## When to open a genre file
+
+If you are drafting or revising a specific surface, read that file too.
+
+- Page / marketing site: [`rules/landing.md`](../../rules/landing.md)
+- Essay / talk / long argument: [`rules/essays.md`](../../rules/essays.md)
+- Email / DM / text to someone you know: [`rules/outreach.md`](../../rules/outreach.md)
+- Ship post / announcement: [`rules/launch.md`](../../rules/launch.md)
+
+Reference docs, changelogs, API pages, UI chrome: core only. Do not
+inject a scene to satisfy essay law.

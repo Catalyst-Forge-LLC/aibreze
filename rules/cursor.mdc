@@ -12,7 +12,7 @@ at `node_modules/aibreze/rules/core.md` plus that project's overlay.
 
 This file is a digest so the agent has the bans without opening core. It
 is not a second source of truth. If they conflict, `core.md` wins. Do
-not add genre law here.
+not copy genre law into this file.
 
 ## Target
 
@@ -26,20 +26,26 @@ Useful > insightful-sounding. No em dashes in publishable prose.
   Just say it.
 - Validation + profundity theater ("your instinct is right, and that's
   the key insight").
+- Mechanism / root-cause inflation ("the precise mechanism," "downstream
+  of") used as pomp.
 - Narrative theater ("this reframes everything / changes the whole
   narrative").
-- "Genuinely X, and that matters" stacks; use "genuinely" rarely or never.
+- "Genuinely X, and that matters" stacks; a single plain "genuinely" can
+  stay.
 - Dramatic apology theater; suspense before the answer.
+- Helper theater: "Great question!", "I'd be happy to", empty
+  "Absolutely!", "It's important to note."
 - Setup sentences that only announce the next sentence.
-- Alliterative triads / stacked negations (except protected maxims);
-  prefix-repetition triads count ("unfindable, unindexed, unreadable").
+- Alliterative triads / stacked negations (except protected maxims, or
+  one concrete chant a genre file allows); prefix-repetition triads
+  count ("unfindable, unindexed, unreadable").
 - Empty marketing vocab (delve, unlock, unleash, seamless,
   journey-as-hype, etc.).
 
 ## Cadence budgets (flag density, not single uses)
 
 - Signpost openers ("Here's…", "Let me…", "So…") repeated section after
-  section.
+  section. Talks earn more than blog posts.
 - Mic-drop closer fragments ending every section.
 - Intensifier filler: "actually / whole / real / very" where no contrast
   is marked.
@@ -59,3 +65,17 @@ Teaching antithesis OK when categories differ (map/territory); never the
 escalation formula. Do not de-smell verbatim testimony.
 
 Read the project overlay for the local term list and pronoun policy.
+
+## When to open a genre file
+
+If you are drafting or revising a specific surface, read that file too.
+Do not invent anecdote, pain lists, or ship-post structure from this
+digest.
+
+- Page / marketing site: [`landing.md`](./landing.md)
+- Essay / talk / long argument: [`essays.md`](./essays.md)
+- Email / DM / text to someone you know: [`outreach.md`](./outreach.md)
+- Ship post / announcement: [`launch.md`](./launch.md)
+
+Reference docs, changelogs, API pages, UI chrome: core only. Do not
+inject a scene to satisfy essay law.
