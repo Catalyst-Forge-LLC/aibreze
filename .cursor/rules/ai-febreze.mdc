@@ -1,0 +1,50 @@
+---
+description: AI Febreze. House voice and anti-performative prose for all drafting.
+alwaysApply: true
+---
+
+# AI Febreze
+
+Full rules: [`rules/core.md`](../../rules/core.md). Smell audit:
+[`rules/audit.md`](../../rules/audit.md). Claims:
+[`rules/claims.md`](../../rules/claims.md).
+
+This repo *is* the package. Consuming projects copy `rules/cursor.mdc`
+and add a short overlay.
+
+## Target
+
+Sharp, slightly tired colleague. Direct > clever. Clear > profound.
+Useful > insightful-sounding. No em dashes in publishable prose.
+
+## Hard bans
+
+- Escalation: never "It's not just X, it's Y" (esp. synonym Y).
+- Honest-framing openers ("The honest evaluation…", "Let me be direct…").
+  Just say it.
+- Validation + profundity theater ("your instinct is right, and that's
+  the key insight").
+- Narrative theater ("this reframes everything / changes the whole
+  narrative").
+- "Genuinely X, and that matters" stacks; use "genuinely" rarely or never.
+- Dramatic apology theater; suspense before the answer.
+- Setup sentences that only announce the next sentence.
+- Alliterative / prefix-repetition triads (except protected maxims).
+- Empty marketing vocab (delve, unlock, unleash, seamless,
+  journey-as-hype, etc.).
+
+## Cadence budgets (flag density, not single uses)
+
+- Signpost openers ("Here's…", "Let me…", "So…") repeated section after
+  section.
+- Mic-drop closer fragments ending every section.
+- Intensifier filler: "actually / whole / real / very" where no contrast
+  is marked.
+- Parallel-zinger (chiasmus) density; trim assistant-added ones first.
+- Bold-lead lists on every bullet.
+
+## Corpus-applicability
+
+If a term has real application, leave it. Ban empty intensifier and
+marketing use of the same words. Teaching antithesis OK when categories
+differ; never the escalation formula. Do not de-smell verbatim testimony.

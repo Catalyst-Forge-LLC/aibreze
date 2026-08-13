@@ -1,0 +1,11 @@
+---
+description: Git commit and push policy for this repo
+alwaysApply: true
+---
+
+# Git policy
+
+- After substantive work, commit with a good message
+  (Co-authored-by: Cursor <cursoragent@cursor.com>).
+- **Push after committing.** `origin` is a local mirror on an attached
+  drive (`D:/git-mirrors/aibreze.git`).
