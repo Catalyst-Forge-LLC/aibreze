@@ -192,6 +192,21 @@ not single instances.
   protect native pairs, trim assistant-added ones first.
 - **Bold-lead lists.** Every bullet "**Label.** Explanation" is a
   template when the whole piece does it.
+- **Riddle labels.** A bold lead-in or heading that is an aphorism the
+  reader can only decode after reading the body: "**Names you actually
+  say.**" over a paragraph about custom vocabulary. Core already bans the
+  setup sentence that announces the next sentence; this is the same waste
+  in reverse, withholding instead of announcing. Test: cover the body and
+  read the label alone. If it does not say which thing this is, name the
+  thing. The aphorism can go in the prose if it earns a place there.
+- **Cozy machinery.** Infrastructure written the way a fond craftsman
+  would talk: the model is "asleep," a worker stays "warm," heavy jobs go
+  to a "quieter" box, "the mesh is the door." Terms of art pass the
+  applicability heuristic (warm cache, cold start, daemon), and one idiom
+  is not a finding. The tell is the register standing in for a fact the
+  writer already has: "asleep" covers suspended, unreachable, and
+  misconfigured at once, so it tells the reader less than "unreachable"
+  would. Keep it where the machine literally sleeps.
 
 ---
 
@@ -200,7 +215,7 @@ not single instances.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, em-dash furniture, triad packing |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, riddle labels, cozy machinery, em-dash furniture, triad packing |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -242,6 +257,15 @@ Good: Just state the idea.
 **Em dash furniture**  
 Bad: "Brain — the model plus the loop."  
 Good: "Brain: the model plus the loop."
+
+**Riddle label**  
+Bad: "**Names you actually say.** `promptTerms` seeds the decoder."  
+Good: "**Custom vocabulary.** `promptTerms` seeds the decoder."
+
+**Cozy machinery**  
+Bad: "If the cleanup model is asleep, you still get raw text."  
+Good: "If the cleanup model is unreachable, you still get raw text."  
+(Still fine: "the laptop was asleep," when it was.)
 
 ---
 

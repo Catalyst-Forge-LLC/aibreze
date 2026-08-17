@@ -55,7 +55,8 @@ honest framing, validation+profundity, mechanism inflation, narrative
 theater, genuinely-stacks, dramatic apology, suspense, setup sentences,
 em-dash furniture, triad packing including prefix-repetition, empty marketing
 vocab, helper theater, signpost openers, mic-drop closers, intensifier
-filler, parallel-zinger density, bold-lead lists. Apply the
+filler, parallel-zinger density, bold-lead lists, riddle labels, cozy
+machinery. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
 antithesis is allowed only when categories differ, never as
 synonym-escalation. One concrete landing chant is a named exception,

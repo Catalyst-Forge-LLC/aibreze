@@ -47,6 +47,16 @@ test("em dashes earn their place; they are not a hard ban", () => {
 	assert.doesNotMatch(readRule("audit"), /Core already bans them/);
 });
 
+test("core names the riddle-label and cozy-machinery tells", () => {
+	const core = readRule("core");
+	assert.match(core, /Riddle labels/);
+	assert.match(core, /Cozy machinery/);
+	assert.match(core, /where the machine literally sleeps/);
+	const card = readRule("cursor");
+	assert.match(card, /Riddle labels/);
+	assert.match(card, /Cozy machinery/);
+});
+
 test("audit prompt has a paste slot", () => {
 	assert.match(readRule("audit"), /COPY TO AUDIT/);
 });
