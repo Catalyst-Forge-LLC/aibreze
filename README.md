@@ -144,7 +144,9 @@ pnpm site:build
 
 ## Publishing to npm
 
-The maintainer publishes. Agents must not run `npm publish`,
+The maintainer publishes. `pnpm publish` runs a gate first: `pnpm whoami`,
+then `pnpm login` if that fails, then a patch bump if this version is
+already on npm (or behind it). Agents must not run `npm publish`,
 `pnpm publish`, or `yarn npm publish`.
 
 ## License
