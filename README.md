@@ -54,6 +54,13 @@ usually pass *here*, with one-line why. The list is not exhaustive.
 `claims.md` is substance first, voice after. A clean-smelling wrong
 essay is still wrong. Do not polish a lie.
 
+Cadence tells are a budget, not a ban. Flag density: signpost openers,
+em-dash furniture, riddle labels (a heading you can only decode after
+the body), cozy machinery (register standing in for a fact you have),
+operator notes in the brochure, hand-holding the obvious, unparseable
+sentences. One earned em dash is not a finding. Do not treat the mark
+as an AI tell to erase.
+
 ## Install
 
 ```bash
@@ -64,7 +71,7 @@ pnpm add -D aibreze
 
 | File | Use |
 | --- | --- |
-| `rules/core.md` | Always. Register, applicability heuristic, teaching antithesis, hard bans, cadence, chat vs publish. |
+| `rules/core.md` | Always. Register, applicability heuristic, teaching antithesis, hard bans, cadence budgets (density, not single uses), chat vs publish. |
 | `rules/audit.md` | Paste-in smell audit (score, flags, protect list, top 5). |
 | `rules/claims.md` | Skeptical peer review. Substance first, voice after. |
 | `rules/essays.md` | Longform: one register, author in the essay, concrete instance. Not for reference docs. |

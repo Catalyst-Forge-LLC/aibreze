@@ -32,7 +32,17 @@ Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn 
 
 ## The package
 
-Markdown you install and point an agent at. Shared core, additive genre files, a short project overlay. A smell audit. A claims review that checks substance before voice.
+Markdown you install and point an agent at. v1 has no CLI.
+
+| File | Use |
+| --- | --- |
+| `core.md` | Shared law. Always. |
+| `essays.md` / `landing.md` / `outreach.md` / `launch.md` | Surface extras only. Do not copy the bans. |
+| `audit.md` | Smell. |
+| `claims.md` | Substance first, then voice. |
+| `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |
+
+Cadence is a budget: flag density, not a single em dash or a single "Here's…". Headings should name the thing. [Install](/install) has the wiring.
 
 ```bash
 pnpm add -D aibreze

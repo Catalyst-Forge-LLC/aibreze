@@ -35,7 +35,7 @@ Then attach **aibreze.com** in the Cloudflare dashboard.
 Dependency is the public npm package:
 
 ```json
-"getfilepress": "^0.1.2"
+"getfilepress": "^0.1.3"
 ```
 
 ## Launch checklist

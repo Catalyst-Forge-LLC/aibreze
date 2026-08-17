@@ -12,6 +12,8 @@ It does not try to fool AI detectors. Adjacent tools make model output look huma
 
 Earn the word. Unearned language, not a cargo-cult list of "words ChatGPT uses."
 
+Cadence tells are a budget, not a ban. One em dash is not a finding; a dash in every heading is. A heading the reader can only decode after the body is a riddle, not a title. Infrastructure written fondly ("the model is asleep") is cozy machinery when you already have the fact ("unreachable"). Recovery commands and gitignore trivia belong next to the step they serve, not in the opening pitch.
+
 The package lives on npm. This site is the argument; the tarball is the files.
 
 ## Names

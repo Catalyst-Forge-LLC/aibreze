@@ -4,11 +4,26 @@ description: Add aiBreze to a project and wire the agent to core plus a short ov
 order: 1
 ---
 
-Requires **Node.js 20+**. The package is [`aibreze`](https://www.npmjs.com/package/aibreze) on npm.
+Requires **Node.js 20+**. The package is [`aibreze`](https://www.npmjs.com/package/aibreze) on npm. v1 has no CLI.
 
 ```bash
 pnpm add -D aibreze
 ```
+
+## What's in the box
+
+| File | Use |
+| --- | --- |
+| `rules/core.md` | Always. Register, heuristic, hard bans, cadence budgets, chat vs publish. |
+| `rules/audit.md` | Paste-in smell audit. |
+| `rules/claims.md` | Substance first, voice after. |
+| `rules/essays.md` | Longform. Not for reference docs. |
+| `rules/landing.md` | Page copy. |
+| `rules/outreach.md` | Email / DM / text. |
+| `rules/launch.md` | Shipping posts. |
+| `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
+
+Genre files assume `core.md`. Do not fork `core.md`.
 
 ## Agent setup
 
