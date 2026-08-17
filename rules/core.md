@@ -207,6 +207,19 @@ not single instances.
   writer already has: "asleep" covers suspended, unreachable, and
   misconfigured at once, so it tells the reader less than "unreachable"
   would. Keep it where the machine literally sleeps.
+- **Operator notes in the brochure.** Recovery commands, internal folder
+  names, settle timers, gitignore facts, and "doctor and /health run the
+  same probes" listed as what the product is good at. The tell is
+  *placement*, not the fact. A recovery CLI belongs under Run. A Syncthing
+  wait belongs next to Syncthing. Test: would you say this first to a
+  friend who asked what it does? If not, it is later, or not at all.
+- **Hand-holding the obvious.** "config.json is gitignored." One trap
+  warning is fine. Stating what a competent reader already knows, in the
+  voice of a tour guide, is the tell.
+- **Unparseable sentence.** A finished-sounding line the reader cannot
+  repeat: "This is meant to live on a desktop you already leave on."
+  Related to riddle labels, but at sentence level. Rewrite until a smart
+  friend can say it back.
 
 ---
 
@@ -215,7 +228,7 @@ not single instances.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, riddle labels, cozy machinery, em-dash furniture, triad packing |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, em-dash furniture, triad packing |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -266,6 +279,20 @@ Good: "**Custom vocabulary.** `promptTerms` seeds the decoder."
 Bad: "If the cleanup model is asleep, you still get raw text."  
 Good: "If the cleanup model is unreachable, you still get raw text."  
 (Still fine: "the laptop was asleep," when it was.)
+
+**Operator notes in the brochure**  
+Bad: "**Two settle timers.** Watched folders wait 30 minutes." as the
+first item under "What it is good at."  
+Good: Mention the wait next to Syncthing. Lead the feature list with
+what a friend would hear first.
+
+**Hand-holding**  
+Bad: "`config.json` is gitignored." after `cp config.example.json`.  
+Good: Omit it. They already copied the example.
+
+**Unparseable sentence**  
+Bad: "This is meant to live on a desktop you already leave on."  
+Good: "Run it on a computer you leave turned on."
 
 ---
 

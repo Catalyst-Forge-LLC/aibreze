@@ -57,6 +57,17 @@ test("core names the riddle-label and cozy-machinery tells", () => {
 	assert.match(card, /Cozy machinery/);
 });
 
+test("core names operator-notes, hand-holding, and unparseable-sentence tells", () => {
+	const core = readRule("core");
+	assert.match(core, /Operator notes in the brochure/);
+	assert.match(core, /Hand-holding the obvious/);
+	assert.match(core, /Unparseable sentence/);
+	const card = readRule("cursor");
+	assert.match(card, /Operator notes in the brochure/);
+	assert.match(card, /Hand-holding the obvious/);
+	assert.match(card, /Unparseable sentence/);
+});
+
 test("audit prompt has a paste slot", () => {
 	assert.match(readRule("audit"), /COPY TO AUDIT/);
 });

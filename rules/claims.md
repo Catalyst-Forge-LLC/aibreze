@@ -123,7 +123,8 @@ Only after Passes A-D:
    sentences, synonym antithesis, helper theater.
 3. Flag cadence budgets: signpost openers, mic-drop closers, intensifier
    filler, em-dash furniture, parallel-zinger density, bold-lead lists,
-   riddle labels, cozy machinery.
+   riddle labels, cozy machinery, operator notes in the brochure,
+   hand-holding the obvious, unparseable sentences.
 4. Apply **corpus-applicability**: do not "correct" overlay terms when
    they are structural.
 5. Quote lines to **protect** (distinctive human voice).
