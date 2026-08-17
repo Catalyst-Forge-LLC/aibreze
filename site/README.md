@@ -40,6 +40,6 @@ Dependency is the public npm package:
 
 ## Launch checklist
 
-- [ ] Make the GitHub repo public (nav GitHub link 404s for everyone else until then)
-- [ ] `pnpm ship` (or git-connected Pages) and confirm `https://aibreze.com`
+- [x] GitHub repo is public
+- [x] Site live at `https://aibreze.com`
 - [ ] Confirm `og:image` / Twitter card in a debugger

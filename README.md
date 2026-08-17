@@ -27,9 +27,9 @@ software does that reliably.
 
 ## What it is
 
-A composable editorial system for agent-generated prose (and for human
-prose in the same register). Markdown you install and point an agent at.
-Not a CLI (yet), not an editor, not a list of "words ChatGPT uses."
+A composable editorial system for agent-generated prose, and for human
+prose in the same register. Markdown you install and point an agent at.
+v1 has no CLI.
 
 ```text
 core.md          shared law (register, bans, cadence, heuristic)
@@ -45,12 +45,11 @@ claims.md        substance first, then voice
 Genre files assume `core.md` and are additive: surface law only, no
 copied bans. Do not fork `core.md`.
 
-The **applicability heuristic** is the load-bearing idea. The problem is
-unearned language, not the dictionary. Earn the word: "transformative"
-is fine if something transformed and you can say from what into what.
+The **applicability heuristic** is the rule. The problem is unearned
+language, not the dictionary. Earn the word: "transformative" is fine
+if something transformed and you can say from what into what.
 "Inflection point" is fine if there was one. Overlay the terms that
-usually pass *here*, with one-line why. The heuristic is the rule; the
-list is not exhaustive.
+usually pass *here*, with one-line why. The list is not exhaustive.
 
 `claims.md` is substance first, voice after. A clean-smelling wrong
 essay is still wrong. Do not polish a lie.
@@ -94,10 +93,9 @@ either way. If the prose smells, spray it.
 
 Adjacent tools tend to be humanizers ("make this sound human"), banned-word
 anti-slop lists, or general style linters (Vale, write-good). This package
-is the layered law: genre surfaces, an applicability heuristic (earn the
-word), claims before cologne, overlays instead of forks, and both
-prevention at draft time and audit after. Authorship is irrelevant. Prose
-quality is the subject.
+layers genre files, an earn-the-word test, claims before voice, and overlays
+instead of forks. Use it while drafting or on a finished pass. Authorship
+is irrelevant. Prose quality is the subject.
 
 ## Use from Node
 

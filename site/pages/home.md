@@ -1,6 +1,6 @@
 ---
 title: Your prose has a smell.
-description: You probably stopped noticing it. Rules for the performative, faux-profound register. Spray the prose, not the author.
+description: You probably stopped noticing it. Editorial rules for prose that actually says something instead of just sounding like it.
 order: 0
 ---
 
@@ -8,11 +8,11 @@ You probably stopped noticing it.
 
 **aiBreze.** Editorial rules for prose that actually says something instead of just sounding like it. AI-assisted or not.
 
-Spray the prose, not the author. It does not detect who wrote the sentence. It does not care. Bad prose is bad prose.
+Spray the prose, not the author. Bad prose is bad prose.
 
 ## Not a humanizer
 
-aiBreze does not determine whether a human or a model wrote something, and it does not try to fool AI detectors. It applies the same standard either way. If the prose smells, spray it.
+aiBreze does not determine whether a human or a model wrote something, and it does not try to fool AI detectors. Same standard either way.
 
 A composable editorial system: core law, genre extras, a project overlay, then a smell audit and a claims pass.
 
@@ -32,12 +32,12 @@ Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn 
 
 ## The package
 
-Markdown you install and point an agent at. Shared core, additive genre files, a short project overlay. A smell audit. A claims review that checks substance before cologne.
+Markdown you install and point an agent at. Shared core, additive genre files, a short project overlay. A smell audit. A claims review that checks substance before voice.
 
 ```bash
 pnpm add -D aibreze
 ```
 
-The package lives on [npm](https://www.npmjs.com/package/aibreze). This site is the public face. [Install and agent setup →](/install)
+The package is on [npm](https://www.npmjs.com/package/aibreze). [Install and agent setup →](/install)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.

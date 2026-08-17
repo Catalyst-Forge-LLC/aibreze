@@ -1,18 +1,18 @@
 ---
 title: About
-description: Why aiBreze, and why it sprays the prose rather than the author.
+description: Why the name is a spray, and why the author is not the subject.
 order: 2
 ---
 
 People who live with a smell stop noticing it. Generated prose does the same trick. Charles Duhigg tells the household version in *The Power of Habit* (2012): an odor-eliminating spray that flopped until the company realized habituation was the problem, then sold the bottle as the reward at the end of a cleaning habit. This package is that move for writing. Make the smell visible, then take it off. The original tale is Duhigg's. Read him.
 
-The register is also leaking the other way: humans now write like the models. Spray the prose, not the author. It does not care who wrote the sentence. Bad prose is bad prose.
+The register is also leaking the other way: humans now write like the models. Spray the prose, not the author. Bad prose is bad prose.
 
-It does not try to fool AI detectors. Adjacent tools in that market exist. This is a different job: a layered writing law, not a rewrite gadget that makes model output look human.
+It does not try to fool AI detectors. Adjacent tools make model output look human. This is a writing standard.
 
-Earn the word. That is the applicability heuristic in one line: unearned language, not a cargo-cult list of "words ChatGPT uses."
+Earn the word. Unearned language, not a cargo-cult list of "words ChatGPT uses."
 
-The package is developer-first and lives on npm. This site is room for the idea to be larger than the tarball.
+The package lives on npm. This site is the argument; the tarball is the files.
 
 ## Names
 
