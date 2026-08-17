@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="site/static/logo.svg" alt="aiBreze" width="128" />
+</p>
+
 # aiBreze
 
 An installable writing rule set for AI agents.
