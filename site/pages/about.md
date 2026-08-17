@@ -24,5 +24,3 @@ The package lives on npm. This site is the argument; the tarball is the files.
 | GitHub | [Catalyst-Forge-LLC/aibreze](https://github.com/Catalyst-Forge-LLC/aibreze) |
 
 Maintained by [Catalyst Forge LLC](https://www.catalystforge.com). MIT licensed.
-
-This site is a FilePress content tree in `site/`, built with [`getfilepress`](https://www.npmjs.com/package/getfilepress).
