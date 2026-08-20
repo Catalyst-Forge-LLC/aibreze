@@ -4,37 +4,37 @@ description: Install the aiBreze skill as a folder. Digest plus the law files.
 order: 1
 ---
 
-The skill is a folder: a digest (`SKILL.md`) plus the rule files it reads. Drop that folder into the host's skills directory.
+The skill is a folder: `SKILL.md` plus the rule files it reads. Put that folder here:
 
-- Claude Code, personal: `~/.claude/skills/aibreze/`
-- Claude Code, this repo: `.claude/skills/aibreze/`
+- Claude Code, every project: `~/.claude/skills/aibreze/`
+- Claude Code, one repo: `.claude/skills/aibreze/`
 - Cursor: `.cursor/skills/aibreze/` or `~/.cursor/skills/aibreze/`
 
-On claude.ai, download the ZIP and upload it under Settings, Customize, Skills. The archive root is a folder named `aibreze`, not loose files.
+On claude.ai, download the ZIP and upload it under Settings, Customize, Skills. Zip the folder, not the files inside it.
 
 [Download aibreze.zip](/skills/aibreze.zip)
 
-## Where the folder comes from
+## Copy it from
 
-This repo: `skills/aibreze/`
+GitHub: `skills/aibreze/`
 
-After npm:
+Or npm:
 
 ```bash
 pnpm add -D aibreze
 ```
 
-Copy `node_modules/aibreze/skills/aibreze/` into the same skills directory.
+Then copy `node_modules/aibreze/skills/aibreze/` into one of the directories above.
 
 ## Always-on Cursor rule
 
-That is a different hook. Copy `rules/cursor.mdc` to `.cursor/rules/aibreze.mdc`. Overlay and wiring: [Install](/install).
+Copy `rules/cursor.mdc` to `.cursor/rules/aibreze.mdc`. That stays in context even when the skill does not fire. Overlay and the rest: [Install](/install).
 
-## Inspect the digest
+## One-off
 
 https://aibreze.com/skills/aibreze/SKILL.md
 
-Raw law files stay on this host for a one-off chat that did not install the folder.
+Same files, no install:
 
 - https://aibreze.com/rules/core.md
 - https://aibreze.com/rules/audit.md
@@ -46,4 +46,4 @@ Raw law files stay on this host for a one-off chat that did not install the fold
 - Run aiBreze on the README.
 - Publish pass on the About copy.
 
-It fires on draft or revise of publishable prose, or when you name it. It does not fire on code, diffs, or chat-only answers.
+It runs when you draft or revise publishable prose, or when you name it. Not on code, diffs, or chat-only answers.

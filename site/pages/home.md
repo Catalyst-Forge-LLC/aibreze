@@ -1,26 +1,26 @@
 ---
 title: Your prose has a smell.
-description: You probably stopped noticing it. Editorial rules for prose that actually says something instead of just sounding like it.
+description: Editorial rules for prose that says something instead of sounding like it.
 order: 0
 ---
 
 You probably stopped noticing it.
 
-**aiBreze.** Editorial rules for prose that actually says something instead of just sounding like it. AI-assisted or not.
+**aiBreze.** Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
 
 Spray the prose, not the author. Bad prose is bad prose.
 
 ## Not a humanizer
 
-aiBreze does not determine whether a human or a model wrote something, and it does not try to fool AI detectors. Same standard either way.
+aiBreze does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way.
 
-A composable editorial system: core law, genre extras, a project overlay, then a smell audit and a claims pass.
+Core law, genre extras, a project overlay, then a smell audit and a claims pass.
 
 [Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
 
 ## Earn the word.
 
-The problem is unearned language, not the dictionary. "Transformative" is fine if something transformed and you can say from what into what. "Inflection point" is fine if there was one. Overlay the terms that pass *here*. The heuristic is the rule; the list is not exhaustive.
+The problem is unearned language, not the dictionary. "Transformative" is fine if something transformed and you can say from what into what. Overlay the terms that pass *here*.
 
 Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn their place; most don't.
 
@@ -42,12 +42,10 @@ Markdown you install and point an agent at. v1 has no CLI.
 | `claims.md` | Substance first, then voice. |
 | `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |
 
-Cadence is a budget: flag density, not a single em dash or a single "Here's…". Headings should name the thing. [Install](/install) has the wiring.
-
 ```bash
 pnpm add -D aibreze
 ```
 
-The package is on [npm](https://www.npmjs.com/package/aibreze). [Install the skill](/skill) as a folder. [Install and agent setup →](/install)
+On [npm](https://www.npmjs.com/package/aibreze). [Skill](/skill) as a folder. [Install](/install).
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.

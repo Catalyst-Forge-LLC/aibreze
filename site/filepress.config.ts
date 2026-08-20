@@ -6,7 +6,7 @@ const npm = 'https://www.npmjs.com/package/aibreze';
 export default defineFilepressConfig({
 	title: 'aiBreze',
 	description:
-		'Editorial rules for prose that actually says something instead of just sounding like it. Spray the prose, not the author.',
+		'Editorial rules for prose that says something instead of sounding like it. Spray the prose, not the author.',
 	tagline: 'Earn the word.',
 	url: 'https://aibreze.com',
 	author: 'Catalyst Forge LLC',

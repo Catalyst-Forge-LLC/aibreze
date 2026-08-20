@@ -1,31 +1,16 @@
 ---
 title: Install
-description: Add aiBreze to a project and wire the agent to core plus a short overlay.
+description: Add the package, copy the pocket card, keep a short overlay.
 order: 1
 ---
-
-Requires **Node.js 20+**. The package is [`aibreze`](https://www.npmjs.com/package/aibreze) on npm. v1 has no CLI.
-
-To install from this domain, use the [skill](/skill). That is a folder (digest plus the law files), not a single Markdown URL.
 
 ```bash
 pnpm add -D aibreze
 ```
 
-## What's in the box
+Node.js 20+. The package is [`aibreze`](https://www.npmjs.com/package/aibreze) on npm. v1 has no CLI.
 
-| File | Use |
-| --- | --- |
-| `rules/core.md` | Always. Register, heuristic, hard bans, cadence budgets, chat vs publish. |
-| `rules/audit.md` | Paste-in smell audit. |
-| `rules/claims.md` | Substance first, voice after. |
-| `rules/essays.md` | Longform. Not for reference docs. |
-| `rules/landing.md` | Page copy. |
-| `rules/outreach.md` | Email / DM / text. |
-| `rules/launch.md` | Shipping posts. |
-| `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
-
-Genre files assume `core.md`. Do not fork `core.md`.
+No package? [Install the skill](/skill) as a folder.
 
 ## Agent setup
 
@@ -46,6 +31,21 @@ Keep it short. Point at this package, then only:
 
 Do not fork `core.md`. Do not restate the hard bans.
 
+## Files
+
+| File | Use |
+| --- | --- |
+| `rules/core.md` | Always. Register, heuristic, hard bans, cadence budgets, chat vs publish. |
+| `rules/audit.md` | Paste-in smell audit. |
+| `rules/claims.md` | Substance first, voice after. |
+| `rules/essays.md` | Longform. Not for reference docs. |
+| `rules/landing.md` | Page copy. |
+| `rules/outreach.md` | Email / DM / text. |
+| `rules/launch.md` | Shipping posts. |
+| `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
+
+Genre files assume `core.md`.
+
 ## From Node
 
 ```ts
@@ -56,5 +56,3 @@ const core = readRule("core");
 ```
 
 Markdown is also exported as `aibreze/rules/core.md` (and the rest).
-
-The maintainer publishes to npm. Agents must not run `npm publish`.
