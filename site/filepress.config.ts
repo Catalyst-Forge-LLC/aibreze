@@ -18,7 +18,7 @@ export default defineFilepressConfig({
 		{ label: 'Docs', href: '/docs/' },
 		{ label: 'Install', href: '/install' },
 		{ label: 'Skill', href: '/skill' },
-		{ label: 'Writing', href: '/writing' },
+		{ label: 'Posts', href: '/posts' },
 		{ label: 'About', href: '/about' },
 		{ label: 'GitHub', href: github, icon: 'github' }
 	],
