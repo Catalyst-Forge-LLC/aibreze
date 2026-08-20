@@ -1,12 +1,12 @@
 ---
 title: Skill
-description: Get the folder from a ZIP, a git clone, or npm.
-order: 1
 ---
 
-The skill is a folder: `SKILL.md` plus the rule files it reads. Get that folder one of these ways, then put it in a skills directory.
+The skill is a folder: `SKILL.md` plus the rule files it reads. The agent loads it when you draft or revise publishable prose, or when you say spray / publish pass. Not on code, diffs, or chat-only answers.
 
-A project install is a different hook: [Install](/install). Full guide: [docs](/docs/skill).
+A project [install](/docs/install) is a different hook: npm, overlay, always-on pocket card.
+
+Short version on the site: [Skill](/skill).
 
 ## Download the ZIP
 
@@ -46,17 +46,7 @@ Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/aibreze.m
 
 From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/aibreze/rules/cursor.mdc`. Same destination.
 
-It stays loaded even when the skill does not run. Overlay: [Install](/install).
-
-## One-off
-
-https://aibreze.com/skills/aibreze/SKILL.md
-
-Same files, no install:
-
-- https://aibreze.com/rules/core.md
-- https://aibreze.com/rules/audit.md
-- https://aibreze.com/rules/claims.md
+It stays loaded even when the skill does not run. Overlay: [Overlay](/docs/overlay).
 
 ## What you say
 
@@ -64,4 +54,11 @@ Same files, no install:
 - Run aiBreze on the README.
 - Publish pass on the About copy.
 
-It runs when you draft or revise publishable prose, or when you name it. Not on code, diffs, or chat-only answers.
+## One-off
+
+No install. Point an agent at the raw files:
+
+- https://aibreze.com/skills/aibreze/SKILL.md
+- https://aibreze.com/rules/core.md
+- https://aibreze.com/rules/audit.md
+- https://aibreze.com/rules/claims.md

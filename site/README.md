@@ -6,9 +6,12 @@ on npm).
 
 ```bash
 pnpm install
+pnpm docs:build   # Markdown → docs/dist
 pnpm dev          # local preview
 pnpm build        # → build/
 ```
+
+Docs source: `docs/*.md` + `_nav.json`. FilePress mounts `docs/dist` at `/docs`.
 
 From the package root: `pnpm site:dev`, `pnpm site:build`, `pnpm ship`.
 

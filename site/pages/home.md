@@ -16,7 +16,7 @@ aiBreze does not guess whether a human or a model wrote the sentences, and it do
 
 Core law, genre extras, a project overlay, then a smell audit and a claims pass.
 
-[Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
+[Docs](/docs) · [Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
 
 ## Earn the word.
 

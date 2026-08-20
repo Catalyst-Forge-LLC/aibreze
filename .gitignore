@@ -1,5 +1,6 @@
 site/static/skills/
 site/static/rules/
+site/docs/dist/
 .cursor/skills/aibreze/rules/
 node_modules/
 dist/

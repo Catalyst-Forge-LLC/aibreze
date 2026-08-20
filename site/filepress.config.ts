@@ -15,6 +15,7 @@ export default defineFilepressConfig({
 	homePage: 'home',
 	nav: [
 		{ label: 'Home', href: '/' },
+		{ label: 'Docs', href: '/docs' },
 		{ label: 'Install', href: '/install' },
 		{ label: 'Skill', href: '/skill' },
 		{ label: 'Writing', href: '/writing' },
@@ -23,9 +24,10 @@ export default defineFilepressConfig({
 	],
 	footerLinks: [
 		{ label: 'RSS', href: '/rss.xml' },
+		{ label: 'Docs', href: '/docs' },
 		{ label: 'npm', href: npm },
-		{ label: 'Skill', href: '/skill' },
 		{ label: 'GitHub', href: github, icon: 'github' }
 	],
-	topics: []
+	topics: [],
+	paths: [{ url: '/docs', dir: 'docs/dist' }]
 });

@@ -231,4 +231,26 @@ test("readme states what the package is", () => {
 	assert.match(readme, /does not try to fool AI detectors/);
 	assert.match(readme, /Spray the prose, not the author/);
 	assert.match(readme, /Earn the word/);
+	assert.match(readme, /aibreze\.com\/docs/);
+});
+
+test("docs nav has a markdown file for every item", () => {
+	const nav = JSON.parse(
+		readFileSync(join(packageRoot, "site", "docs", "_nav.json"), "utf8"),
+	) as { sections: Array<{ items: Array<{ id: string }> }> };
+	for (const section of nav.sections) {
+		for (const item of section.items) {
+			assert.ok(
+				existsSync(join(packageRoot, "site", "docs", `${item.id}.md`)),
+				item.id,
+			);
+		}
+	}
+	execFileSync("node", [join(packageRoot, "site", "scripts", "build-docs.mjs")], {
+		cwd: join(packageRoot, "site"),
+	});
+	assert.ok(existsSync(join(packageRoot, "site", "docs", "dist", "index.html")));
+	assert.ok(
+		existsSync(join(packageRoot, "site", "docs", "dist", "skill", "index.html")),
+	);
 });
