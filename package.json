@@ -1,6 +1,6 @@
 {
 	"name": "aibreze",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"private": false,
 	"type": "module",
 	"description": "Installable writing rule set for AI agents. Sprays the performative, faux-profound register off prose. Core bans, smell audit, claims review, genre overlays.",
