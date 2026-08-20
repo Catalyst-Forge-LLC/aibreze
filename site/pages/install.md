@@ -6,7 +6,7 @@ order: 1
 
 Requires **Node.js 20+**. The package is [`aibreze`](https://www.npmjs.com/package/aibreze) on npm. v1 has no CLI.
 
-To install from this domain, use the [skill](/skill). The raw file is https://aibreze.com/skills/aibreze/SKILL.md
+To install from this domain, use the [skill](/skill). That is a folder (digest plus the law files), not a single Markdown URL.
 
 ```bash
 pnpm add -D aibreze

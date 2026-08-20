@@ -1,5 +1,6 @@
 site/static/skills/
 site/static/rules/
+.cursor/skills/aibreze/rules/
 node_modules/
 dist/
 .DS_Store

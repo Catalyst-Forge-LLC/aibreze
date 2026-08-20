@@ -2,9 +2,8 @@
 name: aibreze
 description: >-
   Editorial rules for publishable prose. Use when drafting or revising
-  pages, essays, emails, or ship posts, or when the user asks to spray,
-  audit, run aiBreze, or do a publish pass. Do not use for code, diffs,
-  or chat-only answers.
+  pages, essays, emails, or ship posts, or to spray, audit, run
+  aiBreze, or do a publish pass. Not for code, diffs, or chat-only.
 ---
 
 # aiBreze
@@ -17,13 +16,14 @@ conflicts with `core.md`, `core.md` wins.
 
 ## Full law
 
-Prefer a local `rules/core.md` (this repo, or `node_modules/aibreze/rules/core.md`).
-If that file is not on disk, fetch `https://aibreze.com/rules/core.md`.
+Read `rules/core.md` in this folder. Smell audit: `rules/audit.md`.
+Claims: `rules/claims.md`. Do not paste an audit or claims prompt
+without `core.md` in context.
 
-Smell audit: `rules/audit.md` or `https://aibreze.com/rules/audit.md`.
-Claims: `rules/claims.md` or `https://aibreze.com/rules/claims.md`.
-
-Do not paste an audit or claims prompt without `core.md` in context.
+If this folder has no `rules/` directory, look for `rules/core.md` at
+the project root or in `node_modules/aibreze/rules/`. Last resort:
+https://aibreze.com/rules/core.md (same host for `audit.md`,
+`claims.md`, and the genre files).
 
 ## Target
 
@@ -45,21 +45,21 @@ Do not fork `core.md`. Do not restate the hard bans.
 
 ## When to open a genre file
 
-If you are drafting or revising a specific surface, read that file too.
-Local path first, then `https://aibreze.com/rules/<file>`.
+If you are drafting or revising a specific surface, read that file
+from this folder.
 
-- Page / marketing site: `landing.md`
-- Essay / talk / long argument: `essays.md`
-- Email / DM / text to someone you know: `outreach.md`
-- Ship post / announcement: `launch.md`
+- Page / marketing site: `rules/landing.md`
+- Essay / talk / long argument: `rules/essays.md`
+- Email / DM / text to someone you know: `rules/outreach.md`
+- Ship post / announcement: `rules/launch.md`
 
 Reference docs, changelogs, API pages, UI chrome: core only. Do not
 inject a scene to satisfy essay law.
 
 ## Publish pass
 
-Paste `core.md` plus the overlay, then `audit.md` or `claims.md`. Both
-are additive. Do not paste the prompt alone.
+Read `rules/core.md` plus the overlay, then `rules/audit.md` or
+`rules/claims.md`. Both are additive. Do not use the prompt alone.
 
 ## Example asks
 

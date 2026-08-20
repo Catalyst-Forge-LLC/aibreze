@@ -133,15 +133,15 @@ purpose.
 
 ## Skill
 
-Host-agnostic `SKILL.md` for Claude Code and anything else that loads a
-named folder. Raw file on the site:
-
-https://aibreze.com/skills/aibreze/SKILL.md
-
-Copy `skills/aibreze/` (or `node_modules/aibreze/skills/aibreze/`) to
+A folder: `SKILL.md` plus the rule files it reads. Copy
+`skills/aibreze/` (or `node_modules/aibreze/skills/aibreze/`) to
 `~/.claude/skills/aibreze/`, `.claude/skills/aibreze/`, or
-`.cursor/skills/aibreze/`. Full law is next to it on
-https://aibreze.com/rules/core.md.
+`.cursor/skills/aibreze/`.
+
+On claude.ai, upload https://aibreze.com/skills/aibreze.zip under
+Settings, Customize, Skills. The zip root is the `aibreze` folder.
+
+The digest alone is https://aibreze.com/skills/aibreze/SKILL.md.
 
 ## Overlay shape
 

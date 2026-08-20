@@ -48,6 +48,6 @@ Cadence is a budget: flag density, not a single em dash or a single "Here's…".
 pnpm add -D aibreze
 ```
 
-The package is on [npm](https://www.npmjs.com/package/aibreze). Point Claude at [the skill](/skill). [Install and agent setup →](/install)
+The package is on [npm](https://www.npmjs.com/package/aibreze). [Install the skill](/skill) as a folder. [Install and agent setup →](/install)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.

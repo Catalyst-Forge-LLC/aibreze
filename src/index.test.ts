@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 import { test } from "node:test";
@@ -120,10 +120,35 @@ test("skill has hybrid frontmatter and does not restate the escalation ban", () 
 		"utf8",
 	);
 	assert.match(skill, /^---\nname: aibreze\n/m);
-	assert.match(skill, /Do not use for code, diffs/);
+	assert.match(skill, /Not for code, diffs/);
+	assert.match(skill, /Read `rules\/core\.md` in this folder/);
 	assert.match(skill, /https:\/\/aibreze\.com\/rules\/core\.md/);
 	assert.match(skill, /When to open a genre file/);
 	assert.doesNotMatch(skill, /It's not just X/i);
+	const folded =
+		skill
+			.match(/^---\n([\s\S]*?)\n---/)?.[1]
+			?.match(/description:\s*>-\n([\s\S]*)$/)?.[1]
+			?.replace(/\s+/g, " ")
+			.trim() ?? "";
+	assert.ok(folded.length > 0 && folded.length <= 200, `skill description is ${folded.length} chars`);
+});
+
+test("skill folder carries canon markdown and omits cursor.mdc", () => {
+	const skillRules = join(packageRoot, "skills", "aibreze", "rules");
+	const canonNames = readdirSync(join(packageRoot, "rules"))
+		.filter((name) => name.endsWith(".md"))
+		.sort();
+	assert.deepEqual(readdirSync(skillRules).sort(), canonNames);
+	for (const name of canonNames) {
+		assert.equal(
+			readFileSync(join(skillRules, name), "utf8"),
+			readFileSync(join(packageRoot, "rules", name), "utf8"),
+			name,
+		);
+	}
+	assert.ok(!existsSync(join(skillRules, "cursor.mdc")));
+	assert.ok(!existsSync(join(packageRoot, "skills", "aibreze", "cursor.mdc")));
 });
 
 test("package exports and packs the skill folder", () => {
@@ -161,7 +186,39 @@ test("static sync copies skill and core onto the site", () => {
 	assert.ok(
 		existsSync(join(packageRoot, "site", "static", "rules", "audit.md")),
 	);
+	const siteSkillCore = readFileSync(
+		join(packageRoot, "site", "static", "skills", "aibreze", "rules", "core.md"),
+		"utf8",
+	);
+	assert.equal(siteSkillCore, coreSrc);
+	assert.ok(
+		!existsSync(
+			join(packageRoot, "site", "static", "skills", "aibreze", "rules", "cursor.mdc"),
+		),
+	);
+	const zipPath = join(packageRoot, "site", "static", "skills", "aibreze.zip");
+	assert.ok(existsSync(zipPath));
+	const zip = readFileSync(zipPath);
+	assert.equal(zip.readUInt32LE(0), 0x04034b50);
+	const zipNames = storeZipNames(zip);
+	assert.ok(zipNames.includes("aibreze/SKILL.md"));
+	assert.ok(zipNames.includes("aibreze/rules/core.md"));
+	assert.ok(!zipNames.some((name) => name.includes("cursor.mdc")));
 });
+
+function storeZipNames(buf: Buffer): string[] {
+	const names: string[] = [];
+	let i = 0;
+	while (i + 30 <= buf.length) {
+		if (buf.readUInt32LE(i) !== 0x04034b50) break;
+		const compSize = buf.readUInt32LE(i + 18);
+		const nameLen = buf.readUInt16LE(i + 26);
+		const extraLen = buf.readUInt16LE(i + 28);
+		names.push(buf.subarray(i + 30, i + 30 + nameLen).toString("utf8"));
+		i += 30 + nameLen + extraLen + compSize;
+	}
+	return names;
+}
 
 test("readme states what the package is", () => {
 	const readme = readFileSync(join(packageRoot, "README.md"), "utf8");
