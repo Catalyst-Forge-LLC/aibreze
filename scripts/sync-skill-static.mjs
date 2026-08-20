@@ -126,7 +126,7 @@ function writeStoreZip(entries, destPath) {
 
 const ruleNames = ruleMarkdownNames();
 syncDir(rulesCanon, skillRulesDir, ruleNames);
-syncDir(rulesCanon, siteRulesDir, ruleNames);
+syncDir(rulesCanon, siteRulesDir, [...ruleNames, "cursor.mdc"]);
 copySkillTree(siteSkillDir);
 copySkillTree(cursorSkillDir);
 

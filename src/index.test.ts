@@ -186,6 +186,10 @@ test("static sync copies skill and core onto the site", () => {
 	assert.ok(
 		existsSync(join(packageRoot, "site", "static", "rules", "audit.md")),
 	);
+	assert.equal(
+		readFileSync(join(packageRoot, "site", "static", "rules", "cursor.mdc"), "utf8"),
+		readFileSync(join(packageRoot, "rules", "cursor.mdc"), "utf8"),
+	);
 	const siteSkillCore = readFileSync(
 		join(packageRoot, "site", "static", "skills", "aibreze", "rules", "core.md"),
 		"utf8",

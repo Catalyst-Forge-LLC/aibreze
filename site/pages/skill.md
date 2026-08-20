@@ -1,34 +1,50 @@
 ---
 title: Skill
-description: Install the aiBreze skill as a folder. Digest plus the law files.
+description: Get the folder from a ZIP, a git clone, or npm.
 order: 1
 ---
 
-The skill is a folder: `SKILL.md` plus the rule files it reads. Put that folder here:
+The skill is a folder: `SKILL.md` plus the rule files it reads. Get that folder one of these ways, then put it in a skills directory.
 
-- Claude Code, every project: `~/.claude/skills/aibreze/`
-- Claude Code, one repo: `.claude/skills/aibreze/`
-- Cursor: `.cursor/skills/aibreze/` or `~/.cursor/skills/aibreze/`
-
-On claude.ai, download the ZIP and upload it under Settings, Customize, Skills. Zip the folder, not the files inside it.
+## Download the ZIP
 
 [Download aibreze.zip](/skills/aibreze.zip)
 
-## Copy it from
+Unpack it. Move the `aibreze` folder (the one that contains `SKILL.md`) into a skills directory.
 
-GitHub: `skills/aibreze/`
+On claude.ai, skip unpacking. Upload the ZIP under Settings, Customize, Skills.
 
-Or npm:
+## Clone the repo
+
+```bash
+git clone https://github.com/Catalyst-Forge-LLC/aibreze.git
+```
+
+Copy `skills/aibreze/` from the clone into a skills directory.
+
+## Install from npm
 
 ```bash
 pnpm add -D aibreze
 ```
 
-Then copy `node_modules/aibreze/skills/aibreze/` into one of the directories above.
+Copy `node_modules/aibreze/skills/aibreze/` into a skills directory.
+
+## Skills directories
+
+- Claude Code, every project: `~/.claude/skills/aibreze/`
+- Claude Code, one repo: `.claude/skills/aibreze/`
+- Cursor: `.cursor/skills/aibreze/` or `~/.cursor/skills/aibreze/`
+
+The folder you drop in must be named `aibreze` and must contain `SKILL.md`.
 
 ## Always-on Cursor rule
 
-Copy `rules/cursor.mdc` to `.cursor/rules/aibreze.mdc`. That stays in context even when the skill does not fire. Overlay and the rest: [Install](/install).
+Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/aibreze.mdc`. That file is not in the skill ZIP.
+
+From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/aibreze/rules/cursor.mdc`. Same destination.
+
+It stays loaded even when the skill does not run. Overlay: [Install](/install).
 
 ## One-off
 
