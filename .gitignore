@@ -1,3 +1,5 @@
+site/static/skills/
+site/static/rules/
 node_modules/
 dist/
 .DS_Store

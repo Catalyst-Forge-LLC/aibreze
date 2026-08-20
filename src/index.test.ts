@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { execFileSync } from "node:child_process";
 import { test } from "node:test";
 import {
 	assertRulesPresent,
@@ -111,6 +112,55 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /When to open a genre file/);
 	assert.match(card, /landing\.md/);
 	assert.match(card, /essays\.md/);
+});
+
+test("skill has hybrid frontmatter and does not restate the escalation ban", () => {
+	const skill = readFileSync(
+		join(packageRoot, "skills", "aibreze", "SKILL.md"),
+		"utf8",
+	);
+	assert.match(skill, /^---\nname: aibreze\n/m);
+	assert.match(skill, /Do not use for code, diffs/);
+	assert.match(skill, /https:\/\/aibreze\.com\/rules\/core\.md/);
+	assert.match(skill, /When to open a genre file/);
+	assert.doesNotMatch(skill, /It's not just X/i);
+});
+
+test("package exports and packs the skill folder", () => {
+	const pkg = JSON.parse(
+		readFileSync(join(packageRoot, "package.json"), "utf8"),
+	) as { files: string[]; exports: Record<string, unknown> };
+	assert.ok(pkg.files.includes("skills"));
+	assert.ok("./skills/*" in pkg.exports);
+});
+
+test("static sync copies skill and core onto the site", () => {
+	execFileSync("node", [join(packageRoot, "scripts", "sync-skill-static.mjs")], {
+		cwd: packageRoot,
+	});
+	const skillSrc = readFileSync(
+		join(packageRoot, "skills", "aibreze", "SKILL.md"),
+		"utf8",
+	);
+	const skillStatic = readFileSync(
+		join(packageRoot, "site", "static", "skills", "aibreze", "SKILL.md"),
+		"utf8",
+	);
+	const skillCursor = readFileSync(
+		join(packageRoot, ".cursor", "skills", "aibreze", "SKILL.md"),
+		"utf8",
+	);
+	assert.equal(skillStatic, skillSrc);
+	assert.equal(skillCursor, skillSrc);
+	const coreSrc = readFileSync(join(packageRoot, "rules", "core.md"), "utf8");
+	const coreStatic = readFileSync(
+		join(packageRoot, "site", "static", "rules", "core.md"),
+		"utf8",
+	);
+	assert.equal(coreStatic, coreSrc);
+	assert.ok(
+		existsSync(join(packageRoot, "site", "static", "rules", "audit.md")),
+	);
 });
 
 test("readme states what the package is", () => {

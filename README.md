@@ -79,6 +79,7 @@ pnpm add -D aibreze
 | `rules/outreach.md` | Email / DM / text. Relationship first, one ask. |
 | `rules/launch.md` | Shipping posts. Open on a specific moment or the artifact, not the announcement formula. |
 | `rules/cursor.mdc` | Always-on agent digest. Copy into `.cursor/rules/`. |
+| `skills/aibreze/` | Host-agnostic skill. Copy into `.claude/skills/` or `.cursor/skills/`. |
 
 ## Why "aiBreze"?
 
@@ -129,6 +130,18 @@ purpose.
 6. For a publish pass: paste `rules/core.md` plus the overlay, then
    `rules/audit.md` or `rules/claims.md` (both are additive; do not paste
    the prompt alone)
+
+## Skill
+
+Host-agnostic `SKILL.md` for Claude Code and anything else that loads a
+named folder. Raw file on the site:
+
+https://aibreze.com/skills/aibreze/SKILL.md
+
+Copy `skills/aibreze/` (or `node_modules/aibreze/skills/aibreze/`) to
+`~/.claude/skills/aibreze/`, `.claude/skills/aibreze/`, or
+`.cursor/skills/aibreze/`. Full law is next to it on
+https://aibreze.com/rules/core.md.
 
 ## Overlay shape
 

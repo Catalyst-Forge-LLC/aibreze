@@ -30,12 +30,14 @@
 			"default": "./dist/index.js"
 		},
 		"./rules/*": "./rules/*",
+		"./skills/*": "./skills/*",
 		"./package.json": "./package.json"
 	},
 	"files": [
 		"dist/index.js",
 		"dist/index.d.ts",
 		"rules",
+		"skills",
 		"README.md",
 		"LICENSE"
 	],

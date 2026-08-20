@@ -16,7 +16,7 @@ aiBreze does not determine whether a human or a model wrote something, and it do
 
 A composable editorial system: core law, genre extras, a project overlay, then a smell audit and a claims pass.
 
-[Install](/install) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
+[Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
 
 ## Earn the word.
 
@@ -48,6 +48,6 @@ Cadence is a budget: flag density, not a single em dash or a single "Here's…".
 pnpm add -D aibreze
 ```
 
-The package is on [npm](https://www.npmjs.com/package/aibreze). [Install and agent setup →](/install)
+The package is on [npm](https://www.npmjs.com/package/aibreze). Point Claude at [the skill](/skill). [Install and agent setup →](/install)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.

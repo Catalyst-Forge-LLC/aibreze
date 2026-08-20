@@ -1,7 +1,7 @@
 ---
 title: About
 description: Why the name is a spray, and why the author is not the subject.
-order: 2
+order: 3
 ---
 
 People who live with a smell stop noticing it. Generated prose does the same trick. Charles Duhigg tells the household version in *The Power of Habit* (2012): an odor-eliminating spray that flopped until the company realized habituation was the problem, then sold the bottle as the reward at the end of a cleaning habit. This package is that move for writing. Make the smell visible, then take it off. The original tale is Duhigg's. Read him.
