@@ -78,7 +78,7 @@ test("claims prompt has a paste slot", () => {
 });
 
 test("genre files point at core instead of restating it", () => {
-	for (const id of ["essays", "landing", "outreach", "launch"] as const) {
+	for (const id of ["essays", "landing", "outreach", "launch", "civic"] as const) {
 		const text = readRule(id);
 		assert.match(text, /core\.md/, `${id} should point at core.md`);
 		assert.doesNotMatch(
@@ -112,6 +112,16 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /When to open a genre file/);
 	assert.match(card, /landing\.md/);
 	assert.match(card, /essays\.md/);
+	assert.match(card, /civic\.md/);
+});
+
+test("civic shifts register and core names the floor", () => {
+	const civic = readRule("civic");
+	assert.match(civic, /core\.md/);
+	assert.match(civic, /Ceremony is earned/);
+	assert.match(civic, /colleague voice is wrong/i);
+	assert.match(civic, /Respectfully submitted/);
+	assert.match(readRule("core"), /Clean is a\nfloor/);
 });
 
 test("skill has hybrid frontmatter and does not restate the escalation ban", () => {

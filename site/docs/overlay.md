@@ -4,7 +4,7 @@ title: Overlay
 
 Keep a short file in the consuming project. Point at this package, then only:
 
-- Pronouns per surface
+- Pronouns per surface (and who speaks on a filing)
 - Terms that pass the applicability heuristic *here*, with one-line why
 - Protected maxims / testimony
 - Genre extras that are house law

@@ -1,7 +1,7 @@
 # AI smell audit prompt
 
 Reusable prompt for auditing any copy (landing pages, emails, blog posts,
-social posts, docs) for signs it was AI-generated or AI-flavored.
+social posts, docs, filings) for signs it was AI-generated or AI-flavored.
 
 **This prompt is additive.** Paste into a model, in order:
 

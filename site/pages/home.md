@@ -37,7 +37,7 @@ Markdown you install and point an agent at. v1 has no CLI.
 | File | Use |
 | --- | --- |
 | `core.md` | Shared law. Always. |
-| `essays.md` / `landing.md` / `outreach.md` / `launch.md` | Surface extras only. Do not copy the bans. |
+| `essays.md` / `landing.md` / `outreach.md` / `launch.md` / `civic.md` | Surface extras only. Do not copy the bans. |
 | `audit.md` | Smell. |
 | `claims.md` | Substance first, then voice. |
 | `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |

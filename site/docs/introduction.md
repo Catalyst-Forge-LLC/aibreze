@@ -20,6 +20,8 @@ The problem is unearned language, not the dictionary. "Transformative" is fine i
 
 Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn their place; most don't.
 
+The colleague voice is the default, not the only register. Filings use [`civic.md`](/docs/files). Clean is a floor, not a personality.
+
 Cadence tells are a budget: flag density, not a single em dash. Headings should name the thing. One earned dash is not a finding.
 
 `claims.md` is substance first, voice after. A clean-smelling wrong essay is still wrong.

@@ -53,6 +53,7 @@ It stays loaded even when the skill does not run. Overlay: [Overlay](/docs/overl
 - Spray this page.
 - Run aiBreze on the README.
 - Publish pass on the About copy.
+- Spray this comment letter.
 
 ## One-off
 

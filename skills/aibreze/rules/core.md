@@ -7,9 +7,11 @@ Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
 
 This file is the shared core. Genre files add surface-specific rules.
 They are additive: point here, then write only what that surface adds.
-Do not copy the hard bans, cadence budgets, or register into each genre
-file. Projects add a short overlay for dialect carve-outs and pronoun
-policy. Do not copy this file into each repo and then diverge.
+Do not copy the hard bans or cadence budgets into each genre file.
+Register stays in core as the default; a genre file may shift it by
+name (`civic.md`). Projects add a short overlay for dialect carve-outs
+and pronoun policy. Do not copy this file into each repo and then
+diverge.
 
 Judge the sentence, not the byline. Human prose in this register gets
 sprayed too. Distinctive dialect and verbatim testimony still stand.
@@ -21,7 +23,7 @@ Protected maxims (do not rewrite into a cleverer synonym):
 
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
-`cursor.mdc` (agent pocket card).
+`civic.md`, `cursor.mdc` (agent pocket card).
 
 The name is a household joke. People who live with a smell stop noticing
 it. Generated prose does the same trick: the tics fade into the furniture
@@ -45,6 +47,16 @@ Contractions. Short sentences mixed with longer ones. Point first, support
 second. Concrete over abstract. Em dashes earn their place, like everything
 else, and most don't. A comma, period, or colon usually does the job with
 less drama.
+
+This is the **default** for essays, product pages, and internal docs. It
+is not the only register. Genre files shift it. Civic and institutional
+writing ([`civic.md`](./civic.md)) earns ceremony and loosens
+contractions. Overlay that file. Do not force the colleague voice into
+a filing.
+
+The target is the absence of theater, not a personality. Clean is a
+floor. If every surface sounded like the same colleague, that would be
+a new smell. Overlay the register for the room you are in.
 
 Pronouns are a project decision (I / we / you). Pick one per surface and
 hold it. Do not let an agent default to corporate "we" on a personal essay,
@@ -311,7 +323,8 @@ Good: "Run it on a computer you leave turned on."
 
 Keep a short file in the consuming project. It should contain:
 
-- Pronoun policy per surface (essay I, landing we, outreach I, …)
+- Pronoun policy per surface (essay I, landing we, outreach I, civic
+  as the overlay names the filer, …)
 - Terms that pass the applicability heuristic here, with one-line why
 - Protected maxims / testimony the agent must not "de-smell"
   (this package: Earn the word. Spray the prose, not the author.)
@@ -319,5 +332,5 @@ Keep a short file in the consuming project. It should contain:
 
 Do not restate the hard bans. Point at this package. Genre files in
 this package follow the same rule. They may grant a named exception
-(one concrete landing chant; talks may signpost). They may not silently
-rewrite a ban.
+(one concrete landing chant; talks may signpost; civic may shift
+register). They may not silently rewrite a ban.

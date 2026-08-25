@@ -1,9 +1,9 @@
 ---
 name: aibreze
 description: >-
-  Editorial rules for publishable prose. Use when drafting or revising
-  pages, essays, emails, or ship posts, or to spray, audit, run
-  aiBreze, or do a publish pass. Not for code, diffs, or chat-only.
+  Editorial rules for publishable prose. Use when drafting pages,
+  essays, emails, posts, or filings, or to spray, audit, run aiBreze,
+  or do a publish pass. Not for code, diffs, or chat-only.
 ---
 
 # aiBreze
@@ -27,10 +27,11 @@ https://aibreze.com/rules/core.md (same host for `audit.md`,
 
 ## Target
 
-Sharp, slightly tired colleague. Direct > clever. Clear > profound.
-Useful > insightful-sounding. Em dashes earn their place; most don't.
-Judge the sentence, not the byline. Spray the prose, not the author.
-Earn the word.
+Sharp, slightly tired colleague. That is the default, not the only
+register. Direct > clever. Clear > profound. Useful >
+insightful-sounding. Em dashes earn their place; most don't. Judge the
+sentence, not the byline. Spray the prose, not the author. Earn the
+word. Filings use `rules/civic.md`.
 
 ## Overlay
 
@@ -52,6 +53,7 @@ from this folder.
 - Essay / talk / long argument: `rules/essays.md`
 - Email / DM / text to someone you know: `rules/outreach.md`
 - Ship post / announcement: `rules/launch.md`
+- Filing / testimony / legal-adjacent: `rules/civic.md`
 
 Reference docs, changelogs, API pages, UI chrome: core only. Do not
 inject a scene to satisfy essay law.
@@ -66,3 +68,4 @@ Read `rules/core.md` plus the overlay, then `rules/audit.md` or
 - Spray this page.
 - Run aiBreze on the README.
 - Publish pass on the About copy.
+- Spray this comment letter.

@@ -1,7 +1,7 @@
 # Claims + voice review prompt
 
 Reusable prompt for a hard review of any essay, landing page,
-announcement, or internal doc. It answers two questions at once:
+announcement, filing, or internal doc. It answers two questions at once:
 
 1. **Does what we're claiming hold up?** (truth, scope, evidence,
    overclaim)

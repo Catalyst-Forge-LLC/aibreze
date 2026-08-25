@@ -63,5 +63,6 @@ Same files, no install:
 - Spray this page.
 - Run aiBreze on the README.
 - Publish pass on the About copy.
+- Spray this comment letter.
 
 It runs when you draft or revise publishable prose, or when you name it. Not on code, diffs, or chat-only answers.

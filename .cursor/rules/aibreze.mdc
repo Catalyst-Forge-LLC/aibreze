@@ -18,10 +18,11 @@ not copy genre law into this file.
 
 ## Target
 
-Sharp, slightly tired colleague. Direct > clever. Clear > profound.
-Useful > insightful-sounding. Em dashes earn their place; most don't.
-Judge the sentence, not the byline. Spray the prose, not the author.
-Earn the word.
+Sharp, slightly tired colleague. Default register, not the only one.
+Direct > clever. Clear > profound. Useful > insightful-sounding. Em
+dashes earn their place; most don't. Judge the sentence, not the
+byline. Spray the prose, not the author. Earn the word. Filings:
+[`rules/civic.md`](../../rules/civic.md).
 
 Site and README speak as the product (aiBreze / it). No corporate we.
 No builder I.
@@ -87,6 +88,7 @@ If you are drafting or revising a specific surface, read that file too.
 - Essay / talk / long argument: [`rules/essays.md`](../../rules/essays.md)
 - Email / DM / text to someone you know: [`rules/outreach.md`](../../rules/outreach.md)
 - Ship post / announcement: [`rules/launch.md`](../../rules/launch.md)
+- Filing / testimony / legal-adjacent: [`rules/civic.md`](../../rules/civic.md)
 
 Reference docs, changelogs, API pages, UI chrome: core only. Do not
 inject a scene to satisfy essay law.

@@ -13,6 +13,7 @@ export const ruleIds = [
 	"landing",
 	"outreach",
 	"launch",
+	"civic",
 ] as const;
 
 export type RuleId = (typeof ruleIds)[number];
@@ -25,6 +26,7 @@ export const files = {
 	landing: join(rulesDir, "landing.md"),
 	outreach: join(rulesDir, "outreach.md"),
 	launch: join(rulesDir, "launch.md"),
+	civic: join(rulesDir, "civic.md"),
 	cursor: join(rulesDir, "cursor.mdc"),
 } as const;
 
@@ -69,6 +71,11 @@ export const catalog: ReadonlyArray<{
 		id: "launch",
 		title: "Launch / announcement",
 		use: "Shipping posts. Open on a specific moment or the artifact, not the announcement formula.",
+	},
+	{
+		id: "civic",
+		title: "Civic / institutional",
+		use: "Filings, testimony, legal-adjacent memos. Ceremony is earned; colleague voice is wrong here.",
 	},
 	{
 		id: "cursor",
