@@ -5,7 +5,8 @@ essays, talks, and other long argumentative prose.
 
 It is not the file for reference docs, changelogs, API pages, or UI
 chrome. Those get core only. Same house register is fine. Required
-anecdote is not.
+anecdote is not. Journal articles and working papers use
+[`academic.md`](./academic.md), not this file's scene rule.
 
 ---
 

@@ -20,7 +20,7 @@ Sharp, slightly tired colleague. Default register, not the only one.
 Direct > clever. Clear > profound. Useful > insightful-sounding. Em
 dashes earn their place; most don't. Judge the sentence, not the
 byline. Spray the prose, not the author. Earn the word. Filings:
-[`civic.md`](./civic.md).
+[`civic.md`](./civic.md). Papers: [`academic.md`](./academic.md).
 
 ## Hard bans
 
@@ -95,6 +95,7 @@ digest.
 - Email / DM / text to someone you know: [`outreach.md`](./outreach.md)
 - Ship post / announcement: [`launch.md`](./launch.md)
 - Filing / testimony / legal-adjacent: [`civic.md`](./civic.md)
+- Paper / methods / lit review: [`academic.md`](./academic.md)
 
 Reference docs, changelogs, API pages, UI chrome: core only. Do not
 inject a scene to satisfy essay law.

@@ -9,7 +9,7 @@ This file is the shared core. Genre files add surface-specific rules.
 They are additive: point here, then write only what that surface adds.
 Do not copy the hard bans or cadence budgets into each genre file.
 Register stays in core as the default; a genre file may shift it by
-name (`civic.md`). Projects add a short overlay for dialect carve-outs
+name (`civic.md`, `academic.md`). Projects add a short overlay for dialect carve-outs
 and pronoun policy. Do not copy this file into each repo and then
 diverge.
 
@@ -23,7 +23,7 @@ Protected maxims (do not rewrite into a cleverer synonym):
 
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
-`civic.md`, `cursor.mdc` (agent pocket card).
+`civic.md`, `academic.md`, `cursor.mdc` (agent pocket card).
 
 The name is a household joke. People who live with a smell stop noticing
 it. Generated prose does the same trick: the tics fade into the furniture
@@ -51,8 +51,10 @@ less drama.
 This is the **default** for essays, product pages, and internal docs. It
 is not the only register. Genre files shift it. Civic and institutional
 writing ([`civic.md`](./civic.md)) earns ceremony and loosens
-contractions. Overlay that file. Do not force the colleague voice into
-a filing.
+contractions. Scholarly papers ([`academic.md`](./academic.md)) keep
+the colleague close and add precision; they do not put on the academic
+costume. Overlay the file for the room. Do not force the default into
+a filing, and do not "elevate" a paper into Moreover / Thus.
 
 The target is the absence of theater, not a personality. Clean is a
 floor. If every surface sounded like the same colleague, that would be
@@ -324,7 +326,7 @@ Good: "Run it on a computer you leave turned on."
 Keep a short file in the consuming project. It should contain:
 
 - Pronoun policy per surface (essay I, landing we, outreach I, civic
-  as the overlay names the filer, …)
+  as the overlay names the filer, academic as the venue uses we or I, …)
 - Terms that pass the applicability heuristic here, with one-line why
 - Protected maxims / testimony the agent must not "de-smell"
   (this package: Earn the word. Spray the prose, not the author.)
@@ -332,5 +334,5 @@ Keep a short file in the consuming project. It should contain:
 
 Do not restate the hard bans. Point at this package. Genre files in
 this package follow the same rule. They may grant a named exception
-(one concrete landing chant; talks may signpost; civic may shift
-register). They may not silently rewrite a ban.
+(one concrete landing chant; talks may signpost; civic and academic
+may shift register). They may not silently rewrite a ban.

@@ -17,7 +17,7 @@ Short version on the site: [Install](/install).
 1. Copy `node_modules/aibreze/rules/cursor.mdc` to `.cursor/rules/aibreze.mdc`
 2. Point "Full rules" at `node_modules/aibreze/rules/core.md`
 3. Keep a project [overlay](/docs/overlay)
-4. When drafting a page, essay, note, ship post, or filing, open that genre file
+4. When drafting a page, essay, note, ship post, filing, or paper, open that genre file
 5. For a publish pass: paste `rules/core.md` plus the overlay, then `rules/audit.md` or `rules/claims.md`. Do not paste the prompt alone.
 
 The pocket card stays in every Cursor chat. The [skill](/docs/skill) loads when you draft publishable prose, or when you name it.
@@ -34,6 +34,7 @@ The pocket card stays in every Cursor chat. The [skill](/docs/skill) loads when 
 | `rules/outreach.md` | Email / DM / text. |
 | `rules/launch.md` | Shipping posts. |
 | `rules/civic.md` | Filings and testimony. |
+| `rules/academic.md` | Papers and methods. |
 | `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
 | `skills/aibreze/` | Skill folder. See [Skill](/docs/skill). |
 

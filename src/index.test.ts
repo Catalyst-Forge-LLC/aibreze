@@ -78,7 +78,7 @@ test("claims prompt has a paste slot", () => {
 });
 
 test("genre files point at core instead of restating it", () => {
-	for (const id of ["essays", "landing", "outreach", "launch", "civic"] as const) {
+	for (const id of ["essays", "landing", "outreach", "launch", "civic", "academic"] as const) {
 		const text = readRule(id);
 		assert.match(text, /core\.md/, `${id} should point at core.md`);
 		assert.doesNotMatch(
@@ -113,6 +113,7 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /landing\.md/);
 	assert.match(card, /essays\.md/);
 	assert.match(card, /civic\.md/);
+	assert.match(card, /academic\.md/);
 });
 
 test("civic shifts register and core names the floor", () => {
@@ -122,6 +123,15 @@ test("civic shifts register and core names the floor", () => {
 	assert.match(civic, /colleague voice is wrong/i);
 	assert.match(civic, /Respectfully submitted/);
 	assert.match(readRule("core"), /Clean is a\nfloor/);
+});
+
+test("academic rejects the costume and keeps the colleague close", () => {
+	const academic = readRule("academic");
+	assert.match(academic, /core\.md/);
+	assert.match(academic, /Do not put on the academic costume/);
+	assert.match(academic, /This paper seeks to/);
+	assert.match(academic, /essays\.md/);
+	assert.doesNotMatch(academic, /passive voice is required/i);
 });
 
 test("skill has hybrid frontmatter and does not restate the escalation ban", () => {

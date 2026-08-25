@@ -4,8 +4,9 @@ Apply [`core.md`](./core.md) first. This file is the genre overlay for
 regulatory comment letters, government filings, testimony, legal-adjacent
 memos, and compliance notes.
 
-It is not the file for product pages, essays, outreach, or ship posts.
-Those have their own genre files. Reference docs still get core only.
+It is not the file for product pages, essays, outreach, ship posts, or
+papers. Those have their own genre files. Reference docs still get
+core only.
 
 The default colleague voice is wrong here. Overlay this file. Do not
 obey the tired-colleague register in a captioned filing.

@@ -14,11 +14,12 @@ Markdown you install and point an agent at. Canon lives in `rules/` in this repo
 | `rules/outreach.md` | Email / DM / text. Relationship first, one ask. |
 | `rules/launch.md` | Shipping posts. Open on a specific moment or the artifact. |
 | `rules/civic.md` | Filings, testimony, legal-adjacent memos. Ceremony is earned. |
+| `rules/academic.md` | Papers and methods. Precision and citations, not the costume. |
 | `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
 | `skills/aibreze/` | Host-agnostic skill. `SKILL.md` plus `rules/*.md`. |
 
 Genre files assume `core.md` and are additive: surface law only. Do not copy the bans. Do not fork `core.md`.
 
-When drafting a specific surface, open that genre file. Filings and testimony: `civic.md`. Reference docs, changelogs, API pages, UI chrome: core only.
+When drafting a specific surface, open that genre file. Filings and testimony: `civic.md`. Papers: `academic.md`. Reference docs, changelogs, API pages, UI chrome: core only.
 
-Raw on this host: [core.md](/rules/core.md), [audit.md](/rules/audit.md), [claims.md](/rules/claims.md), [civic.md](/rules/civic.md), [cursor.mdc](/rules/cursor.mdc).
+Raw on this host: [core.md](/rules/core.md), [audit.md](/rules/audit.md), [claims.md](/rules/claims.md), [civic.md](/rules/civic.md), [academic.md](/rules/academic.md), [cursor.mdc](/rules/cursor.mdc).
