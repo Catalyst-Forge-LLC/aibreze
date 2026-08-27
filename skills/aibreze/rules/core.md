@@ -23,7 +23,8 @@ Protected maxims (do not rewrite into a cleverer synonym):
 
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
-`civic.md`, `academic.md`, `cursor.mdc` (agent pocket card).
+`civic.md`, `academic.md`. The pocket card `cursor.mdc` ships in `rules/`
+on npm and on this host. It is not in the skill ZIP.
 
 The name is a household joke. People who live with a smell stop noticing
 it. Generated prose does the same trick: the tics fade into the furniture

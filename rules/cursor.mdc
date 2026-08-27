@@ -5,10 +5,13 @@ alwaysApply: true
 
 # aiBreze
 
-Full rules: the `aibreze` package, [`core.md`](./core.md). Smell audit:
-[`audit.md`](./audit.md). Claims review: [`claims.md`](./claims.md).
-Copy this file into a project's `.cursor/rules/` and point "Full rules"
-at `node_modules/aibreze/rules/core.md` plus that project's overlay.
+Full rules: `node_modules/aibreze/rules/core.md`. Smell audit and
+claims: `audit.md` and `claims.md` in that folder. Last resort:
+https://aibreze.com/rules/core.md (same host for the rest).
+
+Copy this file to `.cursor/rules/aibreze.mdc`. Open the markdown from
+`node_modules/aibreze/rules/`, not from `.cursor/rules/`. Overlay goes
+next to this copy.
 
 This file is a digest so the agent has the bans without opening core. It
 is not a second source of truth. If they conflict, `core.md` wins. Do
@@ -20,7 +23,7 @@ Sharp, slightly tired colleague. Default register, not the only one.
 Direct > clever. Clear > profound. Useful > insightful-sounding. Em
 dashes earn their place; most don't. Judge the sentence, not the
 byline. Spray the prose, not the author. Earn the word. Filings:
-[`civic.md`](./civic.md). Papers: [`academic.md`](./academic.md).
+`civic.md`. Papers: `academic.md`.
 
 ## Hard bans
 
@@ -90,12 +93,15 @@ If you are drafting or revising a specific surface, read that file too.
 Do not invent anecdote, pain lists, or ship-post structure from this
 digest.
 
-- Page / marketing site: [`landing.md`](./landing.md)
-- Essay / talk / long argument: [`essays.md`](./essays.md)
-- Email / DM / text to someone you know: [`outreach.md`](./outreach.md)
-- Ship post / announcement: [`launch.md`](./launch.md)
-- Filing / testimony / legal-adjacent: [`civic.md`](./civic.md)
-- Paper / methods / lit review: [`academic.md`](./academic.md)
+Open these from `node_modules/aibreze/rules/` (or the same names on
+https://aibreze.com/rules/):
+
+- Page / marketing site: `landing.md`
+- Essay / talk / long argument: `essays.md`
+- Email / DM / text to someone you know: `outreach.md`
+- Ship post / announcement: `launch.md`
+- Filing / testimony / legal-adjacent: `civic.md`
+- Paper / methods / lit review: `academic.md`
 
 Reference docs, changelogs, API pages, UI chrome: core only. Do not
 inject a scene to satisfy essay law.

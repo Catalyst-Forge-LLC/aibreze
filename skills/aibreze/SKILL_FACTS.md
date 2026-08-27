@@ -2,7 +2,7 @@
 skill_facts_version: "0.1.0"
 name: aibreze
 developer: Catalyst Forge
-version: "0.1.6"
+version: "0.1.8"
 status: active
 license: MIT
 kind: cursor-skill
@@ -19,11 +19,25 @@ instructions_reach:
 tools_referenced:
   []
 bundled_artifacts:
+  - path: SKILL.md
+    kind: other
   - path: rules/core.md
     kind: other
   - path: rules/audit.md
     kind: other
   - path: rules/claims.md
+    kind: other
+  - path: rules/essays.md
+    kind: other
+  - path: rules/landing.md
+    kind: other
+  - path: rules/outreach.md
+    kind: other
+  - path: rules/launch.md
+    kind: other
+  - path: rules/civic.md
+    kind: other
+  - path: rules/academic.md
     kind: other
 egress:
   telemetry: none
@@ -41,7 +55,7 @@ credits:
 | | |
 |---|---|
 | **Developer** | Catalyst Forge |
-| **Version** | 0.1.6 |
+| **Version** | 0.1.8 |
 | **Status** | active |
 | **License** | MIT |
 | **Kind** | cursor-skill |
@@ -75,9 +89,16 @@ Editorial rules for publishable prose; spray, audit, and publish-pass workflows 
 
 | Path | Kind |
 |---|---|
+| SKILL.md | other |
 | rules/core.md | other |
 | rules/audit.md | other |
 | rules/claims.md | other |
+| rules/essays.md | other |
+| rules/landing.md | other |
+| rules/outreach.md | other |
+| rules/launch.md | other |
+| rules/civic.md | other |
+| rules/academic.md | other |
 
 ## Egress
 

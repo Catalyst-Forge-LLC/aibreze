@@ -34,7 +34,7 @@ generated:
 
 Curated stack label for this repository — aimed at an under-a-minute skim.
 
-**[Open visual label →][appfacts-label]** · or scan `APP_FACTS.png`
+**[Open visual label →][appfacts-label]**
 
 [Repository](https://github.com/Catalyst-Forge-LLC/aibreze)
 
@@ -62,6 +62,6 @@ Curated stack label for this repository — aimed at an under-a-minute skim.
 - **Package Manager** — pnpm
 
 ---
-*Generated with [AppFacts](https://appfacts.dev) · Scan `APP_FACTS.png` or open the [visual label][appfacts-label]*
+*Generated with [AppFacts](https://appfacts.dev) · Open the [visual label][appfacts-label]*
 
 [appfacts-label]: https://appfacts.dev/v#af1.eNp1kU1rAyEQhv_KMmeTpVePDRRa0l42t1LKrE6Mjaui4xYb8t-Lu6GQQ29-PO_H6AVmkA8CPE4EEtA-JvohEMA1tgNnx4SpgoDMyCU3RrGdG-KsIp8b9fp8WAl1BnkBh94UNO3mUCMNKtnIonvBGdc1CEjFs10y34Km7VdeDKqz3oCE3TCAgFPIfNu7UPTRYWq5EdUZDX1O6NFQAgnRxwmuAjTFDPL9Ah4kfCf0xlFqijuLTlN0oU7kGa5ihQ3x0TqKiXK-CXRQpTHINvhuDVs1HwLyrP6C7sq1OrfeHXrdkTbUqTDFsozStGOxTrd3-n-QRDFkyyHVZsccs-x7Y_lUxq0KU79DRlczb55CMrTZ73c92nH5uusvQqie3Q

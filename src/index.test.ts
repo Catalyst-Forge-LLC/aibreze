@@ -114,6 +114,35 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /essays\.md/);
 	assert.match(card, /civic\.md/);
 	assert.match(card, /academic\.md/);
+	assert.match(card, /node_modules\/aibreze\/rules/);
+	assert.doesNotMatch(card, /\]\(\.\//);
+});
+
+test("core inventory stays true in the skill zip", () => {
+	const core = readRule("core");
+	assert.match(core, /not in the skill ZIP/);
+	assert.match(core, /cursor\.mdc/);
+});
+
+test("skill facts version and bundle match the package", () => {
+	const pkg = JSON.parse(
+		readFileSync(join(packageRoot, "package.json"), "utf8"),
+	) as { version: string };
+	const facts = readFileSync(
+		join(packageRoot, "skills", "aibreze", "SKILL_FACTS.md"),
+		"utf8",
+	);
+	assert.match(facts, new RegExp(`version: "${pkg.version}"`));
+	assert.match(facts, new RegExp(`\\| \\*\\*Version\\*\\* \\| ${pkg.version} \\|`));
+	assert.match(facts, /rules\/civic\.md/);
+	assert.match(facts, /rules\/academic\.md/);
+	assert.match(facts, /SKILL\.md/);
+});
+
+test("app facts does not point at a missing png", () => {
+	const facts = readFileSync(join(packageRoot, "APP_FACTS.md"), "utf8");
+	assert.doesNotMatch(facts, /APP_FACTS\.png/);
+	assert.match(facts, /appfacts\.dev\/v#/);
 });
 
 test("civic shifts register and core names the floor", () => {
