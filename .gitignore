@@ -1,3 +1,4 @@
+*.detangler-app/
 site/static/skills/
 site/static/rules/
 site/docs/dist/
