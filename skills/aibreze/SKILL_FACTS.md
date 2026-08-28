@@ -2,7 +2,7 @@
 skill_facts_version: "0.1.0"
 name: aibreze
 developer: Catalyst Forge
-version: "0.1.13"
+version: "0.1.14"
 status: active
 license: MIT
 kind: cursor-skill
@@ -55,7 +55,7 @@ credits:
 | | |
 |---|---|
 | **Developer** | Catalyst Forge |
-| **Version** | 0.1.13 |
+| **Version** | 0.1.14 |
 | **Status** | active |
 | **License** | MIT |
 | **Kind** | cursor-skill |
