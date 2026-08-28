@@ -51,13 +51,16 @@ pass that skips the house bans.
 ### From core.md (do not re-list)
 
 Hunt every hard ban and cadence tell in `core.md`: escalation formula,
-honest framing, validation+profundity, mechanism inflation, narrative
-theater, genuinely-stacks, dramatic apology, suspense, setup sentences,
-em-dash furniture, triad packing including prefix-repetition, empty marketing
+honest framing (including Look / Let's be clear / Here's the thing),
+validation+profundity, mechanism inflation, narrative
+theater, genuinely-stacks, dramatic apology, suspense, cataphoric
+teasers, setup sentences, em-dash furniture, triad packing including
+prefix-repetition and Not X. Not Y. But Z., empty marketing
 vocab, helper theater, signpost openers, mic-drop closers, intensifier
 filler, parallel-zinger density, bold-lead lists, riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
-unparseable sentences. Apply the
+unparseable sentences, participial afterthoughts, topic-sentence
+pinning. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
 antithesis is allowed only when categories differ, never as
 synonym-escalation. One concrete landing chant is a named exception,
@@ -81,6 +84,9 @@ not a free pass for every triad.
   you?" / "The result?" / "The best part?"
 - **The hedge-flourish.** Winking qualifiers like "(yet)" or "at least
   for now" that perform humility instead of having it.
+- **False concessions.** "To be fair…", "It's not all bad…", "That said,
+  there is another side." A real limit stays. A performed even-hand
+  before the pitch does not.
 - **False momentum closers.** "The future is here." / "And this is just
   the beginning." / "The only question is whether you'll be ready."
 - **Setup-payoff formula on every heading.** Colon constructions: "The
@@ -100,9 +106,11 @@ product names, and words that would get less precise if swapped for
 
 - delve, dive deep, deep dive, unpack, explore (as a section-verb with
   no object worth exploring)
+- intricate, realm, tapestry (as atmosphere with no object)
 - unlock, unleash, harness, empower, supercharge, turbocharge
 - leverage (as empty marketing verb: "leverage your workflow"), utilize
-  (instead of use). Domain projects may carve out doctrinal "leverage"
+  (instead of use), underscore (as pomp: "this underscores the need").
+  Domain projects may carve out doctrinal "leverage"
   (force / fulcrum sense) in an overlay.
 - seamless, seamlessly, effortless, frictionless, streamline
 - game-changer, game-changing, revolutionary, cutting-edge, next-level
@@ -133,6 +141,12 @@ product names, and words that would get less precise if swapped for
 - **Uniform paragraph lengths.** Every paragraph 2-3 sentences, every
   sentence medium-length. Human writing has variance: a one-word
   sentence, then a long one.
+- **Bro-etry / short-line stanzas.** Prose broken into one clause per
+  line, with blank lines as drama, when the piece is not a poem. Flag
+  the formatting, then the sentences.
+- **Do not flag Oxford commas** or other house punctuation as AI tells.
+  A serial comma is a style choice. Em dashes are a density budget in
+  `core.md`, not a mark to erase.
 - **Perfectly balanced sections.** Every section the same length, every
   card grid filled to an even number, every argument given exactly equal
   weight.

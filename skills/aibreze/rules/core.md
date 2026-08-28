@@ -127,6 +127,7 @@ Ban openers like:
 - "Here is the honest take…"
 - "I want to be honest with you…"
 - "Let me be direct with you…"
+- "Look," / "Let's be clear," / "Let's be honest," / "Here's the thing"
 
 Just say the thing. (Saying "the right word is obligation" is fine;
 announcing honesty is not.)
@@ -164,16 +165,29 @@ A single plain use can stay. Flag stacks and repetition.
 Avoid: "and that's on me," "that mistake was genuinely mine,"
 laugh-crying theater. Brief correction is enough.
 
-### 8. Suspense / delayed reveal
+### 8. Suspense / cataphoric teasers
 
-Do not withhold the answer while building drama. Answer first.
+Do not withhold the answer while building drama. Do not promise a
+later payoff instead of saying the thing.
+
+Ban forward-pointing setups: "Here's the part that nobody tells you…",
+"Here's what most people get wrong…", "Here's where it gets interesting.",
+"Here's the best part:", "The part most people sleep on…". Claude-flavored
+cousins: "a caveat worth leading with", "one thing I'll name rather than
+route around:", "worth knowing too:", "now the skepticism part."
+Clickbait cousins: "You won't believe what happened next."
+
+Answer first. The name is descriptive (a teaser that points forward).
+The tell is the promise, not the grammar.
 
 ### Also still banned
 
 - Alliterative triads and stacked-negation chants, except protected
   maxims the overlay names, or **one concrete chant a genre file
   explicitly allows** (landing). **Prefix-repetition triads count**
-  ("unfindable, unindexed, unreadable"): same chant, different clothes.
+  ("unfindable, unindexed, unreadable"). So does **Not X. Not Y. But
+  Z.** ("Not for fame. Not for glory. You posted this just because…"):
+  same chant, different clothes.
 - Universality claims ("this applies to every domain") without evidence.
   That is a claims problem; do not only cologne it.
 - Setup sentences whose only job is to announce the next sentence
@@ -196,9 +210,9 @@ not single instances.
 - **Mic-drop closers.** Short zinger fragments ending a section ("That
   was the job."). Effective in small doses; not every section may end
   on one.
-- **Intensifier repetition.** "actually," "whole," "real," "very"
-  recurring as filler. Keep only where the word marks a true contrast;
-  cut the padding uses.
+- **Intensifier repetition.** "actually," "whole," "real," "very,"
+  "really," "truly" recurring as filler. Keep only where the word marks
+  a true contrast; cut the padding uses.
 - **Em-dash furniture.** Clause-then-punchline, a dash in every heading,
   or stacks. One earned dash is not a finding. Density plus other tells
   is. Do not treat the mark as an AI tell to erase.
@@ -235,6 +249,13 @@ not single instances.
   repeat: "This is meant to live on a desktop you already leave on."
   Related to riddle labels, but at sentence level. Rewrite until a smart
   friend can say it back.
+- **Participial afterthoughts.** A present participle bolted on after
+  a comma for atmosphere: "…, looking out the window", "…, underscoring
+  the need." One earned modifier is fine. A piece that keeps attaching
+  a -ing clause to land the emotion is a template.
+- **Topic-sentence pinning.** Every paragraph opens with a neat label
+  of what it will say, then says it. One clear lead is not a finding.
+  A whole page of outline-then-body paragraphs is.
 
 ---
 
@@ -243,13 +264,14 @@ not single instances.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, em-dash furniture, triad packing |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, em-dash furniture, triad packing, participial afterthoughts |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
 
 Helper theater (any model): "Great question!", "I'd be happy to", empty
-"Absolutely!", "It's important to note." Just do the work.
+"Absolutely!", "It's important to note." Performed enthusiasm
+("This is huge!", "Love this.") is the same family. Just do the work.
 
 Socratic beats and real questions aimed at a reader are method, not
 "transition question" smell. "So what does this mean for you?" as a
@@ -281,6 +303,11 @@ the loop is theater.")
 **Setup**  
 Bad: "The idea worth keeping:"  
 Good: Just state the idea.
+
+**Cataphoric teaser**  
+Bad: "Here's the part that nobody tells you: the archive was too
+scattered to hand off."  
+Good: "The archive was too scattered to hand off."
 
 **Em dash furniture**  
 Bad: "Brain — the model plus the loop."  

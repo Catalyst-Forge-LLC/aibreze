@@ -58,6 +58,19 @@ test("core names the riddle-label and cozy-machinery tells", () => {
 	assert.match(card, /Cozy machinery/);
 });
 
+test("core names cataphoric teasers and participial afterthoughts", () => {
+	const core = readRule("core");
+	assert.match(core, /Cataphoric teasers|cataphoric teasers/);
+	assert.match(core, /nobody tells you/);
+	assert.match(core, /Participial afterthoughts/);
+	assert.match(core, /looking out the window/);
+	const card = readRule("cursor");
+	assert.match(card, /cataphoric/);
+	assert.match(card, /Participial afterthoughts/);
+	assert.doesNotMatch(core, /Oxford comma/);
+	assert.match(readRule("audit"), /Do not flag Oxford commas/);
+});
+
 test("core names operator-notes, hand-holding, and unparseable-sentence tells", () => {
 	const core = readRule("core");
 	assert.match(core, /Operator notes in the brochure/);
