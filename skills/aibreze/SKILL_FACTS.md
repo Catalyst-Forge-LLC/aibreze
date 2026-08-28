@@ -2,7 +2,7 @@
 skill_facts_version: "0.1.0"
 name: aibreze
 developer: Catalyst Forge
-version: "0.1.11"
+version: "0.1.12"
 status: active
 license: MIT
 kind: cursor-skill
@@ -55,7 +55,7 @@ credits:
 | | |
 |---|---|
 | **Developer** | Catalyst Forge |
-| **Version** | 0.1.11 |
+| **Version** | 0.1.12 |
 | **Status** | active |
 | **License** | MIT |
 | **Kind** | cursor-skill |
@@ -110,4 +110,4 @@ Editorial rules for publishable prose; spray, audit, and publish-pass workflows 
 ---
 *Generated with [SkillFacts](https://skillfacts.dev) · Built by [Catalyst Forge](https://www.catalystforge.com/)*
 
-[skillfacts-label]: https://skillfacts.dev/v#sf1.eNqdU7GO2zAM_RVDs500azoVhxYImk7tdigOssTERGRJICkHbpB_L-XeNR1uMDpZfnp6FB-fbmYy-11roh3B7I3FnuAXmNZ4mCCkDKTokxUbZpbmS6Jz3ZyAGFPUrQ-b3Wa3U4jFSuEq4QSnSgroIHJV_Xb4of8XjF5_XCFO1PEFQ1A0F8ppYX32KInQhoZKAG5OiZpc-oA82D5Ak0l5HxvOZOe2sUXp-on-jdRly9xcE11OIV3_nP906BREFvDNlVAwnmtNShNEG52WvRlOherKDCKZ99vtGWUo_calcfvWebd03h2PT9uHRa9137Po3hqMLFTUjBT5hcC6YSk2gLa9NzHFKhFB6oUVwDEHBK_YCbV7lYJRYT3oq5qkFKrMCQj03mrk88_W9CX6AP7FkuBJjVf_n28mW9Fa5vvXw_G4Gf3D-iT1svf2L2UxeusSwRreYvkqwWBx5DVMYLbzKmbQSev01lBTkcXvdbIlrmM6nNCtsslZD-P7XJ0ZnEm7rlkQCDCC0PzIgwfWjNolNHXEOvkhjZDt-d-AvkawJlTPEOgDqk9n_o8Ma0Sjs1IDpUu4_wa1wWUc
+[skillfacts-label]: https://skillfacts.dev/v#sf1.eNqdU8Fu2zAM_RVDZydZdsxOQ7EBQbNTeyuGQpFom4gsCSTlIAvy76O8dtmhB2Mny09Pj-Lj09VMZrdtTbQjmJ2xeCT4BaY1HiYIKQMp-mDFhgtL8z1RXzcnIMYUdevTerveflaIxUrhKuEEp0oK6CByVf2xf9b_E0avP64QJ1rxCUNQNBfKaWZ98yiJ0IaGSgBuukRNLseAPNhjgCaT8r40nMle2sYWpesn-nfSKlvm5pzo1IV0_nP-636lILKAb86EgrGvNSlNEG10WvZqOBWqKzOIZN5tNj3KUI5rl8bNe-erufPV4fCwuVv0Vvcji26twchCRc1IkV8JrBvmYgNo2zsTU6wSEaReWAEcc0DwinWo3asUjArrQV_VJKVQZTog0HurkS8_W3Ms0Qfwr5YEOzVe_X-5mmxFa5mnx_3hsB793fok9bK39i9lNnrjEsES3mz5IsFgceQlTGC2l0XMoJPW6S2hpiKz38tkS1zGdDihW2STsx7Gj7k6M-hJu65ZEAgwgtDlngcPrBm1c2jqiHXyQxoh2_7fgL5FsCZUzxDoA6pP5_IfGdaIRmelBkqXcPsNuYxlHQ
