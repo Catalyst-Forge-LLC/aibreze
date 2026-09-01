@@ -5,4 +5,4 @@ alwaysApply: true
 
 # Deploy
 
-Site publish is `pnpm ship` from the repo root (FilePress build, then Wrangler Pages project `aibreze`). `site:deploy` is the same command.
+Site publish is `pnpm ship` from the repo root (FilePress build, then Wrangler Pages project `smellcheck`). `site:deploy` is the same command.
