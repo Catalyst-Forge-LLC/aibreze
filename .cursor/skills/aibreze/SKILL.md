@@ -2,8 +2,8 @@
 name: aibreze
 description: >-
   Editorial rules for publishable prose. Use when drafting pages,
-  essays, emails, posts, filings, or papers, or to spray, audit, run
-  aiBreze, or do a publish pass. Not for code, diffs, or chat-only.
+  essays, emails, posts, filings, or papers, or to spray, smell-check,
+  audit, or do a publish pass. Not for code, diffs, or chat-only.
 ---
 
 # aiBreze
@@ -67,6 +67,7 @@ Read `rules/core.md` plus the overlay, then `rules/audit.md` or
 ## Example asks
 
 - Spray this page.
+- Smell-check this page.
 - Run aiBreze on the README.
 - Publish pass on the About copy.
 - Spray this comment letter.

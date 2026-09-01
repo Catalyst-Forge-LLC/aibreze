@@ -20,6 +20,7 @@ Protected maxims (do not rewrite into a cleverer synonym):
 
 - Earn the word.
 - Spray the prose, not the author.
+- Have you smell-checked that?
 
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
@@ -357,7 +358,8 @@ Keep a short file in the consuming project. It should contain:
   as the overlay names the filer, academic as the venue uses we or I, …)
 - Terms that pass the applicability heuristic here, with one-line why
 - Protected maxims / testimony the agent must not "de-smell"
-  (this package: Earn the word. Spray the prose, not the author.)
+  (this package: Earn the word. Spray the prose, not the author.
+  Have you smell-checked that?)
 - Genre extras that are house law (e.g. every essay ends in a deed)
 
 Do not restate the hard bans. Point at this package. Genre files in

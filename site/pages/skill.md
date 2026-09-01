@@ -61,6 +61,7 @@ Same files, no install:
 ## What you say
 
 - Spray this page.
+- Smell-check this page.
 - Run aiBreze on the README.
 - Publish pass on the About copy.
 - Spray this comment letter.

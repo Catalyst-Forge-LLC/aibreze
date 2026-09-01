@@ -2,7 +2,7 @@
 title: Skill
 ---
 
-The skill is a folder: `SKILL.md` plus the rule files it reads. The agent loads it when you draft or revise publishable prose, or when you say spray / publish pass. Not on code, diffs, or chat-only answers.
+The skill is a folder: `SKILL.md` plus the rule files it reads. The agent loads it when you draft or revise publishable prose, or when you say spray / smell-check / publish pass. Not on code, diffs, or chat-only answers.
 
 A project [install](/docs/install) is a different hook: npm, overlay, always-on pocket card.
 
@@ -51,6 +51,7 @@ It stays loaded even when the skill does not run. Overlay: [Overlay](/docs/overl
 ## What you say
 
 - Spray this page.
+- Smell-check this page.
 - Run aiBreze on the README.
 - Publish pass on the About copy.
 - Spray this comment letter.

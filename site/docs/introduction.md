@@ -6,7 +6,7 @@ title: Introduction
 
 Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze. v1 has no CLI.
 
-Spray the prose, not the author. Earn the word.
+Spray the prose, not the author. Earn the word. Have you smell-checked that?
 
 ## Not a humanizer
 

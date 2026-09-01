@@ -4,7 +4,7 @@ description: Why the name is a spray, and why authorship does not matter.
 order: 3
 ---
 
-People who live with a smell stop noticing it. Generated prose does the same trick. Charles Duhigg tells the household version in *The Power of Habit* (2012): an odor-eliminating spray that flopped until the company realized habituation was the problem, then sold the bottle as the reward at the end of a cleaning habit. aiBreze is that move for writing. Make the smell visible, then take it off. The original tale is Duhigg's. Read him.
+People who live with a smell stop noticing it. Generated prose does the same trick. Charles Duhigg tells the household version in *The Power of Habit* (2012): an odor-eliminating spray that flopped until the company realized habituation was the problem, then sold the bottle as the reward at the end of a cleaning habit. aiBreze is that move for writing. Make the smell visible, then take it off. The question is: have you smell-checked that? The original tale is Duhigg's. Read him.
 
 The register leaks the other way too: humans now write like the models. Spray the prose, not the author.
 

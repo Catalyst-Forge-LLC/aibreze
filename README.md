@@ -10,7 +10,7 @@ Editorial rules for prose that says something instead of sounding like it.
 AI-assisted or not. Written **aiBreze**. npm **`aibreze`**. A spray, not a
 breeze.
 
-Spray the prose, not the author. Earn the word.
+Spray the prose, not the author. Earn the word. Have you smell-checked that?
 
 **Docs:** [aibreze.com/docs](https://aibreze.com/docs) · **Site:** [aibreze.com](https://aibreze.com)
 

@@ -36,6 +36,7 @@ test("core names the brand, the escalation ban, and the heuristic", () => {
 	assert.match(core, /Judge the sentence, not the byline/);
 	assert.match(core, /Earn the word/);
 	assert.match(core, /Spray the prose, not the author/);
+	assert.match(core, /Have you smell-checked that/);
 });
 
 test("em dashes earn their place; they are not a hard ban", () => {

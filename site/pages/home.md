@@ -1,12 +1,12 @@
 ---
-title: Your prose has a smell.
-description: Editorial rules for prose that says something instead of sounding like it.
+title: Have you smell-checked that?
+description: Smell-check the prose. Editorial rules that say something instead of sounding like it.
 order: 0
 ---
 
 You probably stopped noticing it.
 
-**aiBreze.** Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
+**aiBreze.** Smell-check a document the way you spell-check it. Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
 
 Spray the prose, not the author. Bad prose is bad prose.
 

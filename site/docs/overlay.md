@@ -15,6 +15,7 @@ This package protects:
 
 - Earn the word.
 - Spray the prose, not the author.
+- Have you smell-checked that?
 
 Site and README speak as the product (aiBreze / it). No corporate we. No builder I.
 
