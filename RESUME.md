@@ -134,18 +134,13 @@ creates it. Then, in the Cloudflare dashboard (user):
 `0.1.0`–`0.1.16`. Stub `aibreze@0.1.17` points the npm page at
 `smellcheck` and is deprecated with the same message.
 
-### 6. Other repos
+### 6. Other repos — done
 
-House projects that still install `aibreze` or copy
-`.cursor/rules/aibreze.mdc` / `skills/aibreze/`:
-
-- ember-dossier
-- temper-pass
-- anything that got a Helm "bump aibreze" commit
-- FilePress skill-page spec, if it still names this package
-
-Point them at `smellcheck`. Pocket card copy dest is
-`.cursor/rules/smellcheck.mdc`. Skill folder is `skills/smellcheck/`.
+Living installs, pocket cards, and overlays now point at `smellcheck`.
+Pocket card dest is `.cursor/rules/smellcheck.mdc`. Skill folder is
+`skills/smellcheck/`. FilePress skill-page spec uses
+`smellcheck.dev/skill`. Dated vault drafts and Helm test fixtures
+were left as history.
 
 ## Do not redo
 
