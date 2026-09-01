@@ -130,7 +130,29 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /civic\.md/);
 	assert.match(card, /academic\.md/);
 	assert.match(card, /node_modules\/smellcheck\/rules/);
+	assert.match(card, /docs\/smellcheck\.md/);
 	assert.doesNotMatch(card, /\]\(\.\//);
+});
+
+test("host pointer points at core and does not copy the bans", () => {
+	const pointer = readRule("agents");
+	assert.match(pointer, /core\.md/);
+	assert.match(pointer, /docs\/smellcheck\.md/);
+	assert.match(pointer, /AGENTS\.md/);
+	assert.match(pointer, /CLAUDE\.md/);
+	assert.match(pointer, /Nothing in this package scans the tree/);
+	assert.doesNotMatch(pointer, /It's not just X/i);
+	assert.doesNotMatch(pointer, /The honest evaluation/i);
+	assert.doesNotMatch(pointer, /## Hard bans/);
+});
+
+test("overlay examples exist and do not restate the bans", () => {
+	for (const name of ["overlay.md", "overlay.smellcheck.md"]) {
+		const text = readFileSync(join(packageRoot, "examples", name), "utf8");
+		assert.match(text, /docs\/smellcheck\.md|Smell Check \/ it/);
+		assert.doesNotMatch(text, /It's not just X/i, `${name} restates the escalation ban`);
+		assert.doesNotMatch(text, /The honest evaluation/i, `${name} restates honest-framing`);
+	}
 });
 
 test("no rule file still carries the old brand", () => {
@@ -157,6 +179,7 @@ test("skill facts version and bundle match the package", () => {
 	assert.match(facts, new RegExp(`\\| \\*\\*Version\\*\\* \\| ${pkg.version} \\|`));
 	assert.match(facts, /rules\/civic\.md/);
 	assert.match(facts, /rules\/academic\.md/);
+	assert.match(facts, /rules\/agents\.md/);
 	assert.match(facts, /SKILL\.md/);
 });
 
@@ -226,7 +249,9 @@ test("package exports and packs the skill folder", () => {
 		readFileSync(join(packageRoot, "package.json"), "utf8"),
 	) as { files: string[]; exports: Record<string, unknown> };
 	assert.ok(pkg.files.includes("skills"));
+	assert.ok(pkg.files.includes("examples"));
 	assert.ok("./skills/*" in pkg.exports);
+	assert.ok("./examples/*" in pkg.exports);
 });
 
 test("static sync copies skill and core onto the site", () => {
@@ -255,6 +280,13 @@ test("static sync copies skill and core onto the site", () => {
 	assert.equal(coreStatic, coreSrc);
 	assert.ok(
 		existsSync(join(packageRoot, "site", "static", "rules", "audit.md")),
+	);
+	assert.ok(
+		existsSync(join(packageRoot, "site", "static", "rules", "agents.md")),
+	);
+	assert.equal(
+		readFileSync(join(packageRoot, "site", "static", "examples", "overlay.md"), "utf8"),
+		readFileSync(join(packageRoot, "examples", "overlay.md"), "utf8"),
 	);
 	assert.equal(
 		readFileSync(join(packageRoot, "site", "static", "rules", "cursor.mdc"), "utf8"),
@@ -302,6 +334,27 @@ test("readme states what the package is", () => {
 	assert.match(readme, /Spray the prose, not the author/);
 	assert.match(readme, /Earn the word/);
 	assert.match(readme, /smellcheck\.dev\/docs/);
+	assert.match(readme, /Nothing scans the tree/);
+});
+
+test("install and files pages name the three hooks and finish the raw list", () => {
+	const install = readFileSync(
+		join(packageRoot, "site", "docs", "install.md"),
+		"utf8",
+	);
+	assert.match(install, /Nothing scans the tree/);
+	assert.match(install, /AGENTS\.md/);
+	assert.match(install, /CLAUDE\.md/);
+	assert.match(install, /docs\/smellcheck\.md/);
+	const filesDoc = readFileSync(
+		join(packageRoot, "site", "docs", "files.md"),
+		"utf8",
+	);
+	assert.match(filesDoc, /essays\.md/);
+	assert.match(filesDoc, /landing\.md/);
+	assert.match(filesDoc, /outreach\.md/);
+	assert.match(filesDoc, /launch\.md/);
+	assert.match(filesDoc, /agents\.md/);
 });
 
 test("docs nav has a markdown file for every item", () => {

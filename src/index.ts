@@ -30,6 +30,7 @@ export const files = {
 	civic: join(rulesDir, "civic.md"),
 	academic: join(rulesDir, "academic.md"),
 	cursor: join(rulesDir, "cursor.mdc"),
+	agents: join(rulesDir, "agents.md"),
 } as const;
 
 export type FileId = keyof typeof files;
@@ -88,6 +89,11 @@ export const catalog: ReadonlyArray<{
 		id: "cursor",
 		title: "Cursor pocket card",
 		use: "Always-on agent digest. Copy to `.cursor/rules/` and point at core plus a project overlay.",
+	},
+	{
+		id: "agents",
+		title: "Host pointer",
+		use: "Paste into AGENTS.md or CLAUDE.md. Pointer only; not a second copy of the bans.",
 	},
 ];
 

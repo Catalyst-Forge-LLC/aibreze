@@ -25,6 +25,8 @@ const siteSkillDir = join(root, "site", "static", "skills", skillName);
 const siteRulesDir = join(root, "site", "static", "rules");
 const siteZipPath = join(root, "site", "static", "skills", `${skillName}.zip`);
 const cursorSkillDir = join(root, ".cursor", "skills", skillName);
+const examplesDir = join(root, "examples");
+const siteExamplesDir = join(root, "site", "static", "examples");
 
 function ruleMarkdownNames() {
 	return readdirSync(rulesCanon)
@@ -125,8 +127,12 @@ function writeStoreZip(entries, destPath) {
 }
 
 const ruleNames = ruleMarkdownNames();
+const exampleNames = readdirSync(examplesDir)
+	.filter((name) => name.endsWith(".md"))
+	.sort();
 syncDir(rulesCanon, skillRulesDir, ruleNames);
 syncDir(rulesCanon, siteRulesDir, [...ruleNames, "cursor.mdc"]);
+syncDir(examplesDir, siteExamplesDir, exampleNames);
 copySkillTree(siteSkillDir);
 copySkillTree(cursorSkillDir);
 

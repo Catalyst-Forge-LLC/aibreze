@@ -35,7 +35,8 @@ word. Filings use `rules/civic.md`. Papers use `rules/academic.md`.
 
 ## Overlay
 
-Keep a short project overlay. Point at this package, then only:
+Keep a short project overlay at `docs/smellcheck.md`. Point at this
+package, then only:
 
 - Pronouns per surface
 - Terms that pass the applicability heuristic *here*, with one-line why

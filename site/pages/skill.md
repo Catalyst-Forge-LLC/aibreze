@@ -6,7 +6,7 @@ order: 1
 
 The skill is a folder: `SKILL.md` plus the rule files it reads. Get that folder one of these ways, then put it in a skills directory.
 
-A project install is a different hook: [Install](/install). Full guide: [docs](/docs/skill).
+A project install is a different hook: [Install](/install). Agents that read `AGENTS.md` or `CLAUDE.md` get a pointer, not a second digest. Nothing scans the tree. Full guide: [docs](/docs/skill).
 
 ## Download the ZIP
 
@@ -46,7 +46,11 @@ Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/smellchec
 
 From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/smellcheck/rules/cursor.mdc`. Same destination.
 
-It stays loaded even when the skill does not run. Overlay: [Install](/install).
+It stays loaded even when the skill does not run. Overlay: `docs/smellcheck.md`. [Install](/install).
+
+## Host pointer
+
+Paste [agents.md](/rules/agents.md) into `AGENTS.md` or `CLAUDE.md`. The pointer names core and the overlay. It does not copy the bans.
 
 ## One-off
 

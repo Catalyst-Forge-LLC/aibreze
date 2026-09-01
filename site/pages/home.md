@@ -32,7 +32,7 @@ Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn 
 
 ## The package
 
-Markdown you install and point an agent at. v1 has no CLI.
+Markdown you install and point an agent at. Nothing scans the tree. v1 has no CLI.
 
 | File | Use |
 | --- | --- |
@@ -41,6 +41,7 @@ Markdown you install and point an agent at. v1 has no CLI.
 | `audit.md` | Smell. |
 | `claims.md` | Substance first, then voice. |
 | `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |
+| `agents.md` | Pointer. Paste into `AGENTS.md` or `CLAUDE.md`. |
 
 ```bash
 pnpm add -D smellcheck

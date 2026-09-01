@@ -39,6 +39,8 @@ bundled_artifacts:
     kind: other
   - path: rules/academic.md
     kind: other
+  - path: rules/agents.md
+    kind: other
 egress:
   telemetry: none
   destinations: []
@@ -99,6 +101,7 @@ Editorial rules for publishable prose; spray, audit, and publish-pass workflows 
 | rules/launch.md | other |
 | rules/civic.md | other |
 | rules/academic.md | other |
+| rules/agents.md | other |
 
 ## Egress
 

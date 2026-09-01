@@ -25,7 +25,8 @@ Protected maxims (do not rewrite into a cleverer synonym):
 **Also in this package:** `audit.md` (smell), `claims.md` (substance then
 voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
 `civic.md`, `academic.md`. The pocket card `cursor.mdc` ships in `rules/`
-on npm and on this host. It is not in the skill ZIP.
+on npm and on this host. It is not in the skill ZIP. The host pointer
+`agents.md` ships in `rules/` and in the skill ZIP.
 
 Spell-check is a question you can ask without explaining the tool.
 Unearned language has one now.
@@ -355,7 +356,8 @@ Good: "Run it on a computer you leave turned on."
 
 ## How to overlay
 
-Keep a short file in the consuming project. It should contain:
+Keep a short file in the consuming project (`docs/smellcheck.md`). It
+should contain:
 
 - Pronoun policy per surface (essay I, landing we, outreach I, civic
   as the overlay names the filer, academic as the venue uses we or I, …)

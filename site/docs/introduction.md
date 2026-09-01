@@ -47,9 +47,10 @@ claims.md        substance first, then voice
 
 Genre files assume `core.md`. Do not fork `core.md`.
 
-Two hooks, same law:
+Three hooks, same law. Nothing scans the tree.
 
-- [Install](/docs/install) — npm package in a project, plus an overlay
+- [Install](/docs/install) — npm package, pocket card, overlay at `docs/smellcheck.md`
 - [Skill](/docs/skill) — a folder or ZIP the agent loads on demand
+- Host pointer — paste [`agents.md`](/rules/agents.md) into `AGENTS.md` or `CLAUDE.md`
 
 Why the name: [About](/about).

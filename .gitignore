@@ -1,6 +1,7 @@
 *.detangler-app/
 site/static/skills/
 site/static/rules/
+site/static/examples/
 site/docs/dist/
 .cursor/skills/smellcheck/rules/
 node_modules/

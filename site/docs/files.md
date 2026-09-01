@@ -16,10 +16,11 @@ Markdown you install and point an agent at. Canon lives in `rules/` in this repo
 | `rules/civic.md` | Filings, testimony, legal-adjacent memos. Ceremony is earned. |
 | `rules/academic.md` | Papers and methods. Precision and citations, not the costume. |
 | `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
+| `rules/agents.md` | Host pointer. Paste into `AGENTS.md` or `CLAUDE.md`. |
 | `skills/smellcheck/` | Host-agnostic skill. `SKILL.md` plus `rules/*.md`. |
 
 Genre files assume `core.md` and are additive: surface law only. Do not copy the bans. Do not fork `core.md`.
 
 When drafting a specific surface, open that genre file. Filings and testimony: `civic.md`. Papers: `academic.md`. Reference docs, changelogs, API pages, UI chrome: core only.
 
-Raw on this host: [core.md](/rules/core.md), [audit.md](/rules/audit.md), [claims.md](/rules/claims.md), [civic.md](/rules/civic.md), [academic.md](/rules/academic.md), [cursor.mdc](/rules/cursor.mdc).
+Raw on this host: [core.md](/rules/core.md), [audit.md](/rules/audit.md), [claims.md](/rules/claims.md), [essays.md](/rules/essays.md), [landing.md](/rules/landing.md), [outreach.md](/rules/outreach.md), [launch.md](/rules/launch.md), [civic.md](/rules/civic.md), [academic.md](/rules/academic.md), [cursor.mdc](/rules/cursor.mdc), [agents.md](/rules/agents.md). Overlay examples: [skeleton](/examples/overlay.md), [this package](/examples/overlay.smellcheck.md).

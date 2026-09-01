@@ -4,7 +4,7 @@ title: Skill
 
 The skill is a folder: `SKILL.md` plus the rule files it reads. The agent loads it when you draft or revise publishable prose, or when you say spray / smell-check / publish pass. Not on code, diffs, or chat-only answers.
 
-A project [install](/docs/install) is a different hook: npm, overlay, always-on pocket card.
+A project [install](/docs/install) is a different hook: npm, overlay, always-on pocket card. Agents that read `AGENTS.md` or `CLAUDE.md` get a [pointer](/rules/agents.md), not a second digest. Nothing scans the tree.
 
 Short version on the site: [Skill](/skill).
 
@@ -46,7 +46,13 @@ Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/smellchec
 
 From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/smellcheck/rules/cursor.mdc`. Same destination.
 
-It stays loaded even when the skill does not run. Overlay: [Overlay](/docs/overlay).
+It stays loaded even when the skill does not run. Overlay: `docs/smellcheck.md`. See [Overlay](/docs/overlay).
+
+## Host pointer
+
+Paste [agents.md](/rules/agents.md) into `AGENTS.md` or `CLAUDE.md`, or point those files at it. Same dest from a clone or from `node_modules/smellcheck/rules/agents.md`.
+
+The pointer names core and the overlay. It does not copy the bans.
 
 ## What you say
 
