@@ -17,10 +17,10 @@ This package protects:
 - Spray the prose, not the author.
 - Have you smell-checked that?
 
-Site and README speak as the product (aiBreze / it). No corporate we. No builder I.
+Site and README speak as the product (Smell Check / it). No corporate we. No builder I.
 
 ## After install
 
-Copy `node_modules/aibreze/rules/cursor.mdc` to `.cursor/rules/aibreze.mdc`, then write the overlay next to it. Point "Full rules" at `node_modules/aibreze/rules/core.md`.
+Copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc`, then write the overlay next to it. Point "Full rules" at `node_modules/smellcheck/rules/core.md`.
 
 [Install](/docs/install) · [Files](/docs/files)

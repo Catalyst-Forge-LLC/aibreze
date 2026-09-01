@@ -1,14 +1,14 @@
 import { defineFilepressConfig } from 'getfilepress';
 
-const github = 'https://github.com/Catalyst-Forge-LLC/aibreze';
-const npm = 'https://www.npmjs.com/package/aibreze';
+const github = 'https://github.com/Catalyst-Forge-LLC/smellcheck';
+const npm = 'https://www.npmjs.com/package/smellcheck';
 
 export default defineFilepressConfig({
-	title: 'aiBreze',
+	title: 'Smell Check',
 	description:
 		'Have you smell-checked that? Editorial rules for prose that says something instead of sounding like it.',
 	tagline: 'Have you smell-checked that?',
-	url: 'https://aibreze.com',
+	url: 'https://smellcheck.dev',
 	author: 'Catalyst Forge LLC',
 	logo: '/logo.svg',
 	ogImage: '/logo.svg',

@@ -1,16 +1,16 @@
 ---
 skill_facts_version: "0.1.0"
-name: aibreze
+name: smellcheck
 developer: Catalyst Forge
-version: "0.1.16"
+version: "0.2.0"
 status: active
 license: MIT
 kind: cursor-skill
 purpose: "Editorial rules for publishable prose; spray, audit, and publish-pass workflows for AI-assisted writing"
-homepage: https://aibreze.com
-repository: https://github.com/Catalyst-Forge-LLC/aibreze
+homepage: https://smellcheck.dev
+repository: https://github.com/Catalyst-Forge-LLC/smellcheck
 provenance:
-  source: https://github.com/Catalyst-Forge-LLC/aibreze
+  source: https://github.com/Catalyst-Forge-LLC/smellcheck
   publisher: Catalyst Forge
 instructions_reach:
   shell: none
@@ -50,17 +50,17 @@ credits:
   built_by: "Catalyst Forge - https://www.catalystforge.com/"
 ---
 
-# Skill Facts - aibreze
+# Skill Facts - smellcheck
 
 | | |
 |---|---|
 | **Developer** | Catalyst Forge |
-| **Version** | 0.1.16 |
+| **Version** | 0.2.0 |
 | **Status** | active |
 | **License** | MIT |
 | **Kind** | cursor-skill |
 
-*May fetch published rule files from aibreze.com as a last resort; otherwise reads local rules/.*
+*May fetch published rule files from smellcheck.dev as a last resort; otherwise reads local rules/.*
 
 ## Purpose
 
@@ -70,7 +70,7 @@ Editorial rules for publishable prose; spray, audit, and publish-pass workflows 
 
 | | |
 |---|---|
-| Source | https://github.com/Catalyst-Forge-LLC/aibreze |
+| Source | https://github.com/Catalyst-Forge-LLC/smellcheck |
 | Publisher | Catalyst Forge |
 
 ## Instructions reach

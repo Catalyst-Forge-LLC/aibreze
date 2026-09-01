@@ -1,9 +1,9 @@
 ---
-description: aiBreze. House voice and anti-performative prose for all drafting.
+description: Smell Check. House voice and anti-performative prose for all drafting.
 alwaysApply: true
 ---
 
-# aiBreze
+# Smell Check
 
 Full rules: [`rules/core.md`](../../rules/core.md). Smell audit:
 [`rules/audit.md`](../../rules/audit.md). Claims:
@@ -26,7 +26,7 @@ smell-checked that? Filings:
 [`rules/civic.md`](../../rules/civic.md). Papers:
 [`rules/academic.md`](../../rules/academic.md).
 
-Site and README speak as the product (aiBreze / it). No corporate we.
+Site and README speak as the product (Smell Check / it). No corporate we.
 No builder I.
 
 ## Hard bans

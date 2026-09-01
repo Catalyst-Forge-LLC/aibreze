@@ -52,7 +52,7 @@ export const catalog: ReadonlyArray<{
 	{
 		id: "claims",
 		title: "Claims + voice",
-		use: "Skeptical peer review. Substance first so you do not cologne a lie, then aiBreze.",
+		use: "Skeptical peer review. Substance first so you do not cologne a lie, then smell-check.",
 	},
 	{
 		id: "essays",

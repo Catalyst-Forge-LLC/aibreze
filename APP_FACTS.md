@@ -1,11 +1,11 @@
 ---
 app_facts_version: 0.1.0
-name: aiBreze
+name: Smell Check
 type: library
 status: active
 license: MIT
-homepage: https://aibreze.com
-repository: https://github.com/Catalyst-Forge-LLC/aibreze
+homepage: https://smellcheck.dev
+repository: https://github.com/Catalyst-Forge-LLC/smellcheck
 stack:
   language: "TypeScript, JavaScript"
   runtime: Node.js
@@ -28,7 +28,7 @@ generated:
   inputs_fingerprint: 41995e42192b2350
 ---
 
-# aiBreze
+# Smell Check
 
 `library` · **active** · MIT
 
@@ -36,7 +36,7 @@ Curated stack label for this repository — aimed at an under-a-minute skim.
 
 **[Open visual label →][appfacts-label]**
 
-[Repository](https://github.com/Catalyst-Forge-LLC/aibreze)
+[Repository](https://github.com/Catalyst-Forge-LLC/smellcheck)
 
 ### Stack
 

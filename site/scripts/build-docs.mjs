@@ -248,19 +248,19 @@ function renderPage(item, bodyHtml, toc, prev, next) {
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>${escapeHtml(title)} · aiBreze docs</title>
-	<meta name="description" content="aiBreze documentation — ${escapeHtml(title)}" />
+	<title>${escapeHtml(title)} · Smell Check docs</title>
+	<meta name="description" content="Smell Check documentation — ${escapeHtml(title)}" />
 	<link rel="stylesheet" href="/docs/assets/docs.css" />
 </head>
 <body>
 	<header class="docs-top">
 		<button type="button" class="docs-menu-btn" data-docs-menu aria-label="Toggle docs menu">Menu</button>
-		<a class="docs-brand" href="/docs/">aiBreze <span>docs</span></a>
+		<a class="docs-brand" href="/docs/">Smell Check <span>docs</span></a>
 		<nav class="docs-top-links">
 			<a href="/">Home</a>
 			<a href="/install">Install</a>
 			<a href="/skill">Skill</a>
-			<a href="https://github.com/Catalyst-Forge-LLC/aibreze">GitHub</a>
+			<a href="https://github.com/Catalyst-Forge-LLC/smellcheck">GitHub</a>
 		</nav>
 	</header>
 	<div class="docs-shell">

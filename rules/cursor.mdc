@@ -1,16 +1,16 @@
 ---
-description: aiBreze. House voice and anti-performative prose for all drafting.
+description: Smell Check. House voice and anti-performative prose for all drafting.
 alwaysApply: true
 ---
 
-# aiBreze
+# Smell Check
 
-Full rules: `node_modules/aibreze/rules/core.md`. Smell audit and
+Full rules: `node_modules/smellcheck/rules/core.md`. Smell audit and
 claims: `audit.md` and `claims.md` in that folder. Last resort:
-https://aibreze.com/rules/core.md (same host for the rest).
+https://smellcheck.dev/rules/core.md (same host for the rest).
 
-Copy this file to `.cursor/rules/aibreze.mdc`. Open the markdown from
-`node_modules/aibreze/rules/`, not from `.cursor/rules/`. Overlay goes
+Copy this file to `.cursor/rules/smellcheck.mdc`. Open the markdown from
+`node_modules/smellcheck/rules/`, not from `.cursor/rules/`. Overlay goes
 next to this copy.
 
 This file is a digest so the agent has the bans without opening core. It
@@ -100,8 +100,8 @@ If you are drafting or revising a specific surface, read that file too.
 Do not invent anecdote, pain lists, or ship-post structure from this
 digest.
 
-Open these from `node_modules/aibreze/rules/` (or the same names on
-https://aibreze.com/rules/):
+Open these from `node_modules/smellcheck/rules/` (or the same names on
+https://smellcheck.dev/rules/):
 
 - Page / marketing site: `landing.md`
 - Essay / talk / long argument: `essays.md`

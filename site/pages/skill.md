@@ -10,59 +10,59 @@ A project install is a different hook: [Install](/install). Full guide: [docs](/
 
 ## Download the ZIP
 
-[Download aibreze.zip](/skills/aibreze.zip)
+[Download smellcheck.zip](/skills/smellcheck.zip)
 
-Unpack it. Move the `aibreze` folder (the one that contains `SKILL.md`) into a skills directory.
+Unpack it. Move the `smellcheck` folder (the one that contains `SKILL.md`) into a skills directory.
 
 On claude.ai, skip unpacking. Upload the ZIP under Settings, Customize, Skills.
 
 ## Clone the repo
 
 ```bash
-git clone https://github.com/Catalyst-Forge-LLC/aibreze.git
+git clone https://github.com/Catalyst-Forge-LLC/smellcheck.git
 ```
 
-Copy `skills/aibreze/` from the clone into a skills directory.
+Copy `skills/smellcheck/` from the clone into a skills directory.
 
 ## Install from npm
 
 ```bash
-pnpm add -D aibreze
+pnpm add -D smellcheck
 ```
 
-Copy `node_modules/aibreze/skills/aibreze/` into a skills directory.
+Copy `node_modules/smellcheck/skills/smellcheck/` into a skills directory.
 
 ## Skills directories
 
-- Claude Code, every project: `~/.claude/skills/aibreze/`
-- Claude Code, one repo: `.claude/skills/aibreze/`
-- Cursor: `.cursor/skills/aibreze/` or `~/.cursor/skills/aibreze/`
+- Claude Code, every project: `~/.claude/skills/smellcheck/`
+- Claude Code, one repo: `.claude/skills/smellcheck/`
+- Cursor: `.cursor/skills/smellcheck/` or `~/.cursor/skills/smellcheck/`
 
-The folder you drop in must be named `aibreze` and must contain `SKILL.md`.
+The folder you drop in must be named `smellcheck` and must contain `SKILL.md`.
 
 ## Always-on Cursor rule
 
-Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/aibreze.mdc`. That file is not in the skill ZIP.
+Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/smellcheck.mdc`. That file is not in the skill ZIP.
 
-From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/aibreze/rules/cursor.mdc`. Same destination.
+From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/smellcheck/rules/cursor.mdc`. Same destination.
 
 It stays loaded even when the skill does not run. Overlay: [Install](/install).
 
 ## One-off
 
-https://aibreze.com/skills/aibreze/SKILL.md
+https://smellcheck.dev/skills/smellcheck/SKILL.md
 
 Same files, no install:
 
-- https://aibreze.com/rules/core.md
-- https://aibreze.com/rules/audit.md
-- https://aibreze.com/rules/claims.md
+- https://smellcheck.dev/rules/core.md
+- https://smellcheck.dev/rules/audit.md
+- https://smellcheck.dev/rules/claims.md
 
 ## What you say
 
-- Spray this page.
 - Smell-check this page.
-- Run aiBreze on the README.
+- Spray this page.
+- Run Smell Check on the README.
 - Publish pass on the About copy.
 - Spray this comment letter.
 - Spray this working paper.

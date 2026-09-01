@@ -1,9 +1,9 @@
-# aiBreze: core
+# Smell Check: core
 
 Installable writing rules for agents. Sprays the performative,
 faux-profound register off prose so what remains is direct and useful.
 
-Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze.
+Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells.
 
 This file is the shared core. Genre files add surface-specific rules.
 They are additive: point here, then write only what that surface adds.
@@ -27,7 +27,10 @@ voice), `essays.md`, `landing.md`, `outreach.md`, `launch.md`,
 `civic.md`, `academic.md`. The pocket card `cursor.mdc` ships in `rules/`
 on npm and on this host. It is not in the skill ZIP.
 
-The name is a household joke. People who live with a smell stop noticing
+Spell-check is a question you can ask without explaining the tool.
+Unearned language has one now.
+
+People who live with a smell stop noticing
 it. Generated prose does the same trick: the tics fade into the furniture
 until someone from outside the room names them. Charles Duhigg tells the
 household version in *The Power of Habit* (2012): an odor-eliminating

@@ -26,10 +26,10 @@ test("nextPublishVersion bumps only when local is not ahead", () => {
 });
 
 test("applyVersion keeps package.json formatting", () => {
-	const raw = '{\n\t"name": "aibreze",\n\t"version": "0.1.4",\n}\n';
+	const raw = '{\n\t"name": "smellcheck",\n\t"version": "0.1.4",\n}\n';
 	assert.equal(
 		applyVersion(raw, "0.1.5"),
-		'{\n\t"name": "aibreze",\n\t"version": "0.1.5",\n}\n',
+		'{\n\t"name": "smellcheck",\n\t"version": "0.1.5",\n}\n',
 	);
 });
 

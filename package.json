@@ -1,9 +1,9 @@
 {
-	"name": "aibreze",
-	"version": "0.1.16",
+	"name": "smellcheck",
+	"version": "0.2.0",
 	"private": false,
 	"type": "module",
-	"description": "Installable writing rule set for AI agents. Sprays the performative, faux-profound register off prose. Core bans, smell audit, claims review, genre overlays.",
+	"description": "Smell-check your prose. Installable writing rule set for AI agents that sprays the performative, faux-profound register off prose. Core bans, smell audit, claims review, genre overlays. Prose, not code smells.",
 	"license": "MIT",
 	"author": "Catalyst Forge LLC",
 	"keywords": [
@@ -14,15 +14,18 @@
 		"llm",
 		"prompts",
 		"copyediting",
-		"voice"
+		"voice",
+		"smell-check",
+		"editing",
+		"ai-slop"
 	],
-	"homepage": "https://aibreze.com",
+	"homepage": "https://smellcheck.dev",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Catalyst-Forge-LLC/aibreze.git"
+		"url": "git+https://github.com/Catalyst-Forge-LLC/smellcheck.git"
 	},
 	"bugs": {
-		"url": "https://github.com/Catalyst-Forge-LLC/aibreze/issues"
+		"url": "https://github.com/Catalyst-Forge-LLC/smellcheck/issues"
 	},
 	"exports": {
 		".": {

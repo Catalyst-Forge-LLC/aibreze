@@ -1,6 +1,6 @@
-# aibreze.com
+# smellcheck.dev
 
-Marketing site for [aiBreze](https://www.npmjs.com/package/aibreze), built with
+Marketing site for [Smell Check](https://www.npmjs.com/package/smellcheck), built with
 [FilePress](https://getfilepress.com) ([`getfilepress`](https://www.npmjs.com/package/getfilepress)
 on npm).
 
@@ -15,7 +15,7 @@ Docs source: `docs/*.md` + `_nav.json`. FilePress mounts `docs/dist` at `/docs`.
 
 From the package root: `pnpm site:dev`, `pnpm site:build`, `pnpm ship`.
 
-If [LocalBerth](https://www.npmjs.com/package/localberth) is installed, this site stays on **5181** as `aibreze-site`.
+If [LocalBerth](https://www.npmjs.com/package/localberth) is installed, this site stays on **5181** as `smellcheck-site`.
 
 ## Deploy (Cloudflare Pages)
 
@@ -24,10 +24,11 @@ disagree.
 
 ```bash
 pnpm ship
-# = pnpm build && wrangler pages deploy build --project-name=aibreze
+# = pnpm build && wrangler pages deploy build --project-name=smellcheck
 ```
 
-Then attach **aibreze.com** in the Cloudflare dashboard.
+Then attach **smellcheck.dev** in the Cloudflare dashboard. Keep **aibreze.com**
+attached as a redirect source.
 
 ### Git-connected Pages
 
@@ -46,5 +47,6 @@ Dependency is the public npm package:
 ## Launch checklist
 
 - [x] GitHub repo is public
-- [x] Site live at `https://aibreze.com`
+- [x] Site live at `https://smellcheck.dev`
+- [ ] `aibreze.com` 301s to `smellcheck.dev`
 - [ ] Confirm `og:image` / Twitter card in a debugger

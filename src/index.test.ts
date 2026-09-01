@@ -30,7 +30,8 @@ test("all rule files exist on disk", () => {
 
 test("core names the brand, the escalation ban, and the heuristic", () => {
 	const core = readRule("core");
-	assert.match(core, /aiBreze/);
+	assert.match(core, /Smell Check/);
+	assert.match(core, /Prose, not code smells/);
 	assert.match(core, /not just X, it's Y/i);
 	assert.match(core, /unearned language/i);
 	assert.match(core, /Judge the sentence, not the byline/);
@@ -128,8 +129,14 @@ test("pocket card points at genre files", () => {
 	assert.match(card, /essays\.md/);
 	assert.match(card, /civic\.md/);
 	assert.match(card, /academic\.md/);
-	assert.match(card, /node_modules\/aibreze\/rules/);
+	assert.match(card, /node_modules\/smellcheck\/rules/);
 	assert.doesNotMatch(card, /\]\(\.\//);
+});
+
+test("no rule file still carries the old brand", () => {
+	for (const id of Object.keys(files) as Array<keyof typeof files>) {
+		assert.doesNotMatch(readRule(id), /aibreze/i, `${id} still says aibreze`);
+	}
 });
 
 test("core inventory stays true in the skill zip", () => {
@@ -143,7 +150,7 @@ test("skill facts version and bundle match the package", () => {
 		readFileSync(join(packageRoot, "package.json"), "utf8"),
 	) as { version: string };
 	const facts = readFileSync(
-		join(packageRoot, "skills", "aibreze", "SKILL_FACTS.md"),
+		join(packageRoot, "skills", "smellcheck", "SKILL_FACTS.md"),
 		"utf8",
 	);
 	assert.match(facts, new RegExp(`version: "${pkg.version}"`));
@@ -179,13 +186,13 @@ test("academic rejects the costume and keeps the colleague close", () => {
 
 test("skill has hybrid frontmatter and does not restate the escalation ban", () => {
 	const skill = readFileSync(
-		join(packageRoot, "skills", "aibreze", "SKILL.md"),
+		join(packageRoot, "skills", "smellcheck", "SKILL.md"),
 		"utf8",
 	);
-	assert.match(skill, /^---\nname: aibreze\n/m);
+	assert.match(skill, /^---\nname: smellcheck\n/m);
 	assert.match(skill, /Not for code, diffs/);
 	assert.match(skill, /Read `rules\/core\.md` in this folder/);
-	assert.match(skill, /https:\/\/aibreze\.com\/rules\/core\.md/);
+	assert.match(skill, /https:\/\/smellcheck\.dev\/rules\/core\.md/);
 	assert.match(skill, /When to open a genre file/);
 	assert.doesNotMatch(skill, /It's not just X/i);
 	const folded =
@@ -198,7 +205,7 @@ test("skill has hybrid frontmatter and does not restate the escalation ban", () 
 });
 
 test("skill folder carries canon markdown and omits cursor.mdc", () => {
-	const skillRules = join(packageRoot, "skills", "aibreze", "rules");
+	const skillRules = join(packageRoot, "skills", "smellcheck", "rules");
 	const canonNames = readdirSync(join(packageRoot, "rules"))
 		.filter((name) => name.endsWith(".md"))
 		.sort();
@@ -211,7 +218,7 @@ test("skill folder carries canon markdown and omits cursor.mdc", () => {
 		);
 	}
 	assert.ok(!existsSync(join(skillRules, "cursor.mdc")));
-	assert.ok(!existsSync(join(packageRoot, "skills", "aibreze", "cursor.mdc")));
+	assert.ok(!existsSync(join(packageRoot, "skills", "smellcheck", "cursor.mdc")));
 });
 
 test("package exports and packs the skill folder", () => {
@@ -227,15 +234,15 @@ test("static sync copies skill and core onto the site", () => {
 		cwd: packageRoot,
 	});
 	const skillSrc = readFileSync(
-		join(packageRoot, "skills", "aibreze", "SKILL.md"),
+		join(packageRoot, "skills", "smellcheck", "SKILL.md"),
 		"utf8",
 	);
 	const skillStatic = readFileSync(
-		join(packageRoot, "site", "static", "skills", "aibreze", "SKILL.md"),
+		join(packageRoot, "site", "static", "skills", "smellcheck", "SKILL.md"),
 		"utf8",
 	);
 	const skillCursor = readFileSync(
-		join(packageRoot, ".cursor", "skills", "aibreze", "SKILL.md"),
+		join(packageRoot, ".cursor", "skills", "smellcheck", "SKILL.md"),
 		"utf8",
 	);
 	assert.equal(skillStatic, skillSrc);
@@ -254,22 +261,22 @@ test("static sync copies skill and core onto the site", () => {
 		readFileSync(join(packageRoot, "rules", "cursor.mdc"), "utf8"),
 	);
 	const siteSkillCore = readFileSync(
-		join(packageRoot, "site", "static", "skills", "aibreze", "rules", "core.md"),
+		join(packageRoot, "site", "static", "skills", "smellcheck", "rules", "core.md"),
 		"utf8",
 	);
 	assert.equal(siteSkillCore, coreSrc);
 	assert.ok(
 		!existsSync(
-			join(packageRoot, "site", "static", "skills", "aibreze", "rules", "cursor.mdc"),
+			join(packageRoot, "site", "static", "skills", "smellcheck", "rules", "cursor.mdc"),
 		),
 	);
-	const zipPath = join(packageRoot, "site", "static", "skills", "aibreze.zip");
+	const zipPath = join(packageRoot, "site", "static", "skills", "smellcheck.zip");
 	assert.ok(existsSync(zipPath));
 	const zip = readFileSync(zipPath);
 	assert.equal(zip.readUInt32LE(0), 0x04034b50);
 	const zipNames = storeZipNames(zip);
-	assert.ok(zipNames.includes("aibreze/SKILL.md"));
-	assert.ok(zipNames.includes("aibreze/rules/core.md"));
+	assert.ok(zipNames.includes("smellcheck/SKILL.md"));
+	assert.ok(zipNames.includes("smellcheck/rules/core.md"));
 	assert.ok(!zipNames.some((name) => name.includes("cursor.mdc")));
 });
 
@@ -294,7 +301,7 @@ test("readme states what the package is", () => {
 	assert.match(readme, /does not try to fool AI detectors/);
 	assert.match(readme, /Spray the prose, not the author/);
 	assert.match(readme, /Earn the word/);
-	assert.match(readme, /aibreze\.com\/docs/);
+	assert.match(readme, /smellcheck\.dev\/docs/);
 });
 
 test("docs nav has a markdown file for every item", () => {

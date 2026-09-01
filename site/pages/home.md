@@ -6,17 +6,17 @@ order: 0
 
 You probably stopped noticing it.
 
-**aiBreze.** Smell-check a document the way you spell-check it. Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
+**Smell Check.** Smell-check a document the way you spell-check it. Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
 
 Spray the prose, not the author. Bad prose is bad prose.
 
 ## Not a humanizer
 
-aiBreze does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way.
+Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way.
 
 Core law, genre extras, a project overlay, then a smell audit and a claims pass.
 
-[Docs](/docs/) · [Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/aibreze) · [GitHub](https://github.com/Catalyst-Forge-LLC/aibreze) · [Why the name](/about)
+[Docs](/docs/) · [Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/smellcheck) · [GitHub](https://github.com/Catalyst-Forge-LLC/smellcheck) · [Why the name](/about)
 
 ## Earn the word.
 
@@ -43,9 +43,9 @@ Markdown you install and point an agent at. v1 has no CLI.
 | `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |
 
 ```bash
-pnpm add -D aibreze
+pnpm add -D smellcheck
 ```
 
-On [npm](https://www.npmjs.com/package/aibreze). [Skill](/skill) as a folder. [Install](/install).
+On [npm](https://www.npmjs.com/package/smellcheck). [Skill](/skill) as a folder. [Install](/install).
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.

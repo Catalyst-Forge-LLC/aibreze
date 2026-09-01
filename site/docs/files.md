@@ -16,7 +16,7 @@ Markdown you install and point an agent at. Canon lives in `rules/` in this repo
 | `rules/civic.md` | Filings, testimony, legal-adjacent memos. Ceremony is earned. |
 | `rules/academic.md` | Papers and methods. Precision and citations, not the costume. |
 | `rules/cursor.mdc` | Always-on digest. Copy into `.cursor/rules/`. |
-| `skills/aibreze/` | Host-agnostic skill. `SKILL.md` plus `rules/*.md`. |
+| `skills/smellcheck/` | Host-agnostic skill. `SKILL.md` plus `rules/*.md`. |
 
 Genre files assume `core.md` and are additive: surface law only. Do not copy the bans. Do not fork `core.md`.
 

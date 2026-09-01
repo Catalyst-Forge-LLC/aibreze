@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Assemble the installable skill folder from canon `rules/`, then copy
- * it to the site (raw Markdown + ZIP) and `.cursor/skills/aibreze/`.
+ * it to the site (raw Markdown + ZIP) and `.cursor/skills/smellcheck/`.
  * `cursor.mdc` stays out of the skill; that is the always-on rule.
  */
 import {
@@ -17,7 +17,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const skillName = "aibreze";
+const skillName = "smellcheck";
 const skillSrcDir = join(root, "skills", skillName);
 const rulesCanon = join(root, "rules");
 const skillRulesDir = join(skillSrcDir, "rules");

@@ -2,7 +2,7 @@
 site/static/skills/
 site/static/rules/
 site/docs/dist/
-.cursor/skills/aibreze/rules/
+.cursor/skills/smellcheck/rules/
 node_modules/
 dist/
 .DS_Store

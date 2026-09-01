@@ -2,15 +2,15 @@
 title: Introduction
 ---
 
-**aiBreze** is an installable writing rule set for AI agents. Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
+**Smell Check** is an installable writing rule set for AI agents. Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
 
-Written **aiBreze**. npm **`aibreze`**. A spray, not a breeze. v1 has no CLI.
+Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells. v1 has no CLI.
 
 Spray the prose, not the author. Earn the word. Have you smell-checked that?
 
 ## Not a humanizer
 
-aiBreze does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way. If the prose smells, spray it.
+Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way. If the prose smells, spray it.
 
 Adjacent tools tend to be humanizers, banned-word lists, or general style linters. This package layers genre files, an earn-the-word test, claims before voice, and overlays instead of forks.
 
