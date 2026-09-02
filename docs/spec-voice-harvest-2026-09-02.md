@@ -30,7 +30,7 @@ it. House examples stay house. Package examples stay generic.
 
 ---
 
-## 2. Decisions this spec asks you to confirm
+## 2. Decisions (locked)
 
 1. **No new `talks.md`.** `essays.md` already covers essays,
    talks, and long argument. A second genre file would fork.
@@ -323,7 +323,7 @@ the copies.
 | `rules/audit.md` | Add hidden verb, sense collision, and hero-noun to the "From core.md" hunt list. Note single-sentence vs density. |
 | `rules/academic.md` | One line: "the work" meaning this study still passes. |
 | `rules/civic.md` | Named exception: ceremony that names a real oath still passes. |
-| `src/index.test.ts` | Assert core names the new tells; pocket card names the three digest lines; essays names picture-before-theory. Follow the existing `core names the riddle-label` pattern. |
+| `src/index.test.ts` | Assert core names hidden verb, sense collision, and hero-noun; pocket card names the two new digest lines and the unparseable extension; essays names picture-before-theory. Follow the existing `core names the riddle-label` pattern. |
 | `site/docs/files.md` | Only if the essays one-liner in the table needs a longer use string. |
 
 Do not add `talks.md`. Do not restate bans in genre files.
