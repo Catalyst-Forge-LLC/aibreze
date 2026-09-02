@@ -258,8 +258,8 @@ function renderPage(item, bodyHtml, toc, prev, next) {
 		<a class="docs-brand" href="/docs/">Smell Check <span>docs</span></a>
 		<nav class="docs-top-links">
 			<a href="/">Home</a>
-			<a href="/install">Install</a>
-			<a href="/skill">Skill</a>
+			<a href="/docs/install">Install</a>
+			<a href="/docs/skill">Skill</a>
 			<a href="https://github.com/Catalyst-Forge-LLC/smellcheck">GitHub</a>
 		</nav>
 	</header>

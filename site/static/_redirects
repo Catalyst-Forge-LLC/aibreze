@@ -1,5 +1,9 @@
 /docs /docs/ 308
 /writing /posts 308
 /writing/ /posts 308
+/install /docs/install 301
+/install/ /docs/install 301
+/skill /docs/skill 301
+/skill/ /docs/skill 301
 /skills/aibreze.zip /skills/smellcheck.zip 301
 /skills/aibreze/* /skills/smellcheck/:splat 301

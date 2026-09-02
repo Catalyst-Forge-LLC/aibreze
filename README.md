@@ -24,7 +24,7 @@ Copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc
 Write `docs/smellcheck.md` as the overlay. Optional: paste `rules/agents.md`
 into `AGENTS.md` or `CLAUDE.md`. Full wiring: [docs](https://smellcheck.dev/docs/install).
 
-Or skip npm and [install the skill](https://smellcheck.dev/skill) as a folder.
+Or skip npm and [install the skill](https://smellcheck.dev/docs/skill) as a folder.
 
 Markdown you point an agent at. Nothing scans the tree. v1 has no CLI.
 

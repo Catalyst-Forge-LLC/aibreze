@@ -60,9 +60,6 @@ Add house maxims or verbatim testimony below.
 
 ## After install
 
-1. Copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc`
-2. Write `docs/smellcheck.md` from the skeleton
-3. Point "Full rules" at `node_modules/smellcheck/rules/core.md`
-4. Optional: paste [`rules/agents.md`](/rules/agents.md) into `AGENTS.md` or `CLAUDE.md`
+Wire the repo on [Install](/docs/install), then fill this file from the skeleton. Point "Full rules" at `node_modules/smellcheck/rules/core.md`.
 
 [Install](/docs/install) · [Files](/docs/files)

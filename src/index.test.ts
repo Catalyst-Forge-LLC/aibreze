@@ -179,6 +179,7 @@ test("host pointer points at core and does not copy the bans", () => {
 	assert.match(pointer, /AGENTS\.md/);
 	assert.match(pointer, /CLAUDE\.md/);
 	assert.match(pointer, /Nothing in this package scans the tree/);
+	assert.match(pointer, /smellcheck\.dev\/docs\/skill/);
 	assert.doesNotMatch(pointer, /It's not just X/i);
 	assert.doesNotMatch(pointer, /The honest evaluation/i);
 	assert.doesNotMatch(pointer, /## Hard bans/);
@@ -384,6 +385,15 @@ test("install and files pages name the three hooks and finish the raw list", () 
 	assert.match(install, /AGENTS\.md/);
 	assert.match(install, /CLAUDE\.md/);
 	assert.match(install, /docs\/smellcheck\.md/);
+	assert.doesNotMatch(install, /Short version on the site/);
+	assert.ok(!existsSync(join(packageRoot, "site", "pages", "install.md")));
+	assert.ok(!existsSync(join(packageRoot, "site", "pages", "skill.md")));
+	const skill = readFileSync(
+		join(packageRoot, "site", "docs", "skill.md"),
+		"utf8",
+	);
+	assert.match(skill, /Download smellcheck\.zip/);
+	assert.doesNotMatch(skill, /Short version on the site/);
 	const filesDoc = readFileSync(
 		join(packageRoot, "site", "docs", "files.md"),
 		"utf8",
@@ -393,6 +403,20 @@ test("install and files pages name the three hooks and finish the raw list", () 
 	assert.match(filesDoc, /outreach\.md/);
 	assert.match(filesDoc, /launch\.md/);
 	assert.match(filesDoc, /agents\.md/);
+	const redirects = readFileSync(
+		join(packageRoot, "site", "static", "_redirects"),
+		"utf8",
+	);
+	assert.match(redirects, /\/install \/docs\/install 301/);
+	assert.match(redirects, /\/skill \/docs\/skill 301/);
+	const filepress = readFileSync(
+		join(packageRoot, "site", "filepress.config.ts"),
+		"utf8",
+	);
+	assert.match(filepress, /href: '\/docs\/install'/);
+	assert.match(filepress, /href: '\/docs\/skill'/);
+	assert.doesNotMatch(filepress, /href: '\/install'/);
+	assert.doesNotMatch(filepress, /href: '\/skill'/);
 });
 
 test("docs nav has a markdown file for every item", () => {

@@ -4,9 +4,7 @@ title: Skill
 
 The skill is a folder: `SKILL.md` plus the rule files it reads. The agent loads it when you draft or revise publishable prose, or when you say spray / smell-check / publish pass. Not on code, diffs, or chat-only answers.
 
-A project [install](/docs/install) is a different hook: npm, overlay, always-on pocket card. Agents that read `AGENTS.md` or `CLAUDE.md` get a [pointer](/rules/agents.md), not a second digest. Nothing scans the tree.
-
-Short version on the site: [Skill](/skill).
+Wiring a repo (npm, overlay, always-on pocket card) is [Install](/docs/install). Agents that read `AGENTS.md` or `CLAUDE.md` get a [pointer](/rules/agents.md), not a second digest. Nothing scans the tree.
 
 ## Download the ZIP
 
@@ -42,11 +40,11 @@ The folder you drop in must be named `smellcheck` and must contain `SKILL.md`.
 
 ## Always-on Cursor rule
 
-Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/smellcheck.mdc`. That file is not in the skill ZIP.
+The skill ZIP does not include the pocket card. Download [cursor.mdc](/rules/cursor.mdc) and save it as `.cursor/rules/smellcheck.mdc`.
 
 From a clone, copy `rules/cursor.mdc`. From npm, copy `node_modules/smellcheck/rules/cursor.mdc`. Same destination.
 
-It stays loaded even when the skill does not run. Overlay: `docs/smellcheck.md`. See [Overlay](/docs/overlay).
+It stays loaded even when the skill does not run. Overlay: `docs/smellcheck.md`. See [Overlay](/docs/overlay) and [Install](/docs/install).
 
 ## Host pointer
 

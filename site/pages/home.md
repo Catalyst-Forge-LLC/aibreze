@@ -16,7 +16,7 @@ Smell Check does not guess whether a human or a model wrote the sentences, and i
 
 Core law, genre extras, a project overlay, then a smell audit and a claims pass.
 
-[Docs](/docs/) · [Install](/install) · [Skill](/skill) · [npm](https://www.npmjs.com/package/smellcheck) · [GitHub](https://github.com/Catalyst-Forge-LLC/smellcheck) · [Why the name](/about)
+[Docs](/docs/) · [Install](/docs/install) · [Skill](/docs/skill) · [npm](https://www.npmjs.com/package/smellcheck) · [GitHub](https://github.com/Catalyst-Forge-LLC/smellcheck) · [Why the name](/about)
 
 ## Earn the word.
 
@@ -47,6 +47,6 @@ Markdown you install and point an agent at. Nothing scans the tree. v1 has no CL
 pnpm add -D smellcheck
 ```
 
-On [npm](https://www.npmjs.com/package/smellcheck). [Skill](/skill) as a folder. [Install](/install).
+On [npm](https://www.npmjs.com/package/smellcheck). [Skill](/docs/skill) as a folder. [Install](/docs/install).
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
