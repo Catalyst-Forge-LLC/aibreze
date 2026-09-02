@@ -43,6 +43,9 @@ Leave these when the form or the forum requires them:
 - Defined terms, used consistently
 - Pin cites, record cites, statutory and regulatory citations
 - "Respectfully submitted," signature blocks, certificates of service
+- Ceremony that names a real oath ("I take the obligation," "I swear")
+  when the form or the filer is under that oath. [`essays.md`](./essays.md)
+  flags the same words as costume outside a filing.
 
 Do not spray those into a blog post. Do not strip them from a filing
 to make it sound like core's default.

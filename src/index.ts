@@ -58,7 +58,7 @@ export const catalog: ReadonlyArray<{
 	{
 		id: "essays",
 		title: "Essays / longform",
-		use: "Essays and talks: one register, author in the essay, concrete instance. Not for reference docs.",
+		use: "Essays and talks: one register, author in the essay, concrete instance, talk extras. Not for reference docs.",
 	},
 	{
 		id: "landing",

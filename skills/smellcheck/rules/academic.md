@@ -39,6 +39,9 @@ the bibliography is long. Earn the word: "robust," "novel," and
 "seminal" need a measurement, a contrast, or a cite that actually
 carries that weight.
 
+"The work" meaning this study still passes. Core flags it only when
+the noun is the hero of a mission sentence.
+
 ---
 
 ## What earns its place

@@ -7,7 +7,10 @@ rewriting a vision talk. Ask: some of those rules travel. Write
 a reviewable plan to update this package. Do not rewrite the
 rules in this pass.*
 
-**This file is the plan. Not the rewrite.**
+**This file is the plan. Not the rewrite.** Marks from the
+2026-09-02 review are locked in §9. Overlay in the source
+vault was tightened the same day so it no longer teaches the
+loose tests.
 
 ---
 
@@ -57,22 +60,19 @@ it. House examples stay house. Package examples stay generic.
 | No dummy scale label | `core.md` riddle labels | Extend. Same withhold, smaller unit. |
 | Don't announce a list as a compression | `core.md` riddle labels | Extend. The label is a brief-voice riddle. |
 | No code / gloss house words | `core.md` unparseable sentence | Extend. Insider code is the same waste. |
-| Don't hide the verb | `core.md` new cadence tell | **Add.** |
-| Name the referent after a break | `core.md` new cadence tell | **Add.** |
-| Pick the sense / neighbors / scope the count | `core.md` new cadence tell | **Add** as one tell: sense collision. |
-| "The work" as a haughty noun | `core.md` new cadence tell | **Add**, with academic carve-out. |
-| Don't pick up obligation like an object | `core.md` new cadence tell | **Add**, with civic carve-out. |
-| Decode tax (if they have to decode, they cannot arrive) | `essays.md` | **Add.** Teaching test, not every changelog. |
-| No impersonal constructions | `essays.md` | **Add.** |
+| Don't hide the verb | `core.md` new cadence tell | **Add.** Keep *in a person*. Drop *lands → sticks*. |
+| Name the referent after a break | `core.md` unparseable sentence | **Fold.** Not a new heading. |
+| Pick the sense / neighbors / scope the count | `core.md` new cadence tell | **Add** as one tell: sense collision. Test: nearest noun stole the verb. |
+| "The work" as a haughty noun | `core.md` register tell | **Add.** Hero of a mission sentence, not a token ban. Academic carve-out. Off the pocket card. |
+| Don't pick up obligation like an object | `essays.md` + civic one-liner | **Add** there, not in core. Civic line is a named exception. |
+| Decode tax / impersonal / honest verbs | `essays.md` walk-vs-stage | **Merge.** One short test, not three personalities. |
 | Don't close a live definition | `essays.md` | **Add.** |
-| Don't retrofit a later name | `essays.md` | **Add.** |
-| Honest verbs | `essays.md` | **Add.** |
-| Could-have-done-it-themselves | `essays.md` | **Add.** |
+| Don't retrofit a later name | `essays.md` | **Add.** Claims note can wait. |
 | Don't jam three claims in one breath | `essays.md` | **Add.** |
 | Picture before theory (midterm question) | `essays.md` | **Add.** |
 | Take a breath | `essays.md` | **Add.** |
 | Don't repeat unless you add a beat | `essays.md` | **Add.** |
-| Walk-vs-stage test | `essays.md` | **Add**, generalized. |
+| Walk-vs-stage test | `essays.md` | **Add**, short. |
 | Unveiling talk (alongside, not above) | overlay | Stay. |
 | I / we / you for Sam introducing a talk | overlay | Stay. Pronouns are a project decision. |
 | Wonder Talk questions as method | overlay | Stay. Core already protects Socratic beats. |
@@ -105,82 +105,67 @@ the picture is not a Socratic beat. It is a unit title.
 
 ## 5. Proposed core additions
 
-Cadence budgets, not hard bans. Flag density, except hidden
-verb and orphaned referent, which fail in a single sentence
-the way unparseable already does.
+Two new core names: **hidden verb** and **sense collision**.
+Hero-noun is a register tell, not a fifteenth cadence name.
+Orphaned referent folds under unparseable. Obligation stays
+out of core.
+
+Say in core which tells fail in a single sentence. Cadence
+budget vs single-sentence fail is how audit will misfire.
+Hidden verb and unparseable (including orphaned noun, insider
+code) fail in one sentence. The rest are density.
 
 ### 5.1 Hidden verb
 
 If someone is doing something, say the verb. Location and
-possession are not verbs. Dummy frames put a preposition or a
-noun where a person should be acting.
+possession are not verbs. The tell is the dummy frame: a
+preposition or a noun where a person should be acting.
 
 A maxim that needs *in you* can stay ("you can only use what
 is already in you"). Do not let the setup sentence hide behind
 it.
 
+Keep the *in a person* pair. Drop *lands* / *sticks*. That
+swap is taste. Agents will "correct" ordinary English.
+
 - Bad: "Once that understanding is in a person, the rest is
   easy."
 - Good: "Once a person can see it, the rest is easy."
-- Bad: "Nothing I teach them lands."
-- Good: "Nothing I teach them sticks."
 
 House source: "understanding is in a person" hid *see*;
 "resonance is already in a person" hid *ring*.
 
-### 5.2 Orphaned referent
+### 5.2 Sense collision
 
-A heading resets *this*, *that*, *it*, and *ones*. If the noun
-is not in the room, say it again. Same for a heading that
-owns nothing: "What this covers" needs a named owner.
-
-- Bad: (after a heading) "I do this in a deliberate order."
-- Good: "I teach this in a deliberate order."
-- Bad: "What this covers"
-- Good: "What this guide covers"
-
-House source: "I do this in a deliberate order" at the top of
-The arc; "ones" two beats back from Living Legacies.
-
-### 5.3 Sense collision
-
-If a word has two common meanings, pick one or spell it. The
-nearest noun will choose which reading lands. Same test for a
-count the preposition can steal.
+The nearest noun stole the verb, or the reading. If a word
+has two common meanings, pick one, spell it, or change the
+neighbor. Write that test. Do not write "this preposition is
+wrong." The count-steal case (`with` / `from`) is the easy
+over-apply. Use it only when the neighbor stole the count.
 
 - Bad: "Competence aimed at the wrong peak scales it."
   (*peak* steals *scales* as climbing.)
 - Good: "Competence aimed at the wrong peak amplifies it."
-- Bad: "He filled pages with four questions."
-  (reads as four sentences)
-- Good: "He filled pages from four questions."
 
 House source: *scales* next to *peak*; "filled pages with four
-questions"; "find the fire in the attic" (house fire). Keep
-the attic example in the overlay.
+questions" (neighbor stole the count); "find the fire in the
+attic" (house fire). Keep the attic example in the overlay.
 
-### 5.4 Haughty hero-noun
+### 5.3 Hero-noun (register, not cadence)
 
-"The work" as the hero of the sentence is academic and
-activist register. Say what someone is trying to do, or what
-they build. "Body of work" can stay when it means the pile.
-`academic.md` may keep "the work" when it means this study.
+The noun is the hero of a mission sentence. That is the tell.
+A loose "flag 'the work'" will spray committee minutes and
+"the work is done." "Body of work" can stay when it means the
+pile. `academic.md` may keep "the work" when it means this
+study. Off the pocket card.
 
 - Bad: "The work is getting to higher resolution."
 - Good: "What I've been trying to do is get to higher
   resolution, bit by bit."
+- Still fine: "The work is done." / "the work of the
+  committee"
 
-### 5.5 Obligation as object
-
-"I take the obligation" / "I accept it" / "I embrace it" is
-ceremony. Say what you try to do. The feeling can stay
-*obligation* where that is the right word. `civic.md` may keep
-the ceremony when the filing names a real oath.
-
-- Bad: "I take the obligation to keep this current."
-- Good: "I try to keep this current."
-
-### 5.6 Extensions of tells we already have
+### 5.4 Extensions of tells we already have
 
 Under **setup sentences**, add the receipt example in §4.
 
@@ -200,28 +185,42 @@ withhold:
   moves"). If you would not say the label standing up, cut
   the label. "I keep coming back to five moves."
 
-Under **unparseable sentence**, add: if only someone who
-already has the map would get it, spell it. A house word that
-must stay gets a gloss in the next breath. Terms that pass
-the applicability heuristic still pass. The tell is the code,
-not the dialect.
+Under **unparseable sentence**, add two cousins of the same
+test (sounds finished; the reader cannot recover the noun or
+the map). Do not mint a heading.
+
+- Orphaned referent: a heading resets *this*, *that*, *it*,
+  and *ones*. "I do this in a deliberate order" after a
+  heading has no noun in the room. "What this covers" needs
+  a named owner.
+- Insider code: if only someone who already has the map
+  would get it, spell it. A house word that must stay gets a
+  gloss in the next breath. Terms that pass the applicability
+  heuristic still pass. The tell is the code, not the dialect.
 
 ---
 
 ## 6. Proposed `essays.md` additions
 
 Surface law for essays, talks, and long argument. Not for
-reference docs, changelogs, or UI chrome.
+reference docs, changelogs, or UI chrome. Merge decode tax,
+honest verbs, and walk-vs-stage. If the rewrite would just
+restate colleague voice, it is already in core.
 
-### 6.1 Decode tax
+### 6.1 Walk-vs-stage (one short test)
 
-If the reader has to decode the sentence, they cannot arrive
-at the thought themselves. Elevated prose, impersonal
-constructions, and impenetrable cleverness all levy that tax.
+Would you say this next to someone, or from a stage? If
+stage, rewrite. Agents default to a lectern.
 
-- No impersonal dummy: "Show one piece and it looks like a
-  side project." Say who showed it, and to whom.
-- Spell a fact that a pairing was trying to be clever about.
+That test already catches elevated prose, impersonal dummy
+("Show one piece and it looks like a side project"), and
+verbs only a specialist or an activist would say. Keep
+ordinary moves a listener can picture. They should finish
+and feel they could have taken the same steps: not "anyone
+could have," not "only I."
+
+Do not write a second personality. House overlay may keep
+the stricter Sam-talk form (walk, unveiling, not a lectern).
 
 ### 6.2 Picture before theory
 
@@ -242,49 +241,38 @@ them before the next beat, break. Do not chop every sentence.
 Talks already earn more signposts than a blog post. They also
 earn air.
 
-### 6.4 Honest verbs, and they could have done it
-
-Use verbs a listener can picture themselves doing: observe,
-dig, test, try, refine. If only a specialist or an activist
-would say the sentence, rewrite it.
-
-A person should finish the explanation and feel they could
-have taken the same steps. Not false-modest ("anyone could
-have"), and not haughty ("only I"). Relatable moves, in
-order.
-
-### 6.5 Don't close a live definition
+### 6.4 Don't close a live definition
 
 A shut noun makes a still-refining shape sound finished.
 "Conclusions," "the system," "the answer" when the thing is
 still being named. Prefer the live word: connections,
 definitions, a working model.
 
-### 6.6 Don't retrofit a later name
+### 6.5 Don't retrofit a later name
 
 If they did the thing before they had the phrase, say they
 did not have the phrase. Do not put today's vocabulary in a
 younger mouth.
 
-### 6.7 Don't jam three claims in one breath
+### 6.6 Don't jam three claims in one breath
 
 A definition, a scope claim, and a duty each need their own
 beat. One sentence can carry one.
 
-### 6.8 Don't repeat unless you add a beat
+### 6.7 Don't repeat unless you add a beat
 
 Coming back is fine when you add something. A second pass
 that only restates is a stall.
 
-### 6.9 Walk-vs-stage
+### 6.8 Ceremony instead of a verb
 
-Would you say this next to someone, excited to show them, or
-from a stage? If stage, rewrite. Second test: is the sentence
-true to what was in the room at the time, or did we tidy it
-into a pairing?
+"I take the obligation" / "I accept it" / "I embrace it" is
+ceremony. Say what you try to do. The feeling can stay
+*obligation* where that is the right word. Do not flag every
+use of the noun.
 
-House overlay may keep the stricter Sam-talk form (walk,
-unveiling, not a lectern). The package gets the general test.
+`civic.md` named exception: ceremony that names a real oath
+still passes. Not a footnote. Not core.
 
 ---
 
@@ -329,53 +317,53 @@ the copies.
 
 | File | Change |
 | --- | --- |
-| `rules/core.md` | Five new cadence tells, four extensions, Bad → good rows. |
-| `rules/essays.md` | Section for talk / long-argument extras in §6. |
-| `rules/cursor.mdc` | Three digest lines. No genre law. |
-| `rules/audit.md` | Add the new core names to the "From core.md" hunt list. Do not re-list them as extras. |
+| `rules/core.md` | Two new cadence names (hidden verb, sense collision). Hero-noun as a register tell. Orphaned referent and insider code folded under unparseable. Four extensions. Bad → good rows. Say which tells fail in one sentence. |
+| `rules/essays.md` | Talk extras in §6. Walk-vs-stage is one short test. Obligation lives here. |
+| `rules/cursor.mdc` | Two new digest lines (hidden verb, sense collision). Extend the existing unparseable line for heading-reset. No genre law. Hero-noun off the card. |
+| `rules/audit.md` | Add hidden verb, sense collision, and hero-noun to the "From core.md" hunt list. Note single-sentence vs density. |
 | `rules/academic.md` | One line: "the work" meaning this study still passes. |
-| `rules/civic.md` | One line: ceremony that names a real oath still passes. |
+| `rules/civic.md` | Named exception: ceremony that names a real oath still passes. |
 | `src/index.test.ts` | Assert core names the new tells; pocket card names the three digest lines; essays names picture-before-theory. Follow the existing `core names the riddle-label` pattern. |
 | `site/docs/files.md` | Only if the essays one-liner in the table needs a longer use string. |
 
 Do not add `talks.md`. Do not restate bans in genre files.
-Do not publish. Version bump is his call at publish time
-(recommendation: `0.3.0`; this is a real essays expansion,
-not a typo fix).
+Do not publish. Version is `0.3.0`.
 
 ### Pocket card lines (proposed)
 
-Add under cadence budgets, after unparseable sentence:
+Two new lines. Extend the unparseable line already on the
+card. Do not add a third name for orphaned referent.
 
-- Hidden verb: location and possession are not verbs ("the
-  understanding is in a person"). Say the verb.
-- Orphaned referent: a heading resets *this* / *that* / *it*.
-  Name the noun again.
-- Sense collision: the nearest noun picks the reading. Pick
+- Hidden verb: dummy frame. Location and possession are not
+  verbs ("the understanding is in a person"). Say the verb.
+  One frame is a fail.
+- Sense collision: the nearest noun stole the reading. Pick
   one sense, or change the neighbor.
+- Unparseable (extend): a finished-sounding line the reader
+  cannot repeat, including a heading that reset *this* /
+  *that* / *it*.
 
 ---
 
 ## 9. Open for review
 
-Mark each. The rewrite waits on this page.
+Locked 2026-09-02. Package rewrite still pending.
 
-1. Hidden verb in **core** (proposed) or essays only?
-2. Haughty hero-noun in **core** (proposed) or essays only?
-   Academic carve-out enough, or drop the tell and leave
-   "the work" as overlay dialect?
-3. Obligation-as-object in **core** (proposed) or civic/essays
-   only?
-4. Sense collision: one tell (proposed) or keep pick-the-sense,
-   neighbors, and scope-the-count as three bullets?
-5. Walk-vs-stage in essays (proposed) or too close to a
-   personality?
-6. Locked-pair cousin (do not ship one half; do not freeze a
-   grown set): stay overlay (proposed) or add a one-liner to
-   essays?
-7. Don't retrofit a later name: essays (proposed) or also a
-   `claims.md` anachronism note?
-8. Version: `0.3.0` (proposed) or `0.2.1`?
+1. Hidden verb: **core.** Single-sentence fail. Keep *in a person*.
+   Drop *lands → sticks*.
+2. Haughty hero-noun: **core.** Tight *hero of a mission sentence*
+   test. Academic carve-out. Off the pocket card.
+3. Obligation-as-object: **essays + civic one-liner**, not core.
+4. Sense collision: **one tell.** Test is "the nearest noun stole
+   the verb," not "this preposition is wrong."
+5. Walk-vs-stage: **essays**, one short test.
+6. Locked-pair cousin: **stay overlay.**
+7. Don't retrofit a later name: **essays only.** No `claims.md`
+   note.
+8. Version: **`0.3.0`.** Do not publish from this rewrite.
+
+Pocket card: hidden verb, sense collision, and an unparseable
+extension for heading-reset. Hero-noun stays off the card.
 
 ---
 
@@ -385,7 +373,7 @@ For the rewrite, not for the package examples.
 
 | Rule | House sentence |
 | --- | --- |
-| Hidden verb | "Once that understanding is in a person" / "the resonance is already in a person" / "nothing I teach them lands" |
+| Hidden verb | "Once that understanding is in a person" / "the resonance is already in a person" (*lands → sticks* was taste; drop it) |
 | Orphaned referent | "I do this in a deliberate order" under The arc |
 | Sense collision | "Competence aimed at the wrong peak… scales it"; "filled pages with four questions"; "find the fire in the attic" |
 | Hero-noun | "The work" as what the years were |

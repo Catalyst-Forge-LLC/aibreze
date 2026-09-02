@@ -24,7 +24,7 @@ Keep a few full forms on purpose for emphasis. That is a choice, not a
 leak.
 
 Talks may use more signpost openers than a blog post. The audience needs
-the map. Cut the same scaffolding from prose.
+the map. They also earn air. Cut the same scaffolding from prose.
 
 ---
 
@@ -69,6 +69,63 @@ This package does not require a deed unless the project overlay says so.
 
 ---
 
+## Talk and long argument extras
+
+Surface law for essays, talks, and long argument. Not for reference
+docs, changelogs, or UI chrome.
+
+**Decode tax.** If the reader has to decode the sentence, they cannot
+arrive at the thought themselves. Elevated prose, impersonal
+constructions, and impenetrable cleverness all levy that tax. No
+impersonal dummy: "Show one piece and it looks like a side project."
+Say who showed it, and to whom. Spell a fact that a pairing was trying
+to be clever about.
+
+**Picture before theory.** Do not ask a theory question before the
+picture is in the room. "Why does recognition work where instruction
+fails?" is a unit title in question form. Ask after they can see the
+thing, or do not ask: start with the strike, the tree, the hinge. A
+Socratic question starts with something ordinary. A midterm question
+starts with the doctrine. Core already protects the first. This rule
+names the second.
+
+**Take a breath.** A new paragraph is a pause. If you would stop and
+look at them before the next beat, break. Do not chop every sentence.
+
+**Honest verbs.** Use verbs a listener can picture themselves doing:
+observe, dig, test, try, refine. If only a specialist or an activist
+would say the sentence, rewrite it. A person should finish the
+explanation and feel they could have taken the same steps. Not
+false-modest ("anyone could have"), and not haughty ("only I").
+Relatable moves, in order.
+
+**Don't close a live definition.** A shut noun makes a still-refining
+shape sound finished. "Conclusions," "the system," "the answer" when
+the thing is still being named. Prefer the live word: connections,
+definitions, a working model.
+
+**Don't retrofit a later name.** If they did the thing before they had
+the phrase, say they did not have the phrase. Do not put today's
+vocabulary in a younger mouth.
+
+**One claim per breath.** A definition, a scope claim, and a duty each
+need their own beat. One sentence can carry one.
+
+**Don't repeat unless you add a beat.** Coming back is fine when you
+add something. A second pass that only restates is a stall.
+
+**Walk-vs-stage.** Would you say this next to someone, excited to show
+them, or from a stage? If stage, rewrite. Second test: is the sentence
+true to what was in the room at the time, or did we tidy it into a
+pairing? Overlay may keep a stricter form. This file gets the test.
+
+**Obligation as object.** "I take the obligation" / "I accept it" /
+"I embrace it" is ceremony. Say what you try to do. The feeling can
+stay *obligation* where that is the right word. [`civic.md`](./civic.md)
+may keep the ceremony when the filing names a real oath.
+
+---
+
 ## Audit extras for this genre
 
 On top of `core.md` and `audit.md`:
@@ -77,3 +134,6 @@ On top of `core.md` and `audit.md`:
   reference)
 - Title or lede that claims more than the body proves (run `claims.md`
   when this is in doubt)
+- Decode tax, midterm question before the picture, live definition
+  closed too early, later name retrofitted, three claims in one breath,
+  restating without a beat, stage voice, obligation as object

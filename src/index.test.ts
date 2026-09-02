@@ -84,6 +84,32 @@ test("core names operator-notes, hand-holding, and unparseable-sentence tells", 
 	assert.match(card, /Unparseable sentence/);
 });
 
+test("core names hidden verb, sense collision, and haughty hero-noun", () => {
+	const core = readRule("core");
+	assert.match(core, /Hidden verb/);
+	assert.match(core, /understanding is in a person/);
+	assert.match(core, /Sense collision/);
+	assert.match(core, /nearest noun stole the verb/);
+	assert.match(core, /Haughty hero-noun/);
+	assert.match(core, /hero of a mission sentence/);
+	assert.doesNotMatch(core, /Nothing I teach them lands/);
+	assert.match(core, /orphaned referent/);
+	const card = readRule("cursor");
+	assert.match(card, /Hidden verb/);
+	assert.match(card, /heading resets/);
+	assert.match(card, /Sense collision/);
+});
+
+test("essays names picture-before-theory and obligation as object", () => {
+	const essays = readRule("essays");
+	assert.match(essays, /Picture before theory/);
+	assert.match(essays, /midterm question/);
+	assert.match(essays, /Obligation as object/);
+	assert.match(essays, /Walk-vs-stage/);
+	assert.match(readRule("academic"), /meaning this study still passes/);
+	assert.match(readRule("civic"), /names a real oath/);
+});
+
 test("audit prompt has a paste slot", () => {
 	assert.match(readRule("audit"), /COPY TO AUDIT/);
 });

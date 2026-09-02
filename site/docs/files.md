@@ -9,7 +9,7 @@ Markdown you install and point an agent at. Canon lives in `rules/` in this repo
 | `rules/core.md` | Shared law. Always. Register, applicability heuristic, teaching antithesis, hard bans, cadence budgets, chat vs publish. |
 | `rules/audit.md` | Paste-in smell audit (score, flags, protect list, top 5). Additive to core. |
 | `rules/claims.md` | Skeptical peer review. Substance first, voice after. |
-| `rules/essays.md` | Longform: one register, author in the essay, concrete instance. Not for reference docs. |
+| `rules/essays.md` | Longform: one register, author in the essay, concrete instance, talk extras. Not for reference docs. |
 | `rules/landing.md` | Page copy: pronouns, rhetorical budgets, substance, read-aloud. |
 | `rules/outreach.md` | Email / DM / text. Relationship first, one ask. |
 | `rules/launch.md` | Shipping posts. Open on a specific moment or the artifact. |

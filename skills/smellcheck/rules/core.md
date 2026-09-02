@@ -205,8 +205,11 @@ The tell is the promise, not the grammar.
 
 ## Cadence tells (budget, not ban)
 
-These are template smells that appear only in aggregate. Flag density,
+These are template smells. Most appear only in aggregate: flag density,
 not single instances.
+
+Hidden verb, haughty hero-noun, and unparseable (including an orphaned
+referent after a heading) fail in a single sentence. One is a finding.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
   after section. A talk earns more than a blog post; when every section
@@ -223,7 +226,8 @@ not single instances.
   is. Do not treat the mark as an AI tell to erase.
 - **Parallel-zinger density.** Chiasmus and mirror sentences ("X is a
   performance. Y is a practice.") are spice. Track the count per piece;
-  protect native pairs, trim assistant-added ones first.
+  protect native pairs, trim assistant-added ones first. A pairing the
+  reader has to decode is the same spice overspent. Spell the fact.
 - **Bold-lead lists.** Every bullet "**Label.** Explanation" is a
   template when the whole piece does it.
 - **Riddle labels.** A bold lead-in or heading that is an aphorism the
@@ -233,6 +237,11 @@ not single instances.
   in reverse, withholding instead of announcing. Test: cover the body and
   read the label alone. If it does not say which thing this is, name the
   thing. The aphorism can go in the prose if it earns a place there.
+  Same withhold, smaller unit: a dummy scale label after the scale is
+  already in the room ("On a single life,"), and a compression label you
+  would not say standing up ("The through-line, compressed, is five
+  moves"). If the shift is real, do it with *so* or a verb. If you would
+  not say the label, cut the label.
 - **Cozy machinery.** Infrastructure written the way a fond craftsman
   would talk: the model is "asleep," a worker stays "warm," heavy jobs go
   to a "quieter" box, "the mesh is the door." Terms of art pass the
@@ -253,7 +262,14 @@ not single instances.
 - **Unparseable sentence.** A finished-sounding line the reader cannot
   repeat: "This is meant to live on a desktop you already leave on."
   Related to riddle labels, but at sentence level. Rewrite until a smart
-  friend can say it back.
+  friend can say it back. If only someone who already has the map would
+  get it, spell it. A house word that must stay gets a gloss in the next
+  breath. Terms that pass the applicability heuristic still pass. The
+  tell is the code, not the dialect.
+  A heading resets *this*, *that*, *it*, and *ones*. If the noun is not
+  in the room, say it again. Same for a heading that owns nothing:
+  "What this covers" needs a named owner. One orphaned referent is a
+  finding.
 - **Participial afterthoughts.** A present participle bolted on after
   a comma for atmosphere: "…, looking out the window", "…, underscoring
   the need." One earned modifier is fine. A piece that keeps attaching
@@ -261,6 +277,21 @@ not single instances.
 - **Topic-sentence pinning.** Every paragraph opens with a neat label
   of what it will say, then says it. One clear lead is not a finding.
   A whole page of outline-then-body paragraphs is.
+- **Hidden verb.** If someone is doing something, say the verb.
+  Location and possession are not verbs. Dummy frames put a preposition
+  or a noun where a person should be acting. A maxim that needs *in you*
+  can stay ("you can only use what is already in you"). Do not let the
+  setup sentence hide behind it. One hidden verb is a finding.
+- **Sense collision.** If a word has two common meanings, pick one or
+  spell it. The nearest noun stole the verb. Same test for a count
+  the neighbor can steal. Write the test as "the nearest noun stole the
+  verb," not "this preposition is wrong."
+- **Haughty hero-noun.** "The work" as the hero of a mission sentence
+  is academic and activist register. Say what someone is trying to do,
+  or what they build. "The work is done" and "body of work" as the pile
+  still pass. [`academic.md`](./academic.md) may keep "the work" when it
+  means this study. The tell is the noun starring in a mission sentence,
+  not the word. One hero-noun is a finding.
 
 ---
 
@@ -269,7 +300,7 @@ not single instances.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, em-dash furniture, triad packing, participial afterthoughts |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -307,7 +338,9 @@ the loop is theater.")
 
 **Setup**  
 Bad: "The idea worth keeping:"  
-Good: Just state the idea.
+Good: Just state the idea.  
+Bad: "That project started earlier than the repo, and I can date it."  
+Good: "I started it in 2019."
 
 **Cataphoric teaser**  
 Bad: "Here's the part that nobody tells you: the archive was too
@@ -320,7 +353,9 @@ Good: "Brain: the model plus the loop."
 
 **Riddle label**  
 Bad: "**Names you actually say.** `promptTerms` seeds the decoder."  
-Good: "**Custom vocabulary.** `promptTerms` seeds the decoder."
+Good: "**Custom vocabulary.** `promptTerms` seeds the decoder."  
+Bad: "The through-line, compressed, is five moves."  
+Good: "I keep coming back to five moves."
 
 **Cozy machinery**  
 Bad: "If the cleanup model is asleep, you still get raw text."  
@@ -339,7 +374,23 @@ Good: Omit it. They already copied the example.
 
 **Unparseable sentence**  
 Bad: "This is meant to live on a desktop you already leave on."  
-Good: "Run it on a computer you leave turned on."
+Good: "Run it on a computer you leave turned on."  
+Bad: (after a heading) "I do this in a deliberate order."  
+Good: "I teach this in a deliberate order."  
+Bad: "What this covers"  
+Good: "What this guide covers"
+
+**Hidden verb**  
+Bad: "Once that understanding is in a person, the rest is easy."  
+Good: "Once a person can see it, the rest is easy."
+
+**Sense collision**  
+Bad: "Competence aimed at the wrong peak scales it."  
+Good: "Competence aimed at the wrong peak amplifies it."
+
+**Haughty hero-noun**  
+Bad: "The work is getting to higher resolution."  
+Good: "What I've been trying to do is get to higher resolution."
 
 ---
 

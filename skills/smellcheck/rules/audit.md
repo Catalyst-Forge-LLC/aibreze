@@ -59,8 +59,9 @@ prefix-repetition and Not X. Not Y. But Z., empty marketing
 vocab, helper theater, signpost openers, mic-drop closers, intensifier
 filler, parallel-zinger density, bold-lead lists, riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
-unparseable sentences, participial afterthoughts, topic-sentence
-pinning. Apply the
+unparseable sentences (including orphaned referent), hidden verb,
+sense collision, haughty hero-noun, participial afterthoughts,
+topic-sentence pinning. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
 antithesis is allowed only when categories differ, never as
 synonym-escalation. One concrete landing chant is a named exception,

@@ -75,7 +75,12 @@ smell-checked that? Filings:
 - Hand-holding the obvious: "config.json is gitignored" after they
   already copied the example.
 - Unparseable sentence: a finished-sounding line the reader cannot
-  repeat ("a desktop you already leave on").
+  repeat ("a desktop you already leave on"). A heading resets *this* /
+  *that* / *it*. Name the noun again.
+- Hidden verb: location and possession are not verbs ("the
+  understanding is in a person"). Say the verb.
+- Sense collision: the nearest noun picks the reading. Pick one sense,
+  or change the neighbor.
 - Participial afterthoughts: "…, looking out the window" bolted on for
   atmosphere. Density, not one modifier.
 - Topic-sentence pinning: every paragraph labels itself, then says it.
