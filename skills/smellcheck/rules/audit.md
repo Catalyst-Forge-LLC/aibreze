@@ -61,7 +61,10 @@ filler, parallel-zinger density, bold-lead lists, riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
 unparseable sentences (including orphaned referent), hidden verb,
 sense collision, haughty hero-noun, participial afterthoughts,
-topic-sentence pinning. Apply the
+topic-sentence pinning. Hidden verb and unparseable (orphaned
+referent, insider code) fail in one sentence. The other cadence
+tells are density. Hero-noun is a register tell: flag the mission
+sentence, not the word. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
 antithesis is allowed only when categories differ, never as
 synonym-escalation. One concrete landing chant is a named exception,

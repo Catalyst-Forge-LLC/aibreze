@@ -70,6 +70,13 @@ Pronouns are a project decision (I / we / you). Pick one per surface and
 hold it. Do not let an agent default to corporate "we" on a personal essay,
 or to "I" on a two-person product page, without an overlay that says so.
 
+**Haughty hero-noun.** Academic and activist register leaking into the
+default. The tell is the noun as the hero of a mission sentence ("The
+work is getting to higher resolution"), not the word. "The work is
+done," "body of work," and "the work of the committee" still pass.
+[`academic.md`](./academic.md) may keep "the work" when it means this
+study. Do not hunt the noun.
+
 ---
 
 ## Corpus-applicability rule (carve-outs)
@@ -208,8 +215,9 @@ The tell is the promise, not the grammar.
 These are template smells. Most appear only in aggregate: flag density,
 not single instances.
 
-Hidden verb, haughty hero-noun, and unparseable (including an orphaned
-referent after a heading) fail in a single sentence. One is a finding.
+Hidden verb and unparseable (including an orphaned referent, or
+insider code only the map-holder would get) fail in a single sentence.
+One is a finding. The rest are density.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
   after section. A talk earns more than a blog post; when every section
@@ -278,20 +286,15 @@ referent after a heading) fail in a single sentence. One is a finding.
   of what it will say, then says it. One clear lead is not a finding.
   A whole page of outline-then-body paragraphs is.
 - **Hidden verb.** If someone is doing something, say the verb.
-  Location and possession are not verbs. Dummy frames put a preposition
-  or a noun where a person should be acting. A maxim that needs *in you*
-  can stay ("you can only use what is already in you"). Do not let the
-  setup sentence hide behind it. One hidden verb is a finding.
-- **Sense collision.** If a word has two common meanings, pick one or
-  spell it. The nearest noun stole the verb. Same test for a count
-  the neighbor can steal. Write the test as "the nearest noun stole the
-  verb," not "this preposition is wrong."
-- **Haughty hero-noun.** "The work" as the hero of a mission sentence
-  is academic and activist register. Say what someone is trying to do,
-  or what they build. "The work is done" and "body of work" as the pile
-  still pass. [`academic.md`](./academic.md) may keep "the work" when it
-  means this study. The tell is the noun starring in a mission sentence,
-  not the word. One hero-noun is a finding.
+  Location and possession are not verbs. The tell is the dummy frame: a
+  preposition or a noun where a person should be acting. A maxim that
+  needs *in you* can stay ("you can only use what is already in you").
+  Do not let the setup sentence hide behind it. One frame is a finding.
+- **Sense collision.** If a word has two common meanings, pick one,
+  spell it, or change the neighbor. The nearest noun stole the verb, or
+  the reading. Write that test. Do not write "this preposition is
+  wrong." A count the neighbor can steal (`with` / `from`) is the easy
+  over-apply. Use it only when the neighbor stole the count.
 
 ---
 
@@ -390,7 +393,8 @@ Good: "Competence aimed at the wrong peak amplifies it."
 
 **Haughty hero-noun**  
 Bad: "The work is getting to higher resolution."  
-Good: "What I've been trying to do is get to higher resolution."
+Good: "What I've been trying to do is get to higher resolution."  
+(Still fine: "The work is done." / "the work of the committee")
 
 ---
 

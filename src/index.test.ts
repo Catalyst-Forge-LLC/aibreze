@@ -92,12 +92,19 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	assert.match(core, /nearest noun stole the verb/);
 	assert.match(core, /Haughty hero-noun/);
 	assert.match(core, /hero of a mission sentence/);
+	assert.match(core, /Do not hunt the noun/);
+	assert.match(core, /work of the committee/);
+	assert.match(core, /Hidden verb and unparseable/);
+	assert.doesNotMatch(core, /Hidden verb, haughty hero-noun, and unparseable/);
 	assert.doesNotMatch(core, /Nothing I teach them lands/);
 	assert.match(core, /orphaned referent/);
 	const card = readRule("cursor");
 	assert.match(card, /Hidden verb/);
+	assert.match(card, /dummy frame/);
 	assert.match(card, /heading resets/);
 	assert.match(card, /Sense collision/);
+	assert.match(card, /stole the reading/);
+	assert.doesNotMatch(card, /Haughty hero-noun/);
 });
 
 test("essays names picture-before-theory and obligation as object", () => {
@@ -106,6 +113,9 @@ test("essays names picture-before-theory and obligation as object", () => {
 	assert.match(essays, /midterm question/);
 	assert.match(essays, /Obligation as object/);
 	assert.match(essays, /Walk-vs-stage/);
+	assert.match(essays, /Do not flag every use\s+of the noun/);
+	assert.doesNotMatch(essays, /\*\*Decode tax\.\*\*/);
+	assert.doesNotMatch(essays, /\*\*Honest verbs\.\*\*/);
 	assert.match(readRule("academic"), /meaning this study still passes/);
 	assert.match(readRule("civic"), /names a real oath/);
 });
@@ -142,6 +152,8 @@ test("audit prompt is additive to core", () => {
 	assert.doesNotMatch(audit, /Cadence tells \(budget, not ban\)/);
 	assert.match(audit, /If `core\.md` is not in this context/);
 	assert.match(audit, /Suspects, not automatic flags/);
+	assert.match(audit, /fail in one sentence/);
+	assert.match(audit, /register tell/);
 });
 
 test("essays do not require anecdote in reference docs", () => {

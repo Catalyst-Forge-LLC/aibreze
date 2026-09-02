@@ -347,7 +347,9 @@ card. Do not add a third name for orphaned referent.
 
 ## 9. Open for review
 
-Locked 2026-09-02. Package rewrite still pending.
+Locked 2026-09-02. Implemented in `0.3.0`. Follow-up aligned
+hero-noun as register, walk-vs-stage as one test, and the
+audit density note.
 
 1. Hidden verb: **core.** Single-sentence fail. Keep *in a person*.
    Drop *lands → sticks*.

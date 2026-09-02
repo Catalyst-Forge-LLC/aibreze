@@ -77,10 +77,11 @@ smell-checked that? Filings:
 - Unparseable sentence: a finished-sounding line the reader cannot
   repeat ("a desktop you already leave on"). A heading resets *this* /
   *that* / *it*. Name the noun again.
-- Hidden verb: location and possession are not verbs ("the
-  understanding is in a person"). Say the verb.
-- Sense collision: the nearest noun picks the reading. Pick one sense,
-  or change the neighbor.
+- Hidden verb: dummy frame. Location and possession are not verbs
+  ("the understanding is in a person"). Say the verb. One frame is
+  a fail.
+- Sense collision: the nearest noun stole the reading. Pick one
+  sense, or change the neighbor.
 - Participial afterthoughts: "…, looking out the window" bolted on for
   atmosphere. Density, not one modifier.
 - Topic-sentence pinning: every paragraph labels itself, then says it.
