@@ -50,7 +50,10 @@ across with minimal ceremony.
 Direct > clever. Clear > profound. Useful > insightful-sounding.
 
 Contractions. Short sentences mixed with longer ones. Point first, support
-second. Concrete over abstract. Em dashes earn their place, like everything
+second. Concrete over abstract. A picture the reader can see is
+concrete. Keep it when they can see the thing. Flatten it only
+when they have to decode. Clever is still a smell. A visual that
+lands is not clever. Em dashes earn their place, like everything
 else, and most don't. A comma, period, or colon usually does the job with
 less drama.
 
@@ -217,7 +220,7 @@ not single instances.
 
 Hidden verb and unparseable (including an orphaned referent, or
 insider code only the map-holder would get) fail in a single sentence.
-One is a finding. The rest are density.
+Flattened visual does too. One is a finding. The rest are density.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
   after section. A talk earns more than a blog post; when every section
@@ -236,6 +239,10 @@ One is a finding. The rest are density.
   performance. Y is a practice.") are spice. Track the count per piece;
   protect native pairs, trim assistant-added ones first. A pairing the
   reader has to decode is the same spice overspent. Spell the fact.
+- **Flattened visual.** A spray that replaced a picture the reader
+  could see with a bland synonym. One is a finding. Keep "smuggle
+  a cause" and "one breath." Flatten "meet the same shape." The
+  test is whether they see it, not whether a metaphor is present.
 - **Bold-lead lists.** Every bullet "**Label.** Explanation" is a
   template when the whole piece does it.
 - **Riddle labels.** A bold lead-in or heading that is an aphorism the
@@ -396,6 +403,12 @@ Bad: "The work is getting to higher resolution."
 Good: "What I've been trying to do is get to higher resolution."  
 (Still fine: "The work is done." / "the work of the committee")
 
+**Flattened visual**  
+Bad: "Do not add a cause you have not yet allowed yourself."  
+Good: "Do not smuggle a cause you have not yet allowed yourself."  
+Bad: "They meet the same shape."  
+Good: "They face the same situation."
+
 ---
 
 ## How to audit
@@ -405,7 +418,8 @@ Good: "What I've been trying to do is get to higher resolution."
    restate these bans.
 2. Apply the **project overlay** before rewriting.
 3. Protect distinctive human lines and verbatim testimony.
-4. Prioritize the five highest-impact fixes; do not flatten dialect.
+4. Prioritize the five highest-impact fixes; do not flatten dialect
+   or a picture that lands.
 
 ---
 

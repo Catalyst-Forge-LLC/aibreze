@@ -122,7 +122,8 @@ Only after Passes A-D:
    validation+profundity, narrative theater, setup-only
    sentences, synonym antithesis, helper theater.
 3. Flag cadence budgets: signpost openers, mic-drop closers, intensifier
-   filler, em-dash furniture, parallel-zinger density, bold-lead lists,
+   filler, em-dash furniture, parallel-zinger density, flattened visual,
+   bold-lead lists,
    riddle labels, cozy machinery, operator notes in the brochure,
    hand-holding the obvious, unparseable sentences.
 4. Apply **corpus-applicability**: do not "correct" overlay terms when
@@ -182,7 +183,8 @@ email/landing).
   **presented fact**.
 - Do not demand academic citation density for practitioner essays; do
   demand that named attributions be real.
-- Do not flatten voice into bland safe prose. Cut theater; keep dialect.
+- Do not flatten voice into bland safe prose. Cut theater; keep dialect
+  and a picture that lands.
 - If the piece is marketing ("we"), judge claims and interchangeability
   too ("could a competitor ship this unchanged?").
 - If asked only for the review spec, do not rewrite the source document

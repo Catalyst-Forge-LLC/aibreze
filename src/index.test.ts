@@ -95,6 +95,8 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	assert.match(core, /Do not hunt the noun/);
 	assert.match(core, /work of the committee/);
 	assert.match(core, /Hidden verb and unparseable/);
+	assert.match(core, /Flattened visual/);
+	assert.match(core, /picture the reader can see/);
 	assert.doesNotMatch(core, /Hidden verb, haughty hero-noun, and unparseable/);
 	assert.doesNotMatch(core, /Nothing I teach them lands/);
 	assert.match(core, /orphaned referent/);

@@ -77,7 +77,8 @@ empower, journey. Extra on pages:
 
 A brand metaphor (forge, bridge, compass, engine) is allowed. Riding it
 through every heading is not. **Budget: 2 references on the whole
-page.** The rest go to plain language.
+page.** The rest go to plain language. The inverse is also a tell: do
+not strip a picture that landed just to stay under the budget.
 
 ### Substance gaps
 

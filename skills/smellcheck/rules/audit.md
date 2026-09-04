@@ -57,13 +57,14 @@ theater, genuinely-stacks, dramatic apology, suspense, cataphoric
 teasers, setup sentences, em-dash furniture, triad packing including
 prefix-repetition and Not X. Not Y. But Z., empty marketing
 vocab, helper theater, signpost openers, mic-drop closers, intensifier
-filler, parallel-zinger density, bold-lead lists, riddle labels, cozy
+filler, parallel-zinger density, flattened visual, bold-lead lists,
+riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
 unparseable sentences (including orphaned referent), hidden verb,
 sense collision, haughty hero-noun, participial afterthoughts,
-topic-sentence pinning. Hidden verb and unparseable (orphaned
-referent, insider code) fail in one sentence. The other cadence
-tells are density. Hero-noun is a register tell: flag the mission
+topic-sentence pinning. Hidden verb, unparseable (orphaned
+referent, insider code), and flattened visual fail in one sentence.
+The other cadence tells are density. Hero-noun is a register tell: flag the mission
 sentence, not the word. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
 antithesis is allowed only when categories differ, never as
@@ -181,7 +182,8 @@ strings.
 - **Metaphor overextension.** A brand metaphor (forge, bridge, compass,
   engine) ridden through every heading. On a **page**, budget two
   references. A long essay whose subject *is* the metaphor may use more;
-  riding it through every heading is still the smell.
+  riding it through every heading is still the smell. Do not strip a
+  picture that landed just to stay under the budget.
 - **Interchangeability test.** Could a competitor swap in their logo and
   ship this copy unchanged? If yes, it says nothing. Pages and posts,
   not reference.
