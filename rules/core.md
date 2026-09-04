@@ -297,6 +297,12 @@ Flattened visual does too. One is a finding. The rest are density.
   preposition or a noun where a person should be acting. A maxim that
   needs *in you* can stay ("you can only use what is already in you").
   Do not let the setup sentence hide behind it. One frame is a finding.
+  The same dummy frame as a slogan: "A folder of Markdown in, a fast
+  prerendered site out." *In* and *out* are doing the work of verbs.
+  "X in, Y out" is a finding when the reader has to invent *put* or
+  *turns into*. Still fine: a stranded preposition a person would say
+  ("the drive you control", "what it's for"). Do not write a
+  schoolteacher ban on ending a sentence with a preposition.
 - **Sense collision.** If a word has two common meanings, pick one,
   spell it, or change the neighbor. The nearest noun stole the verb, or
   the reading. Write that test. Do not write "this preposition is
@@ -392,7 +398,9 @@ Good: "What this guide covers"
 
 **Hidden verb**  
 Bad: "Once that understanding is in a person, the rest is easy."  
-Good: "Once a person can see it, the rest is easy."
+Good: "Once a person can see it, the rest is easy."  
+Bad: "A folder of Markdown in, a fast prerendered site out."  
+Good: "Turns a folder of Markdown into a static site."
 
 **Sense collision**  
 Bad: "Competence aimed at the wrong peak scales it."  

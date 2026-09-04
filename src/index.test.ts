@@ -88,6 +88,8 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	const core = readRule("core");
 	assert.match(core, /Hidden verb/);
 	assert.match(core, /understanding is in a person/);
+	assert.match(core, /folder of Markdown in/);
+	assert.match(core, /schoolteacher ban/);
 	assert.match(core, /Sense collision/);
 	assert.match(core, /nearest noun stole the verb/);
 	assert.match(core, /Haughty hero-noun/);
@@ -103,6 +105,7 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	const card = readRule("cursor");
 	assert.match(card, /Hidden verb/);
 	assert.match(card, /dummy frame/);
+	assert.match(card, /Markdown in, site out/);
 	assert.match(card, /heading resets/);
 	assert.match(card, /Sense collision/);
 	assert.match(card, /stole the reading/);

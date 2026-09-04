@@ -60,7 +60,8 @@ vocab, helper theater, signpost openers, mic-drop closers, intensifier
 filler, parallel-zinger density, flattened visual, bold-lead lists,
 riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
-unparseable sentences (including orphaned referent), hidden verb,
+unparseable sentences (including orphaned referent), hidden verb
+(including *in*/*out* as the action: "Markdown in, site out"),
 sense collision, haughty hero-noun, participial afterthoughts,
 topic-sentence pinning. Hidden verb, unparseable (orphaned
 referent, insider code), and flattened visual fail in one sentence.
